@@ -4,8 +4,10 @@ Boundary-Layer Meteorology Course @ University of Reading
 ----------------------------------------------------------
 
 
+.. image:: https://mybinder.org/badge.svg
+    :target: https://mybinder.org/v2/gh/Urban-Meteorology-Reading/BLM/master
 
-
+here it is.
 
 .. toctree::
   lectures/2_Evaporation_PenmanMonteith
