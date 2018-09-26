@@ -83,28 +83,28 @@ exclude_patterns = ['_build', '**.ipynb_checkpoints']
 html_sourcelink_suffix = ''
 
 # Execute notebooks before conversion: 'always', 'never', 'auto' (default)
-#nbsphinx_execute = 'never'
+nbsphinx_execute = 'never'
 
 # Use this kernel instead of the one stored in the notebook metadata:
-#nbsphinx_kernel_name = 'python3'
+nbsphinx_kernel_name = 'python3'
 
 # List of arguments to be passed to the kernel that executes the notebooks:
-#nbsphinx_execute_arguments = ['--InlineBackend.figure_formats={"png", "pdf"}']
+nbsphinx_execute_arguments = ['--InlineBackend.figure_formats={"png", "pdf"}']
 
 # If True, the build process is continued even if an exception occurs:
-#nbsphinx_allow_errors = True
+nbsphinx_allow_errors = True
 
 # Controls when a cell will time out (defaults to 30; use -1 for no timeout):
-#nbsphinx_timeout = 60
+nbsphinx_timeout = 60
 
 # Default Pygments lexer for syntax highlighting in code cells:
-#nbsphinx_codecell_lexer = 'ipython3'
+nbsphinx_codecell_lexer = 'ipython3'
 
 # Width of input/output prompts used in CSS:
-#nbsphinx_prompt_width = '8ex'
+nbsphinx_prompt_width = '8ex'
 
 # If window is narrower than this, input/output prompts are on separate lines:
-#nbsphinx_responsive_width = '700px'
+nbsphinx_responsive_width = '700px'
 
 # tags.add('html')
 # if tags.has('html'):
