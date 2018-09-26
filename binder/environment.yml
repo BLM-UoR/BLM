@@ -6,12 +6,5 @@ dependencies:
   - python = 3.6
   - numpy
   - pandas
-  - atmos
-  - pip:
-    - nbgitpuller
-    - sphinx-gallery
-    - pandas
-    - seaborn
-    - matplotlib
-    - sphinx>=1.4
-    - ipykernel
+  - ipykernel
+  - pip = 9.0.3
