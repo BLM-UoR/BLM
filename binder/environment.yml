@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - mcgibbon
 dependencies:
-  - python
+  - python = 3.6
   - numpy
   - pandas
   - atmos
