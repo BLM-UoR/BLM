@@ -1,3 +1,4 @@
+atmos
 sphinx>=1.4
 pip==9.0.3
 ipykernel
@@ -6,4 +7,3 @@ pandas
 numpy
 matplotlib
 seaborn
-atmos
