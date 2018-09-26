@@ -6,9 +6,11 @@ dependencies:
   - numpy
   - pandas
   - atmos
-  - pip=9.0.*:
+  - pip:
     - nbgitpuller
     - sphinx-gallery
     - pandas
     - seaborn
     - matplotlib
+    - sphinx>=1.4
+    - ipykernel
