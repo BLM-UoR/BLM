@@ -1,0 +1,8 @@
+sphinx>=1.4
+pip==9.0.3
+ipykernel
+nbsphinx
+pandas
+numpy
+matplotlib
+seaborn
