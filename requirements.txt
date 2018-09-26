@@ -3,3 +3,5 @@ ipykernel
 nbsphinx
 pandas
 numpy
+matplotlib
+seaborn
