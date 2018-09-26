@@ -1,6 +1,7 @@
 name: example-environment
 channels:
   - conda-forge
+  - mcgibbon
 dependencies:
   - python
   - numpy
