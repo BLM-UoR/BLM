@@ -1,0 +1,14 @@
+name: example-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - atmos
+  - pip=9.0.*:
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - seaborn
+    - matplotlib
