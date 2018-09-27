@@ -32,9 +32,15 @@ This module aims to provide the student with an understanding of how small-scale
 
 
 .. toctree::
-  :caption: Table of Contents
+  :caption: Lectures
   :numbered:
-  :maxdepth: 2
+  :maxdepth: 1
 
-  2_Evaporation_PenmanMonteith
-  DataAnalysis_BLM
+  lectures/2_Evaporation_PenmanMonteith
+
+
+.. toctree::
+  :caption: Tutorials
+  :maxdepth: 1
+
+  tutorials/DataAnalysis_BLM
