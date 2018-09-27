@@ -12,6 +12,13 @@ Boundary-Layer Meteorology Course @ University of Reading
     :target: https://blm.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
+
+.. warning::
+
+   This site is under construction: the information on this site might NOT be accurate.
+
+
+
 Summary module description
 ==========================
 
