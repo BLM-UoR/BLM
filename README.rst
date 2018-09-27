@@ -36,5 +36,5 @@ This module aims to provide the student with an understanding of how small-scale
   :numbered:
   :maxdepth: 2
 
-  lectures/2_Evaporation_PenmanMonteith
-  lectures/DataAnalysis_BLM
+  2_Evaporation_PenmanMonteith
+  DataAnalysis_BLM
