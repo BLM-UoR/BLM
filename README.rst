@@ -44,3 +44,4 @@ This module aims to provide the student with an understanding of how small-scale
   :maxdepth: 1
 
   tutorials/DataAnalysis_BLM
+  tutorials/QuickStart_SuPy
