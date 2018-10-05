@@ -3,6 +3,6 @@ pip==9.0.3
 ipykernel
 nbsphinx
 pandas
-numpy
+numpy>=1.15.2
 matplotlib
 seaborn

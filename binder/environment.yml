@@ -4,7 +4,7 @@ channels:
   - mcgibbon
 dependencies:
   - python = 3.6
-  - numpy
+  - numpy >= 1.15.2
   - scipy
   - sympy
   - matplotlib
@@ -17,3 +17,4 @@ dependencies:
     - xarray
     - dask
     - geopandas
+    - supy
