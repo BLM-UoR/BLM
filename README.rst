@@ -1,5 +1,3 @@
-.. _index_page:
-
 Boundary-Layer Meteorology Course @ University of Reading
 ----------------------------------------------------------
 
@@ -29,19 +27,3 @@ Aims
 ====
 
 This module aims to provide the student with an understanding of how small-scale processes affect the thermodynamic and kinematic structures of the atmospheric boundary layer. Practical work aims to illustrate methods of measurement and interpretation of transfer processes within the surface and boundary layer.
-
-
-.. toctree::
-  :caption: Lectures
-  :numbered:
-  :maxdepth: 1
-
-  lectures/2_Evaporation_PenmanMonteith
-
-
-.. toctree::
-  :caption: Tutorials
-  :maxdepth: 1
-
-  tutorials/DataAnalysis_BLM
-  tutorials/QuickStart_SuPy
