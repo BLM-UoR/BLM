@@ -19,14 +19,14 @@ Boundary-Layer Meteorology Course @ University of Reading
 
 
 
-Summary module description
-==========================
+- **Summary module description**
+
 
 This module aims to provide the student with an understanding of how small-scale processes affect the thermodynamic and kinematic structures of the atmospheric boundary layer.
 
 
-Aims
-====
+- **Aims**
+
 
 This module aims to provide the student with an understanding of how small-scale processes affect the thermodynamic and kinematic structures of the atmospheric boundary layer. Practical work aims to illustrate methods of measurement and interpretation of transfer processes within the surface and boundary layer.
 
