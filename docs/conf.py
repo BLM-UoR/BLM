@@ -27,7 +27,7 @@ author = u'Prof Sue Grimmond & Dr Ting Sun'
 # The short X.Y version
 version = u'2018.autumn'
 # The full version, including alpha/beta/rc tags
-release = u'2018.autumn.0'
+release = u'2018.autumn.week1'
 
 
 # -- General configuration ---------------------------------------------------
