@@ -17,7 +17,6 @@
 # sys.path.insert(0, os.path.abspath('.'))
 import platform
 
-
 # -- Project information -----------------------------------------------------
 
 project = u'BLM'
