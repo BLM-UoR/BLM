@@ -6,3 +6,5 @@ pandas
 numpy>=1.15.2
 matplotlib
 seaborn
+jupyter_contrib_nbextensions
+jupyter_latex_envs
