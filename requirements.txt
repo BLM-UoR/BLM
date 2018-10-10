@@ -1,6 +1,6 @@
 sphinx>=1.8
 pip==9.0.3
-pandoc
+docutils>=0.14
 ipykernel
 ipython
 nbsphinx>=0.3.5
