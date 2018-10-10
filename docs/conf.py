@@ -320,5 +320,5 @@ epub_exclude_files = ['search.html']
 
 # Fix for scrolling tables in the RTD-theme
 # https://rackerlabs.github.io/docs-rackspace/tools/rtd-tables.html
-def setup(app):
-    app.add_stylesheet('theme_overrides.css')
+# def setup(app):
+#     app.add_stylesheet('theme_overrides.css')
