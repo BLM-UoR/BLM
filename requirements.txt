@@ -141,7 +141,7 @@ readme-renderer==22.0
 regionmask==0.4.0
 requests==2.19.1
 requests-toolbelt==0.8.0
-rope==0.10.7
+rope==0.11.0
 salem==0.2.2
 scikit-learn==0.19.2
 scipy==1.1.0
