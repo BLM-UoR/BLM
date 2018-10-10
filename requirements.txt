@@ -1,6 +1,8 @@
 sphinx>=1.8
 pip==9.0.3
+pandoc
 ipykernel
+ipython
 nbsphinx>=0.3.5
 pandas
 numpy>=1.15.2
