@@ -9,3 +9,4 @@ sphinxcontrib-websupport==1.1.0
 ipykernel==4.8.2
 sympy
 jinja2>=2.10
+traitlets>=4.3.2
