@@ -1,20 +1,9 @@
 Boundary-Layer Meteorology Course @ University of Reading
 ----------------------------------------------------------
 
-
-.. image:: https://mybinder.org/badge.svg
-    :target: https://mybinder.org/v2/gh/Urban-Meteorology-Reading/BLM/master
-    :alt: Binder Status
-
-.. image:: https://readthedocs.org/projects/blm/badge/?version=latest
-    :target: https://blm.readthedocs.io/en/latest/?badge=latest
-    :alt: Documentation Status
-
-
-.. warning::
-
-   This site is under construction: the information on this site might NOT be accurate.
-
+[![Binder Status](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/Urban-Meteorology-Reading/BLM/master)
+[![Documentation Status](https://readthedocs.org/projects/blm/badge/?version=latest)](https://blm.readthedocs.io/en/latest/?badge=latest)
+[![nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/Urban-Meteorology-Reading/BLM/tree/master/)
 
 
 Summary module description
