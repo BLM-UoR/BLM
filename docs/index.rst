@@ -45,3 +45,4 @@ This module aims to provide the student with an understanding of how small-scale
 
   tutorials/DataAnalysis_BLM
   tutorials/QuickStart_SuPy
+  tutorials/Assignment1Tasks
