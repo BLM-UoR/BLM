@@ -2,7 +2,6 @@ Boundary-Layer Meteorology Course @ University of Reading
 ----------------------------------------------------------
 
 [![Binder Status](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/Urban-Meteorology-Reading/BLM/master)
-
 [![Documentation Status](https://readthedocs.org/projects/blm/badge/?version=latest)](https://blm.readthedocs.io/en/latest/?badge=latest)
 
 
