@@ -3,3 +3,4 @@ pybtex==0.22.2
 nbsphinx==0.4.2
 sphinxcontrib_programoutput==0.15
 sphinxcontrib.bibtex
+nbconvert==5.3.1
