@@ -1,0 +1,5 @@
+Variable,Description,Unit
+``NETRAD``, "Net radiation",`\text{W m}^{-2}`
+``H``,"Sensible heat turbulent flux (no storage correction)",`\text{W m}^{-2}`
+``LE``,"Latent heat turbulent flux (no storage correction)",`\text{W m}^{-2}`
+``G``,"Soil heat flux",`\text{W m}^{-2}`

@@ -1,0 +1,94 @@
+name: Generate Docs
+
+on:
+  # File paths to consider in the event. Optional; defaults to all
+  push:
+    branches:    # Array of patterns that match refs/heads
+      - master     # Push events on master branch
+      - Ting     # Push events on master branch
+      # - test-dev
+  #     - 'releases/*' # Push events to branches matching refs/heads/releases/*
+  #     - '!refs/pull/*'
+  #   tags:        # Array of patterns that match refs/tags.
+  #     - v1         # Push events to v1 tag
+    paths:       # Push events containing matching files
+      - 'docs/*'
+      - '.github/workflows/*'
+
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Fix up git URLs
+      run: echo -e '[url "https://github.com/"]\n  insteadOf = "git@github.com:"' >> ~/.gitconfig
+
+    - uses: actions/checkout@master
+      with:
+        submodules: true
+        token: ${{ secrets.PAT }}
+
+    - name: Setup git user
+      env:
+        ACCESS_TOKEN: ${{ secrets.PAT }}
+      run: |
+        if [ -z "$COMMIT_EMAIL" ]
+        then
+          COMMIT_EMAIL="${GITHUB_ACTOR}@users.noreply.github.com"
+        fi
+
+        if [ -z "$COMMIT_NAME" ]
+        then
+          COMMIT_NAME="${GITHUB_ACTOR}"
+        fi
+        git config --global credential.helper store && \
+        git config --global user.email "${COMMIT_EMAIL}" && \
+        git config --global user.name "${COMMIT_NAME}" && \
+        REPOSITORY_PATH="https://${ACCESS_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+    # - name: show contents
+    #   run: ls -l suews
+
+    # - name: install dependencies
+    #   run: |
+    #     sudo add-apt-repository universe
+    #     sudo apt update
+    #     sudo apt install texlive-xetex
+    #     sudo apt-get install gfortran pandoc
+
+    # - name: Setup Python for use with actions
+    #   uses: actions/setup-python@v1.0.0
+    #   with:
+    #     python-version: '3.7' # Version range or exact version of a Python version to use, using semvers version range syntax.
+    #     architecture: 'x64' # (x64 or x86)
+
+    # - name: install sphinx
+    #   run: |
+    #     pip install sphinx jupyter_client
+    #     make pip
+
+    # - name: check kernels
+    #   run: |
+    #     python3 -m pip install ipykernel
+    #     python3 -m ipykernel install --user
+    #     jupyter kernelspec list
+
+    # - name: show contents
+    #   run: ls -l cases/*
+
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@1.1.3
+      env:
+       FOLDER: build/html
+       BRANCH: gh-pages
+       BUILD_SCRIPT: |
+        apt-get install -y graphviz doxygen-gui rsync python3-pip python-sphinx;
+        ls -lrt;
+        pip3 install pipreqs;
+        pip3 install -r docs/requirements.txt;
+        make html
+       ACCESS_TOKEN: ${{ secrets.PAT }}
+
+

@@ -1,0 +1,5 @@
+Variable,Description,Unit
+``SW_IN``, "Shortwave radiation, incoming",`\text{W m}^{-2}`
+``SW_OUT``,"Shortwave radiation, outgoing",`\text{W m}^{-2}`
+``LW_IN``,"Longwave radiation, incoming",`\text{W m}^{-2}`
+``LW_OUT``,"Longwave radiation, outgoing",`\text{W m}^{-2}`

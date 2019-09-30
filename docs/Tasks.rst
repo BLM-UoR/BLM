@@ -1,0 +1,43 @@
+.. _assignment1:
+
+Assignment 1 Activities
+=========================
+
+.. note::
+
+    #. These are the various topics to be addressed in Assignment 1. They are designed to be in a logical calculation
+       order to help you understand different physical properties and processes. When you write your paper,
+       the presentation will be as a coherent scientific paper, not a set of individual tasks, not necessarily in this order, and not including each of the individual components (e.g. `Week 1 plots <task_first_plot>`_ are intended to get you going).
+    #. These tasks are to be undertaken *in assigned groups* according to
+       land cover types, but *independent papers* will be written (without plagarism).
+
+.. _task_first_plot: tasks/task1.ipynb
+
+.. toctree::
+  :caption: Activities
+  :numbered:
+  :maxdepth: 2
+  :glob:
+
+  tasks/*
+
+
+
+
+
+
+.. MT49E Extra: Processing of EC measurements
+.. ------------------------------------------
+
+.. For one of the hours for which you have analysed EC data,
+..    download the raw 10 Hz data (provide this data)
+
+..    -  Calculate the sensible and latent heat fluxes. You will need to
+..       perform co-ordinate rotations.
+..    -  Calculate the Obukhov length for the same period.
+..    -  Compare your results to the pre-calculated heat fluxes (e.g. add
+..       data points to your previous graphs).
+..    -  Identify what corrections you have made to your calculations
+..       compared with other possible corrections you could have used (e.g.
+..       see Burba 2013; Kotthaus and Grimmond 2014). Consider the
+..       implications of these.

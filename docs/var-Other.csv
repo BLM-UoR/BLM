@@ -1,0 +1,3 @@
+Variable,Description,Unit
+``SWC``, "Soil water content (volumetric), range 0-100",`\text{%}`
+``LAI``,"Leaf area index by MODIS",`\text{m}^{2} \text{ m}^{-2}`

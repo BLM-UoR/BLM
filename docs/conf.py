@@ -15,19 +15,34 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+import os
+# from pybtex.richtext import Tag,String
+from pybtex.style.sorting.author_year_title import SortingStyle as Sorter
+from pybtex.style.template import (
+    join, words, field, optional, first_of,
+    names, sentence, tag, optional_field, href
+)
+from pybtex.style.formatting import toplevel, BaseStyle
+from pybtex.plugin import register_plugin
+from pybtex.style.formatting.unsrt import Style as UnsrtStyle, pages, date, Text
+
 import platform
+import datetime
+import sphinx_rtd_theme
+import nbsphinx
+import sphinxcontrib.bibtex
 
 # -- Project information -----------------------------------------------------
 
 project = u'BLM'
 doc_name = u'Boundary-Layer Meteorology'
-copyright = u'2018, Prof Sue Grimmond & Dr Ting Sun'
+copyright = u'2019, Prof Sue Grimmond & Dr Ting Sun'
 author = u'Prof Sue Grimmond & Dr Ting Sun'
 
 # The short X.Y version
-version = u'2018.autumn'
+version = u'2019 Autumn'
 # The full version, including alpha/beta/rc tags
-release = u'2018.autumn.week1'
+release = datetime.date.today().isoformat()
 
 
 # -- General configuration ---------------------------------------------------
@@ -44,6 +59,7 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
+    'sphinxcontrib.bibtex',
     # 'rinoh.frontend.sphinx',
     # 'sphinxfortran.fortran_autodoc',
     # 'sphinxfortran.fortran_domain',
@@ -113,7 +129,13 @@ nbsphinx_responsive_width = '700px'
 pygments_style = 'sphinx'
 
 # default interpretation of `role` markups
-default_role = 'any'
+default_role = 'math'
+
+# math options
+numfig = True
+math_numfig = True
+numfig_secnum_depth = 1
+math_eqref_format = "Eq.{number}"
 
 # some text replacement defintions
 rst_prolog = """
@@ -122,6 +144,7 @@ rst_prolog = """
 .. |m^-1| replace:: m\ :sup:`-1`
 .. |m^-2| replace:: m\ :sup:`-2`
 .. |m^-3| replace:: m\ :sup:`-3`
+.. |m^2| replace:: m\ :sup:`2`
 .. |m^3| replace:: m\ :sup:`3`
 .. |s^-1| replace:: s\ :sup:`-1`
 .. |kg^-1| replace:: kg\ :sup:`-1`
@@ -197,11 +220,11 @@ nbsphinx_epilog = r"""
 # so a file named "default.css" will overwrite the builtin "default.css".
 #
 html_static_path = ['_static']
-# html_context = {
-#     'css_files': [
-#         '_static/theme_overrides.css',  # override wide tables in RTD theme
-#         ],
-#      }
+html_context = {
+    'css_files': [
+        '_static/fix-eq.css',  # override wide tables in RTD theme
+    ],
+}
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
@@ -320,7 +343,86 @@ epub_exclude_files = ['search.html']
 #                     'Document Title',   # document title
 #                     'John A. Uthor')]   # document author
 
-# Fix for scrolling tables in the RTD-theme
-# https://rackerlabs.github.io/docs-rackspace/tools/rtd-tables.html
+# Fix equation formatting in the RTD-theme
 def setup(app):
-    app.add_stylesheet('theme_overrides.css')
+    app.add_stylesheet('fix-eq.css')
+
+
+# Custom bibliography stuff for sphinxcontrib.bibtex
+class MySort(Sorter):
+
+    def sort(self, entries):
+        entry_dict = dict(
+            (self.sorting_key(entry), entry)
+            for entry in entries
+        )
+        sorted_keys = sorted(entry_dict, reverse=True)
+        sorted_entries = [entry_dict[key] for key in sorted_keys]
+        return sorted_entries
+
+    def sorting_key(self, entry):
+        if entry.type in ('book', 'inbook'):
+            author_key = self.author_editor_key(entry)
+        elif 'author' in entry.persons:
+            author_key = self.persons_key(entry.persons['author'])
+        else:
+            author_key = ''
+        return (entry.fields.get('year', ''),
+                author_key,
+                entry.fields.get('title', ''))
+
+
+class MyStyle(UnsrtStyle):
+    default_sorting_style = 'author_year_title'
+    # default_label_style = 'number'
+
+    def get_book_template(self, e):
+        template = toplevel[
+            self.format_author_or_editor(e),
+            self.format_btitle(e, 'title'),
+            self.format_volume_and_series(e),
+            sentence[
+                field('publisher'),
+                self.format_edition(e),
+                date
+            ],
+            optional[sentence[self.format_isbn(e)]],
+            self.format_web_refs(e),
+
+            # tag('strong')[optional_field('note')],
+        ]
+
+        return template
+
+
+# reading list style
+class RLStyle(UnsrtStyle):
+    default_sorting_style = 'author_year_title'
+    default_label_style = 'number'
+
+    def get_book_template(self, e):
+        template = toplevel[
+                self.format_author_or_editor(e),
+                self.format_btitle(e, 'title'),
+                self.format_volume_and_series(e),
+                sentence[
+                    field('publisher'),
+                    self.format_edition(e),
+                    date
+                ],
+                optional[sentence[self.format_isbn(e)]],
+                self.format_web_refs(e),
+
+            tag('strong')[optional_field('note')],
+            ]
+
+        return template
+
+    # format_online = format_article
+    # format_book = format_article
+
+
+
+register_plugin('pybtex.style.formatting', 'refs', MyStyle)
+register_plugin('pybtex.style.formatting', 'rl', RLStyle)
+# register_plugin('pybtex.style.sorting', 'year_author_title', MySort)

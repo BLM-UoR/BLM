@@ -1,0 +1,7 @@
+Variable,Description,Unit
+``TA``,"Air temperature",`^{\circ} \text{C}`
+``RH``,"Relative humidity, range 0-100",`\text{%}`
+``PA``,"Air pressure",`\text{kPa}`
+``P``, "Precipitation",`\text{mm}`
+``WS``,"Wind speed",`\text{m s}^{-1}`
+``WD``,"Wind direction",`{\circ}`
