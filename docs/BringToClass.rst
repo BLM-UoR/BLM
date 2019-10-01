@@ -80,4 +80,4 @@ Week 9
 
 Week 10
 ------
- #. **Submit presentation via BB BY 5 PM day before**
+#. **Submit presentation via BB BY 5 PM day before**
