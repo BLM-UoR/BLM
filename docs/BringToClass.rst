@@ -13,7 +13,7 @@ Week 1
 #. Revise your :ref:`python` programming and other previous course work (e.g. related to the :ref:`SEB` etc).  
 #. If you don’t have a GitHub username (please sign up at https://github.com/ ).
 #. Please send your GitHub username  to the :ref:`Team` team so we can get you ready for :ref:`asmnt1`. 
-#. Please read the `Risk Assessment for visting the Observatory <https://www.bb.reading.ac.uk/bbcswebdav/pid-4623796-dt-content-rid-14266489_2/xid-14266489_2>'_.
+#. Please read the `Risk Assessment for visting the Observatory <https://www.bb.reading.ac.uk/bbcswebdav/pid-4623796-dt-content-rid-14266489_2/xid-14266489_2>`_.
 
 .. _Week2:
 
@@ -80,4 +80,4 @@ Week 9
 
 Week 10
 ------
- #. **Submit presentation via BB BY 5 PM day before**
+#. **Submit presentation via BB BY 5 PM day before**
