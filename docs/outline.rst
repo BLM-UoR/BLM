@@ -37,14 +37,12 @@ Term 1 Course Outline
       *tutorials* and *student presentations*.
     - For the first part of the term we will focus on
       `Assignment1 <Assignment1.rst>`__.
-    - Each week you will need to bring to
+    -`Each week <BringToClass.rst>`_ you will need to bring to
       class some  completed material related to this.
 
 *Week 1: 4/10/19*
-  **For class:**
-    Revise your :ref:`python` programming and other previous course work (e.g. related to the :ref:`SEB` etc).  If you don’t have a GitHub username (please sign up at https://github.com/ ).
-    Please send your GitHub username  to the :ref:`Team` team so we can get you ready for :ref:`asmnt1`. Please read the `Risk Assessment for visting the Observatory <https://www.bb.reading.ac.uk/bbcswebdav/pid-4623796-dt-content-rid-14266489_2/xid-14266489_2>'_.
-
+  **For class:** :ref:`Week1`
+   
   **Lecture:** Introduction to the course
     Land cover types; Land surface modelling; Energy balance and radiation balance; Role of model parameters; :ref:`Albedo`; :ref:`LAI` - leaf area index;   :ref:`asmnt1`
 
@@ -56,8 +54,8 @@ Term 1 Course Outline
 .. _w2in:
 
 *Week 2: 11/10/19*
-  **For class:**
-    Plot of radiation balance (1 site) for one sunny and one cloudy day (see `FirstPlot <FirstPlot.rst>`__) etc.
+  **For class:** :ref:`Week2`
+ 
   **Lecture:** Wind related parameters
     Stability; Log law and roughness length; Aerodynamic resistances; Fetch|
   **Activity:**
@@ -66,7 +64,7 @@ Term 1 Course Outline
 .. _w3in:
 
 Week 3: 18/10/19
-  **For class:**
+  **For class:** :ref:`Week3`
     #. Table(s) summarising the relevant measurements done at **your site**. [:ref:`observatory_visit`]
     #. Each landcover group: short presentation on albedo and LAI variability (1-2 slides) to demonstrate [1] albedo dynamics at different temporal scales (e.g., sub-daily, seasonal) and [2] your typical values compared to the literature
 
@@ -80,7 +78,7 @@ Week 3: 18/10/19
 .. _w4in:
 
 Week 4: 25/10/19
-  **For class:**
+  **For class:** :ref:`Week4`
     `z_0`, `z_d`, `r_a` variability
   **Lecture:**
     Penman Monteith equation; Model evaluation
@@ -91,7 +89,7 @@ Week 4: 25/10/19
 .. _w5in:
 
 *Week 5: 1/11/19*
-  **For class:**
+  **For class:** :ref:`Week5`
     `\Delta Q_S` and `r_s`
   **Lecture/Activity:**
     Calculation of sensible and latent heat fluxes
@@ -103,7 +101,7 @@ Week 6: 8/11/19:
 .. _w7in:
 
 *Week 7: 15/11/19*
-  **For class:**
+  **For class:** :ref:`Week6`
     `Q_E`
   **Lecture:**
     Ceilometry and other methods to measure the BL
@@ -116,7 +114,7 @@ Week 6: 8/11/19:
 .. _w8in:
 
 *Week 8: 22/11/19*
-  **For class:**
+  **For class:** :ref:`Week7`
     Thoughts on Project (Assignment 2)
   **Lecture/Activity:**
     Introduction to SUEWS, SuPy and UMEP (sources areas and footprints, roughness length)
@@ -125,7 +123,7 @@ Week 6: 8/11/19:
 .. _w9in:
 
 *Week 9: 29/11/19*
-  **For class:**
+  **For class:** :ref:`Week8`
     Project plan (1/person)
   **Lecture:**
     Urban Meteorology
@@ -136,7 +134,7 @@ Week 6: 8/11/19:
 .. _w10in:
 
 *Week 10: 6/12/19*
-  **For class:**
+  **For class:** :ref:`Week9`
     Demonstrate project progress (e.g. plots)
   **Activity**
     Project work
@@ -144,7 +142,7 @@ Week 6: 8/11/19:
 *Week 11: 13/12/19*
   **Activity:**
     Present to class on project (5 min) (All complete online feedback); Project work
-
+**For class:** :ref:`Week10`
   **Submit presentation via BB BY 5 PM day before**
 
 Assessment (of whole year)
