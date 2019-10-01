@@ -35,12 +35,11 @@ Week 3
 #. Each landcover group: short presentation on albedo and LAI variability (1-2 slides) to demonstrate [1] albedo dynamics at different temporal scales (e.g., sub-daily, seasonal) and [2] your typical values compared to the literature
 
 
-
 .. _Week4:
 
 Week 4
 ------
-#.   Each landcover group: short presentation on  `z_0`, `z_d`, `r_a` variability
+#.   Each landcover group: short presentation on  `z_0`, `z_d`, `r_a` variability - your results and the literature
 
 .. _Week5:
 
@@ -49,11 +48,10 @@ Week 5
 #.   Each land cover group: short presentation on  `\Delta Q_S` and `r_s ($r_c$)`
 
 
-
 .. _Week6:
 
-Week 6 of classes
------------------
+Week 6 of classes (7 of term)
+--------------------------------
 
 #. Each land cover group - short presentation on `Q_E` and `Q_H` 
 #. *Assignment 1 handed in via BB on* **19 November 2019 12 noon**
