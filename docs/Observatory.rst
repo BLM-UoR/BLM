@@ -89,7 +89,6 @@ proportional to the PRT resistance
 .. csv-table:: Height of wind (U) and temperature measurements (T) at RUAO
     :file: URAO-heights.csv
     :widths: auto
-    :width: 10
     :header-rows: 1
     :stub-columns: 1
 

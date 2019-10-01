@@ -43,7 +43,6 @@ Sites for analysis
 .. csv-table::
     :file: AMF-Site-Sel.csv
     :widths: auto
-    :width: 10
     :header-rows: 1
 
 
@@ -62,7 +61,6 @@ Key variables for analysis
 .. csv-table::
     :file: var-SRB.csv
     :widths: 1,3,1
-    :width: 10
     :header-rows: 1
 
 
@@ -71,7 +69,6 @@ Key variables for analysis
 .. csv-table::
     :file: var-SEB.csv
     :widths: 1,3,1
-    :width: 10
     :header-rows: 1
 
 - Standard Meteorological Conditions
@@ -79,7 +76,6 @@ Key variables for analysis
 .. csv-table::
     :file: var-MET.csv
     :widths: 1,3,1
-    :width: 10
     :header-rows: 1
 
 - Others
@@ -87,7 +83,6 @@ Key variables for analysis
 .. csv-table::
     :file: var-Other.csv
     :widths: 1,3,1
-    :width: 10
     :header-rows: 1
 
 
