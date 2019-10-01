@@ -3,26 +3,28 @@
 Assignment 1 Activities
 =========================
 
-.. note::
+These are the various topics to be addressed in Assignment 1.
+They are designed to be in a logical calculation order to help you understand different physical properties and processes.
 
-    #. These are the various topics to be addressed in Assignment 1. They are designed to be in a logical calculation
-       order to help you understand different physical properties and processes. When you write your paper,
-       the presentation will be as a coherent scientific paper, not a set of individual tasks, not necessarily in this order, and not including each of the individual components (e.g. `Week 1 plots <task_first_plot>`_ are intended to get you going).
-    #. These tasks are to be undertaken *in assigned groups* according to
-       land cover types, but *independent papers* will be written (without plagarism).
 
-.. _task_first_plot: tasks/task1.ipynb
+
+
 
 .. toctree::
   :caption: Activities
   :numbered:
-  :maxdepth: 2
+  :maxdepth: 1
   :glob:
 
   tasks/*
 
 
+.. note::
 
+    #. When you write your paper, the presentation will be as a coherent scientific paper, not a set of individual tasks, not necessarily in this order and not including each of the individual components (e.g. `Week 1 plots <tasks/task1.ipynb>`_ are intended to get you going).
+
+    #. These tasks are to be undertaken *in assigned groups* according to
+       land cover types, but *independent papers* will be written (without plagarism).
 
 
 

@@ -22,17 +22,17 @@ water vapour from the surface. Firstly, the sensible and latent heat
 fluxes should be written in resistance notation
 
 .. math::
-   :label: qh
+   :label: qh_pm
 
     Q_{H} = - \rho c_{p}\frac{T - T_{0}}{r_{h}}
 
 .. math::
-   :label: qe
+   :label: qh_pm
 
     L_{v}E = - \frac{L_{v}}{R_{v}T}\frac{e - e_{0}}{r_{v}}
 
 
-We can rewrite :eq:`qe` in terms of `r_h` and the effective psychrometer
+We can rewrite :eq:`qe_pm` in terms of `r_h` and the effective psychrometer
 const­ant `\gamma^*`:
 
 .. math::

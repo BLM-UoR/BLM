@@ -1,6 +1,6 @@
 .. _SEB:
 
-Surface energy balance 
+Surface energy balance
 ======================
 
 The surface energy balance (SEB) can be defined for an extensive simple
@@ -50,7 +50,7 @@ incoming (:math:`\downarrow`) and outgoing (:math:`\uparrow`) shortwave
 
 
 SEB and Radiation Balance Measurements
--------------------------------------
+--------------------------------------
 
 Each of these fluxes can be directly measured or modelled using several
 methods (and data inputs).
@@ -75,7 +75,7 @@ state of the medium (e.g. stability if air, moisture state if soil).
 
 
 One method to model the latent heat flux uses the Penman Monteith equation
-(`Penman <Penman.rst>`__). 
+(`Penman <Penman.rst>`__).
 
 
 
