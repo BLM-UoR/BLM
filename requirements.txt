@@ -1,8 +1,9 @@
 sphinx_rtd_theme==0.4.3
 pybtex==0.22.2
-nbsphinx==0.4.2
 sphinxcontrib_programoutput==0.15
 sphinxcontrib.bibtex
 nbconvert==5.6.0
 Sphinx>=2.2
 jupyter_client
+ipykernel
+nbsphinx
