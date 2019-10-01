@@ -45,7 +45,12 @@ Sites for analysis
     :widths: auto
     :header-rows: 1
 
+.. _amf_site:
 
+.. tip::
+    Refer to `AmeriFlux Site Search page
+    <https://ameriflux.lbl.gov/sites/site-search/>`_
+    for full details of all sites used here.
 
 
 Key variables for analysis

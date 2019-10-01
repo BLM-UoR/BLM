@@ -80,7 +80,7 @@ Instruments at Different Sites
 
     - Each site has a key reference that gives the details of the
       instruments used.
-    - Please see `this AmeriFlux page <https://ameriflux.lbl.gov/sites/site-search/>`_ for details (login required with free registration).
+    - Please see :ref:`AmeriFlux Site page <amf_site>` for details (login required with free registration).
 
 
 Eddy covariance (EC) method to measure fluxes

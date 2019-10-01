@@ -44,7 +44,7 @@ Boundary Layer Meteorology (MT37J/MT49E)
       WindProfile
       Storage
       ModelEvaluation
-      Observatory
+      URAO
       References
 
 .. toctree::

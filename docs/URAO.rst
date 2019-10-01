@@ -106,12 +106,18 @@ A Campbell CR3000 logger is used to record the data at a sampling rate of 10 Hz.
 Wind and temperature profile mast (6.4 m)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A profile of 8 pulse **cup anemometers** and 4 **platinum resistance thermometers** (PRTs) are mounted at various heights (:numref:`urao_wind`). The
-coincident temperature and wind profiles allow both stability and
-surface fluxes to be derived. Each anemometer produces electrical pulses
-at a rate proportional to its rotation speed. The PRT output voltage is
-proportional to the PRT resistance
+A profile of 8 pulse **cup anemometers** and 4 **platinum resistance thermometers** (PRTs) are mounted at various heights (:numref:`urao_heights`).
+The coincident temperature and wind profiles allow both stability and surface fluxes to be derived.
+Each anemometer produces electrical pulses at a rate proportional to its rotation speed.
+The PRT output voltage is proportional to the PRT resistance.
 
+.. _urao_heights:
+
+.. csv-table:: measurement heights of temperature (T) and wind speed (U) at URAO
+    :file: URAO-heights.csv
+    :widths: auto
+    :header-rows: 1
+    :stub-columns: 1
 
 
 
