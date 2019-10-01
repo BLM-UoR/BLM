@@ -43,7 +43,7 @@ Term 1 Course Outline
 *Week 1: 4/10/19*
   **For class:**
     Revise your :ref:`python` programming and other previous course work (e.g. related to the :ref:`SEB` etc).  If you don’t have a GitHub username (please sign up at https://github.com/ ).
-    Please send your GitHub username  to the :ref:`Team` team so we can get you ready for :ref:`asmnt1`.
+    Please send your GitHub username  to the :ref:`Team` team so we can get you ready for :ref:`asmnt1`. Please read the `Risk Assessment for visting the Observatory <https://www.bb.reading.ac.uk/bbcswebdav/pid-4623796-dt-content-rid-14266489_2/xid-14266489_2>'_.
 
   **Lecture:** Introduction to the course
     Land cover types; Land surface modelling; Energy balance and radiation balance; Role of model parameters; :ref:`Albedo`; :ref:`LAI` - leaf area index;   :ref:`asmnt1`
