@@ -6,6 +6,9 @@ Python
 
 There are a lot of excellent tutorials and web pages for helping with Python coding:
 
+- `Departmental Python Refresher <https://www.bb.reading.ac.uk/bbcswebdav/pid-4599579-dt-content-rid-14129544_2/xid-14129544_2>`_
+- `More Python Help <https://www.bb.reading.ac.uk/bbcswebdav/pid-4599578-dt-content-rid-14129543_2/xid-14129543_2>`_
+
 - `The gist of Python <https://medium.com/@louwjlabuschagne/the-gist-of-python-ff5cc05c3318>`_: a quick introductory blog that covers Python basics for data analysis.
 
 - Jupyter Notebook: Jupyter Notebook provides a powerful notebook-based data analysis environment that SuPy users are strongly encouraged to use. Jupyter notebooks can run in browsers (desktop, mobile) either by easy local configuration or on remote servers with pre-set environments (e.g., `Google Colaboratory <https://colab.research.google.com>`_, `Microsoft Azure Notebooks <https://notebooks.azure.com>`_). In addition, Jupyter notebooks allow great shareability by incorporating source code and detailed notes in one place, which helps users to organise their computation work.
