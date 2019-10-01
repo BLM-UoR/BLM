@@ -55,7 +55,7 @@ SEB and Radiation Balance Measurements
 Each of these fluxes can be directly measured or modelled using several
 methods (and data inputs).
 
-For the instruments used at the URAO  :ref:`URAO`.
+For the instruments used at the see :ref:`URAO`.  From papers you will be able to determine how the fluxes and other variables are measured at the site you are studying.
 
 Radiation fluxes
 ''''''''''''''''''''''''''
@@ -65,7 +65,7 @@ Eddy Covariance
 ''''''''''''''''''''''''''
 
 The turbulent heat fluxes and momentum can be measured using Eddy
-Covariance techniques (see :ref:`EC`)
+Covariance techniques (see :ref:`EC`). These require a sonic anemometer and a gas analyser.
 
 SEB and Radiation Balance Modelling
 -------------------------------------
