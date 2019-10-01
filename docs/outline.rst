@@ -42,7 +42,6 @@ Term 1 Course Outline
 
 *Week 1: 4/10/19*
   **For class:** :ref:`Week1`
-   
   **Lecture:** Introduction to the course
     Land cover types; Land surface modelling; Energy balance and radiation balance; Role of model parameters; :ref:`Albedo`; :ref:`LAI` - leaf area index;   :ref:`asmnt1`
 
@@ -55,8 +54,7 @@ Term 1 Course Outline
 
 *Week 2: 11/10/19*
   **For class:** :ref:`Week2`
- 
-  **Lecture:** Wind related parameters
+   **Lecture:** Wind related parameters
     Stability; Log law and roughness length; Aerodynamic resistances; Fetch|
   **Activity:**
     Visit `Observatory <Observatory.rst>`__ (unless raining); What sensors measure the variables used to calculate model parameters? Variability of :ref:`Albedo` with time (e.g. :ref:`LAI` variations)
@@ -85,7 +83,6 @@ Week 4: 25/10/19
 
 *Week 5: 1/11/19*
   **For class:** :ref:`Week5`
-
   **Lecture/Activity:**
     Calculation of sensible and latent heat fluxes
 
@@ -97,7 +94,6 @@ Week 6: 8/11/19:
 
 *Week 7: 15/11/19*
   **For class:** :ref:`Week6`
-
   **Lecture:**
     Ceilometry and other methods to measure the BL
   **Activity:**
@@ -110,7 +106,6 @@ Week 6: 8/11/19:
 
 *Week 8: 22/11/19*
   **For class:** :ref:`Week7`
-
   **Lecture/Activity:**
     Introduction to SUEWS, SuPy and UMEP (sources areas and footprints, roughness length)
 
@@ -119,8 +114,7 @@ Week 6: 8/11/19:
 
 *Week 9: 29/11/19*
   **For class:** :ref:`Week8`
- 
-  **Lecture:**
+   **Lecture:**
     Urban Meteorology
   **Activity**
     Project work
