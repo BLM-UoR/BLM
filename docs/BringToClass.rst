@@ -19,52 +19,61 @@ Week 1
 Week 2
 ------
 
-Plot of radiation balance (1 site) for one sunny and one cloudy day (see `FirstPlot <FirstPlot.rst>`__) etc.
+#. Plot of radiation balance (1 site) for one sunny and one cloudy day (see `FirstPlot <FirstPlot.rst>`__) etc.
+#. Prepare table(s) on instrumentation and measurements at your site (see :ref:`after_visit`)
 
 .. _Week3:
 
 Week 3
 ------
+#. Table(s) summarising the relevant measurements done at **your site**. [:ref:`observatory_visit`]
+#. Each landcover group: short presentation on albedo and LAI variability (1-2 slides) to demonstrate [1] albedo dynamics at different temporal scales (e.g., sub-daily, seasonal) and [2] your typical values compared to the literature
+
 
 
 .. _Week4:
 
 Week 4
 ------
+#.     `z_0`, `z_d`, `r_a` variability
 
 .. _Week5:
 
 Week 5
 ------
+#.     `\Delta Q_S` and `r_s`
 
-.. _Week5:
 
-Week 5
-------
 
 .. _Week6:
 
 Week 6
 ------
 
+    `Q_E`
+
 .. _Week7:
 
 Week 7
 ------
+#. Thoughts on Project (Assignment 2)
 
 .. _Week8:
 
 Week 8
 ------
 
+# .Project plan (1/person)
+
 
 .. _Week9:
 
 Week 9
 ------
-
+#.    Demonstrate project progress (e.g. plots)
 
 .. _Week10:
 
 Week 10
 ------
+ #. **Submit presentation via BB BY 5 PM day before**

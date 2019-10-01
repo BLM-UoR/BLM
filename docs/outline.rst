@@ -37,7 +37,7 @@ Term 1 Course Outline
       *tutorials* and *student presentations*.
     - For the first part of the term we will focus on
       `Assignment1 <Assignment1.rst>`__.
-    -`Each week <BringToClass.rst>`_ you will need to bring to
+    - `Each week <BringToClass.rst>`_ you will need to bring to
       class some  completed material related to this.
 
 *Week 1: 4/10/19*
@@ -124,17 +124,17 @@ Week 6: 8/11/19:
 
 *Week 10: 6/12/19*
   **For class:** :ref:`Week9`
-
   **Activity**
     Project work
 
 *Week 11: 13/12/19*
+  **For class:** :ref:`Week10`
   **Activity:**
     Present to class on project (5 min) (All complete online feedback); Project work
-**For class:** :ref:`Week10`
 
 
-Assessment (of whole year)
+
+Assessment ( % of whole year)
 --------------------------
 .. list-table::
    :header-rows: 1
@@ -154,7 +154,7 @@ Assessment (of whole year)
 
 
 .. note::
-   - Remainder (60%) is in Term two.
+   - Remainder (60%) is in Term Two.
    - Submission is electronic via BB except for Python programmes etc which will be done via GitHub.
    - Each week you will present `formative work <Tasks.rst>`_ at the start of class.
 
