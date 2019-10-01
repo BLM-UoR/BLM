@@ -109,8 +109,6 @@ The PRT output voltage is proportional to the PRT resistance.
     :header-rows: 1
     :stub-columns: 1
 
-
-
 Logging of sensors
 ~~~~~~~~~~~~~~~~~~
 

@@ -55,7 +55,7 @@ SEB and Radiation Balance Measurements
 Each of these fluxes can be directly measured or modelled using several
 methods (and data inputs).
 
-For the instruments used at the see :ref:`URAO`.  From papers you will be able to determine how the fluxes and other variables are measured at the site you are studying.
+Examples of instruments in the :ref:`URAO` are listed.  From papers you will be able to determine how the fluxes and other variables are measured at the site you are studying.
 
 Radiation fluxes
 ----------------------
