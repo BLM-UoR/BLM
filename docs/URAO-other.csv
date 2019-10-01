@@ -1,0 +1,5 @@
+﻿Instrument,Model,Manufacture,Sampling rate,comment
+infra-red gas analyser,Li-7500RS,Li-Cor,10 Hz,3m
+Rain gauge,SBS 500 ,Environmental measurements Ltd.,1 Hz,
+Pressure,DPI1 140,Druck,1 Hz,
+Ceilometer, CL31,Vaisala,3sec row data,processed by R.Brugge 5min data

@@ -17,7 +17,7 @@ Glossary
 
     EC
         Eddy Covariance
-    
+
     Fetch
         Area influencing a sensor. Typically the area upwind of the sensor.
 
@@ -28,5 +28,5 @@ Glossary
         Surface Energy Balance
 
     URAO
-        University of Reading Atmospheric Observatory
+        `University of Reading Atmospheric Observatory <http://www.met.reading.ac.uk/observatorymain/>`_
 

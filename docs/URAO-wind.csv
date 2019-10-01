@@ -1,0 +1,6 @@
+﻿Instrument,Model,Manufacture,Sampling rate,comment
+Ultrasonic anemometer ,Windmaster pro,Gill,10 Hz,3 m
+propeller anemometer,Gill,Gill,1 Hz,3 m
+Wind profile anemometers,A100L2,Vector instruments,1 Hz,"2,5, 10 m"
+Wind vane,W200P,Vector instruments,1 Hz,10 m
+Vector Anemometer,A101M,Vector instruments,1 Hz,"0.56, 0.8, 1.12, 1.6, 2.24, 3.2, 4.48, 6.4 m"

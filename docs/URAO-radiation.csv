@@ -1,0 +1,4 @@
+﻿Instrument,Model,Manufacture,Sampling rate,comment
+pyranometer,CM11,Kipp and zonen,1 Hz,1m
+net-radiometer,CNR4,Kipp and zonen,1 Hz,1.3m
+Sunshine duration,CSD1,Kipp and zonen,1 Hz,10m

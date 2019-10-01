@@ -54,6 +54,7 @@ and similarly for carbon dioxide concentrations (molar mass 44 g mol\ :sup:`-1`)
 #. Closed-path IRGA: Air is sucked down a tube into the instrument
    itself
 
+.. _li7500:
 
 .. figure:: li7500-schematic.png
     :scale: 50 %
@@ -64,12 +65,12 @@ and similarly for carbon dioxide concentrations (molar mass 44 g mol\ :sup:`-1`)
 Instruments at Different Sites
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
+.. _gill:
 .. figure:: sonic-anemometer.jpg
     :scale: 50 %
     :align: center
 
-    Campbell Scientific CSAT3 sonic anemometer with Li-7500, Kipp and Zonen CNR3 net radiometer, and Vaisala WXT520 weather station in between (source: `Gill Instruments <http://www.gillinstruments.com/new-images/applications/sonic-anemometer/sonic-anemometer-1.jpg>`_).
+    Gill R3 sonic anemometer (source: `Gill Instruments <http://www.gillinstruments.com/new-images/applications/sonic-anemometer/sonic-anemometer-1.jpg>`_).
 
 #. Site: URAO
 
@@ -86,8 +87,7 @@ Eddy covariance (EC) method to measure fluxes
 ---------------------------------------------
 
 .. note::
-    `\tau` unfortunately (by convention) is used for
-    both momentum and time lag
+    `\tau` unfortunately (by convention) is used for both momentum and time lag
 
 
 EC is regarded as the standard method to measure fluxes as it quantifies

@@ -1,0 +1,6 @@
+﻿Instrument,Model,Manufacture,Sampling rate,comment
+temperture probe,DTS12A,Vaisala,1 Hz,in Stevenson screen
+Soil temperature,DTS12G,Vaisala,1 Hz,in soil  (5cm-10cm-20cm-30cm-50cm-100cm)
+humidity probe,HMP45A humidity probe,Vaisala,1 Hz,in Stevenson screen
+platinum resistance themometer,PT100/3,Campbell scientific,1 Hz,temp profile (0.56m-1.12m-2.24m-4.48m)
+Soil heat flux plate,HEP01,Hukseflux,1 Hz,
