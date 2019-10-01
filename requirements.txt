@@ -9,4 +9,5 @@ ipykernel
 nbsphinx
 numpy
 pandas
+matplotlib
 xarray

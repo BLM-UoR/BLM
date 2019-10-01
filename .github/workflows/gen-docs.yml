@@ -79,15 +79,16 @@ jobs:
     #   run: ls -l cases/*
 
     - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@1.1.3
+      uses: JamesIves/github-pages-deploy-action@master
       env:
        FOLDER: build/html
+       BASE_BRANCH: master
        BRANCH: gh-pages
        BUILD_SCRIPT: |
-        apt-get install -y graphviz doxygen-gui rsync python3-pip python-sphinx;
+        apt-get install -y graphviz doxygen-gui rsync python3-pip python-sphinx pandoc;
         ls -lrt;
         pip3 install pipreqs;
-        pip3 install -r docs/requirements.txt;
+        pip3 install -r requirements.txt;
         make html
        ACCESS_TOKEN: ${{ secrets.PAT }}
 
