@@ -15,13 +15,16 @@ Week 1
 #. Please send your GitHub username  to the :ref:`Team` team so we can get you ready for :ref:`asmnt1`. 
 #. Please read the `Risk Assessment for visting the Observatory <https://www.bb.reading.ac.uk/bbcswebdav/pid-4623796-dt-content-rid-14266489_2/xid-14266489_2>'_.
 
-
 .. _Week2:
+
 
 Week 2
 ------
 
-#. Plot of radiation balance (1 site) for one sunny and one cloudy day (see `FirstPlot <FirstPlot.rst>`__) etc.
+#. Print out with figure captions with a plot of the radiation balance (1 site) for one sunny and one cloudy day (see `FirstPlot <FirstPlot.rst>`__) etc.
+#. Plot of albedo variation on both days
+#. Literature (a journal article) with some albedo values for your land cover type
+#. Note features of the paper structure: figure/table captions, multiple figures, text structure, referencing etc.
 #. Prepare table(s) on instrumentation and measurements at your site (see :ref:`after_visit`)
 
 .. _Week3:
@@ -37,22 +40,23 @@ Week 3
 
 Week 4
 ------
-#.     `z_0`, `z_d`, `r_a` variability
+#.   Each landcover group: short presentation on  `z_0`, `z_d`, `r_a` variability
 
 .. _Week5:
 
 Week 5
 ------
-#.     `\Delta Q_S` and `r_s`
+#.   Each land cover group: short presentation on  `\Delta Q_S` and `r_s` ($r_c$)
 
 
 
 .. _Week6:
 
-Week 6
-------
+Week 6 of classes
+-----------------
 
-    `Q_E`
+#. Each land cover group - short presentation on `Q_E` and `Q_H` 
+#. *Assignment 1 handed in via BB on* **19 November 2019 12 noon**
 
 .. _Week7:
 
