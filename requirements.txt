@@ -7,3 +7,6 @@ Sphinx>=2.2
 jupyter_client
 ipykernel
 nbsphinx
+numpy
+pandas
+xarray
