@@ -7,9 +7,6 @@ These are the various topics to be addressed in Assignment 1.
 They are designed to be in a logical calculation order to help you understand different physical properties and processes.
 
 
-
-
-
 .. toctree::
   :caption: Activities
   :numbered:
