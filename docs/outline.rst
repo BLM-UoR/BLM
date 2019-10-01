@@ -65,10 +65,6 @@ Term 1 Course Outline
 
 Week 3: 18/10/19
   **For class:** :ref:`Week3`
-    #. Table(s) summarising the relevant measurements done at **your site**. [:ref:`observatory_visit`]
-    #. Each landcover group: short presentation on albedo and LAI variability (1-2 slides) to demonstrate [1] albedo dynamics at different temporal scales (e.g., sub-daily, seasonal) and [2] your typical values compared to the literature
-
-
   **Lecture:** :ref:`seb` fluxes
     Storage heat flux; Surface resistances; Energy balance closure
   **Activity:** Aerodynamic related parameters
@@ -79,7 +75,6 @@ Week 3: 18/10/19
 
 Week 4: 25/10/19
   **For class:** :ref:`Week4`
-    `z_0`, `z_d`, `r_a` variability
   **Lecture:**
     Penman Monteith equation; Model evaluation
   **Activity**
@@ -90,7 +85,7 @@ Week 4: 25/10/19
 
 *Week 5: 1/11/19*
   **For class:** :ref:`Week5`
-    `\Delta Q_S` and `r_s`
+
   **Lecture/Activity:**
     Calculation of sensible and latent heat fluxes
 
@@ -102,7 +97,7 @@ Week 6: 8/11/19:
 
 *Week 7: 15/11/19*
   **For class:** :ref:`Week6`
-    `Q_E`
+
   **Lecture:**
     Ceilometry and other methods to measure the BL
   **Activity:**
@@ -115,7 +110,7 @@ Week 6: 8/11/19:
 
 *Week 8: 22/11/19*
   **For class:** :ref:`Week7`
-    Thoughts on Project (Assignment 2)
+
   **Lecture/Activity:**
     Introduction to SUEWS, SuPy and UMEP (sources areas and footprints, roughness length)
 
@@ -124,7 +119,7 @@ Week 6: 8/11/19:
 
 *Week 9: 29/11/19*
   **For class:** :ref:`Week8`
-    Project plan (1/person)
+ 
   **Lecture:**
     Urban Meteorology
   **Activity**
@@ -135,7 +130,7 @@ Week 6: 8/11/19:
 
 *Week 10: 6/12/19*
   **For class:** :ref:`Week9`
-    Demonstrate project progress (e.g. plots)
+
   **Activity**
     Project work
 
@@ -143,7 +138,7 @@ Week 6: 8/11/19:
   **Activity:**
     Present to class on project (5 min) (All complete online feedback); Project work
 **For class:** :ref:`Week10`
-  **Submit presentation via BB BY 5 PM day before**
+
 
 Assessment (of whole year)
 --------------------------
