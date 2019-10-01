@@ -1,7 +1,9 @@
 .. _BringToClass:
 
-For Next Class Material to bring completed
+For Next Class Material 
 ==========================================
+
+ - Each week you will present completed `formative work <Tasks.rst>`_ related to  the Assignments. The feedback you will receive each  week is to help with all aspects or preparing the papers.
 
 .. _Week1:
 
