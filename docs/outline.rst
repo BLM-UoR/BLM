@@ -42,6 +42,7 @@ Term 1 Course Outline
 
 *Week 1: 4/10/19*
   **For class:** :ref:`Week1`
+
   **Lecture:** Introduction to the course
     Land cover types; Land surface modelling; Energy balance and radiation balance; Role of model parameters; :ref:`Albedo`; :ref:`LAI` - leaf area index;   :ref:`asmnt1`
 
@@ -54,6 +55,7 @@ Term 1 Course Outline
 
 *Week 2: 11/10/19*
   **For class:** :ref:`Week2`
+
    **Lecture:** Wind related parameters
     Stability; Log law and roughness length; Aerodynamic resistances; Fetch|
   **Activity:**
@@ -63,6 +65,7 @@ Term 1 Course Outline
 
 Week 3: 18/10/19
   **For class:** :ref:`Week3`
+
   **Lecture:** :ref:`seb` fluxes
     Storage heat flux; Surface resistances; Energy balance closure
   **Activity:** Aerodynamic related parameters
@@ -73,6 +76,7 @@ Week 3: 18/10/19
 
 Week 4: 25/10/19
   **For class:** :ref:`Week4`
+
   **Lecture:**
     Penman Monteith equation; Model evaluation
   **Activity**
@@ -83,6 +87,7 @@ Week 4: 25/10/19
 
 *Week 5: 1/11/19*
   **For class:** :ref:`Week5`
+
   **Lecture/Activity:**
     Calculation of sensible and latent heat fluxes
 
@@ -94,6 +99,7 @@ Week 6: 8/11/19:
 
 *Week 7: 15/11/19*
   **For class:** :ref:`Week6`
+  
   **Lecture:**
     Ceilometry and other methods to measure the BL
   **Activity:**
@@ -106,6 +112,7 @@ Week 6: 8/11/19:
 
 *Week 8: 22/11/19*
   **For class:** :ref:`Week7`
+
   **Lecture/Activity:**
     Introduction to SUEWS, SuPy and UMEP (sources areas and footprints, roughness length)
 
@@ -114,6 +121,7 @@ Week 6: 8/11/19:
 
 *Week 9: 29/11/19*
   **For class:** :ref:`Week8`
+
    **Lecture:**
     Urban Meteorology
   **Activity**
@@ -124,11 +132,13 @@ Week 6: 8/11/19:
 
 *Week 10: 6/12/19*
   **For class:** :ref:`Week9`
+
   **Activity**
     Project work
 
 *Week 11: 13/12/19*
   **For class:** :ref:`Week10`
+  
   **Activity:**
     Present to class on project (5 min) (All complete online feedback); Project work
 
