@@ -84,7 +84,7 @@ jobs:
        FOLDER: build/html
        BRANCH: gh-pages
        BUILD_SCRIPT: |
-        apt-get install -y graphviz doxygen-gui rsync python3-pip python-sphinx;
+        apt-get install -y graphviz doxygen-gui rsync python3-pip python-sphinx pandoc;
         ls -lrt;
         pip3 install pipreqs;
         pip3 install -r requirements.txt;
