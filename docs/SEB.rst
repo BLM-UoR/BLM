@@ -37,7 +37,7 @@ Radiation balance
 =================
 .. TODO fix label to seb
 
-The `Q^*` (or `R_n`) within the SEB :label:_ seb consists of:
+The `Q^*` (or `R_n`) within the SEB :ref:`SEB` consists of:
 
 .. math::
     :label: qstar
@@ -50,13 +50,16 @@ incoming (:math:`\downarrow`) and outgoing (:math:`\uparrow`) shortwave
 
 
 SEB and Radiation Balance Measurements
---------------------------------------
+===================================================
 
 Each of these fluxes can be directly measured or modelled using several
 methods (and data inputs).
 
+For the instruments used at the URAO  :ref:`URAO`.
+
 Radiation fluxes
 ''''''''''''''''''''''''''
+Various types of radiometers are used. For shortwave radiation pyranometers are used and for longwave radiation pyrgeometers. The source area or field of view of a radiation sensor is fixed by geomtery.
 
 Eddy Covariance
 ''''''''''''''''''''''''''
