@@ -67,6 +67,8 @@ Turbulent heat Fluxes
 The turbulent heat fluxes and momentum can be measured using Eddy
 Covariance techniques (see :ref:`EC`). These require a sonic anemometer and a gas analyser.
 
+As the source area of EC sensors varies with wind direction, fetch, stability etc, the surface characteristics may change with timeif the fetch is not homogeneous.
+
 SEB and Radiation Balance Modelling
 ===================================================
 
