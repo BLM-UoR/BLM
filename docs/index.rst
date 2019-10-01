@@ -59,7 +59,7 @@ Boundary Layer Meteorology (MT37J/MT49E)
 
   ScientificPaper
   CommonMistakes
-
+  OtherResources
 
 .. toctree::
   :caption: Technical Tips
@@ -69,4 +69,5 @@ Boundary Layer Meteorology (MT37J/MT49E)
   python
   JupyterNotebook
   GitHub
+
 
