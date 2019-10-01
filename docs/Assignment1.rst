@@ -37,7 +37,7 @@ General Objectives
 This research paper should address
    #. Methods used to directly observe relevant surface fluxes and variables
    #. Methods used to obtain the fluxes from the observed data
-   #. Determine surface parameters for your site (e.g. albedo, aerodyanmic roughness parameters) to model the surface energy balance fluxes.
+   #. Determine surface parameters for your site (e.g. albedo, aerodynamic roughness parameters) to model the surface energy balance fluxes.
    #. Model the latent heat flux using Penman Monteith equation
    #. Evaluate the model performance (e.g. statistics, graphically) but also consider observational errors.
    #. Identify assumption made in your model (e.g. stability related, EBC)
@@ -82,7 +82,7 @@ Format
 -  Python (or other language) codes do not count in the page limit, but
    a summary table (filename, description, etc.) is to be included in
    the page limit.
--  Python code to be submiited is via :ref:`GitIn`
+-  Python code to be submitted is via :ref:`GitIn`
 -  A **summary table** should give the content and filename with
    a code that you refer to. You should refer to these in your methods.
 -  **Each** student hands in an independent report (make certain your
@@ -100,7 +100,7 @@ Format
 
 .. _GitIn:
 
-GitHub Classroom submssion
+GitHub Classroom submission
 ----------------------------------------------------------------
 
 This class uses GitHub Classroom (GHC) to disseminate and collect the tasks along the way within Assignment 1.
