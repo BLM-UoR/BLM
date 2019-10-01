@@ -58,17 +58,17 @@ methods (and data inputs).
 For the instruments used at the see :ref:`URAO`.  From papers you will be able to determine how the fluxes and other variables are measured at the site you are studying.
 
 Radiation fluxes
-''''''''''''''''''''''''''
+----------------------
 Various types of radiometers are used. For shortwave radiation pyranometers are used and for longwave radiation pyrgeometers. The source area or field of view of a radiation sensor is fixed by geomtery.
 
-Eddy Covariance
-''''''''''''''''''''''''''
+Turbulent heat Fluxes
+----------------------
 
 The turbulent heat fluxes and momentum can be measured using Eddy
 Covariance techniques (see :ref:`EC`). These require a sonic anemometer and a gas analyser.
 
 SEB and Radiation Balance Modelling
--------------------------------------
+===================================================
 
 Generally, to calculate a convective or conductive flux, data are needed to determine the size of the gradient
 (e.g. temperature difference) and the ability of the medium (e.g. air,
