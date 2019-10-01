@@ -18,6 +18,7 @@ Boundary Layer Meteorology (MT37J/MT49E)
   :maxdepth: 1
 
   outline
+  BringToClass
   ReadingList
   Assignment1
   Assignment2
