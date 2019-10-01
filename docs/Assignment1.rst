@@ -90,7 +90,7 @@ Format
    *MT37J* or *MT49E*, is on it) and your programmes (e.g. python).
 -  Although you will work in groups during the class, the write-up is to
    be your own work and written independently.
--  Please be careful of all forms of plagiarism. **LINK-update**
+-  Please be careful of all forms of `plagiarism. <https://student.reading.ac.uk/essentials/_the-important-stuff/rules-and-regulations/plagiarism-rules-for-referencing.aspx>`_
 -  The **structure** of your paper should follows
    `general requirements by a scientific paper <ScientificPaper.rst>`_.
 
