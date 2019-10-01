@@ -46,7 +46,7 @@ Week 4
 
 Week 5
 ------
-#.   Each land cover group: short presentation on  `\Delta Q_S` and `r_s ($r_c$)'
+#.   Each land cover group: short presentation on  `\Delta Q_S` and `r_s ($r_c$)`
 
 
 
