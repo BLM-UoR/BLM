@@ -74,7 +74,10 @@ References
 *  Web sources should be included in the reference
    list and referenced appropriately
    (e.g. last date of access)
-*  In the text, list references cited in chronological order
-*  Make sure all data are referenced (e.g. the RUAO data)
-*  References – et al.
+*  In the text, list references should be cited in chronological order
+*  Make sure all data are referenced (e.g. the RUAO data, AmeriFlux data eta)
+*  References – et al. -If  you have more than two authors wrote a paper then in the text (not the references) **et al.** is used after the first authors lastname. Note there is a dot after al. but not after et i.e. **et al.**
+
+
+-  Please be careful of all forms of `plagiarism. <https://student.reading.ac.uk/essentials/_the-important-stuff/rules-and-regulations/plagiarism-rules-for-referencing.aspx>`_
 
