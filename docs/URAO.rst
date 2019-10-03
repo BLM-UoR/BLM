@@ -39,6 +39,7 @@ Overview
 .. csv-table:: Wind-related measurements at URAO
     :file: URAO-wind.csv
     :widths: auto
+    :class: longtable
     :header-rows: 1
     :stub-columns: 1
 
@@ -48,6 +49,7 @@ Overview
 .. csv-table:: Temperature&humidity-related measurements at URAO
     :file: URAO-temperature.csv
     :widths: auto
+    :class: longtable
     :header-rows: 1
     :stub-columns: 1
 
@@ -57,6 +59,7 @@ Overview
 .. csv-table:: Radiation-related measurements at URAO
     :file: URAO-radiation.csv
     :widths: auto
+    :class: longtable
     :header-rows: 1
     :stub-columns: 1
 
@@ -67,6 +70,7 @@ Overview
 .. csv-table:: Other measurements at RUAO
     :file: URAO-other.csv
     :widths: auto
+    :class: longtable
     :header-rows: 1
     :stub-columns: 1
 
