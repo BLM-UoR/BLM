@@ -6,8 +6,6 @@ Python
 
 There are a lot of excellent tutorials and web pages for helping with Python coding:
 
-- `Departmental Python Refresher <https://www.bb.reading.ac.uk/bbcswebdav/pid-4599579-dt-content-rid-14129544_2/xid-14129544_2>`_
-- `More Python Help <https://www.bb.reading.ac.uk/bbcswebdav/pid-4599578-dt-content-rid-14129543_2/xid-14129543_2>`_
 
 - `The gist of Python <https://medium.com/@louwjlabuschagne/the-gist-of-python-ff5cc05c3318>`_: a quick introductory blog that covers Python basics for data analysis.
 
