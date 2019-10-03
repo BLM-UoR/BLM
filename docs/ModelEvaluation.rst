@@ -30,7 +30,7 @@ and `\hat{y}_{i}` the model’s prediction
 
 .. math::
 
-    \mathrm{MBE}=\frac{1}{N} \sum_{i=1}^{N}\left(y_{i}-\hat{y}_{i}\right)
+    \mathrm{RMSE}=\sqrt{\frac{1}{N} \sum_{i=1}^{N}\left(y_{i}-\hat{y}_{i}\right)^{2}}
 
 
 * Coefficient of determination (`R^2`)
