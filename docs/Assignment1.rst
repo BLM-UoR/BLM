@@ -103,9 +103,8 @@ Format
 GitHub Classroom submission
 ----------------------------------------------------------------
 
-This class uses GitHub Classroom (GHC) to disseminate and collect the tasks along the way within Assignment 1.
-Given GHC essentially adopts the `GitHub-based workflow`_, students don't have to explicitly submit the homework/task:
-the latest commit before deadline would be automatically considered as a timely submission.
+This class uses GitHub Classroom (GHC).  Given GHC essentially adopts the `GitHub-based workflow`_, students don't have to explicitly submit their programs (etc):
+the last commits before the deadline will be automatically considered the submission.
 
 To check if your commits are successfully submitted, please look into your ``Commits`` tab and see the details (red-squared example below):
 

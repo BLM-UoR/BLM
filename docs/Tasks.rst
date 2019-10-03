@@ -3,8 +3,7 @@
 Assignment 1 Activities
 =========================
 
-These are the various topics to be addressed in Assignment 1.
-They are designed to be in a logical calculation order to help you understand different physical properties and processes.
+These are the various topics to be addressed in Assignment 1. A series of tasks in a logical calculation order are provided to help you understand the different physical properties and processes.
 
 .. only:: latex
 
