@@ -46,7 +46,7 @@ Term 1 Course Outline
   **Lecture:** Introduction to the course
     Land cover types; Land surface modelling; Energy balance and radiation balance; Role of model parameters; :ref:`Albedo`; :ref:`LAI` - leaf area index;   :ref:`asmnt1`
 
-  **Activity**: :ref:`asmnt1` and `First Plot <tasks/task1.rst>`_
+  **Activity**: :ref:`asmnt1` and `First Plot <tasks/task1.ipynb>`_
     `AmeriFlux network <DataSource.rst>`_ and data availability; Quickstart of `GitHub <GitHub.rst>`_; :ref:`python`-based data analysis using `Jupyter Notebooks <JupyterNotebook.rst>`_
 
 .. #TODO: link to group and dataset - add as numbered list - ready to go; python info
