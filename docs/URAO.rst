@@ -10,8 +10,8 @@ URAO
 Safety
 ------
 
-The Observatory should be regarded as a laboratory environment. The same guidelines apply as for other laboratory courses in the Department (see `Departmental Handbook
- <https://www.bb.reading.ac.uk/webapps/portal/execute/tabs/tabAction?tabId=_110_1&tab_tab_group_id=_154_1>`_).
+The Observatory should be regarded as a laboratory environment. The same guidelines apply as for other laboratory courses in the Department 
+(see `Departmental Handbook <https://www.bb.reading.ac.uk/webapps/portal/execute/tabs/tabAction?tabId=_110_1&tab_tab_group_id=_154_1>`_).
 
 .. note::
 
