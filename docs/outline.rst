@@ -46,7 +46,7 @@ Term 1 Course Outline
   **Lecture:** Introduction to the course
     Land cover types; Land surface modelling; Energy balance and radiation balance; Role of model parameters; :ref:`Albedo`; :ref:`LAI` - leaf area index;   :ref:`asmnt1`
 
-  **Activity**: :ref:`asmnt1` and `FirstPlot <FirstPlot.rst>`__
+  **Activity**: :ref:`asmnt1` and `First Plot <tasks/task1.rst>`_
     `AmeriFlux network <DataSource.rst>`_ and data availability; Quickstart of `GitHub <GitHub.rst>`_; :ref:`python`-based data analysis using `Jupyter Notebooks <JupyterNotebook.rst>`_
 
 .. #TODO: link to group and dataset - add as numbered list - ready to go; python info
@@ -99,7 +99,7 @@ Week 6: 8/11/19:
 
 *Week 7: 15/11/19*
   **For class:** :ref:`Week6`
-  
+
   **Lecture:**
     Ceilometry and other methods to measure the BL
   **Activity:**
@@ -138,7 +138,7 @@ Week 6: 8/11/19:
 
 *Week 11: 13/12/19*
   **For class:** :ref:`Week10`
-  
+
   **Activity:**
     Present to class on project (5 min) (All complete online feedback); Project work
 
