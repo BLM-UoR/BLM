@@ -32,25 +32,23 @@ Boundary Layer Meteorology (MT37J/MT49E)
   Tasks
   DataSource
 
-.. only:: html
+.. toctree::
+  :caption: Scientific Background
+  :numbered:
+  :maxdepth: 1
 
-    .. toctree::
-      :caption: Scientific Background
-      :numbered:
-      :maxdepth: 1
-
-      Glossary
-      SEB
-      Penman
-      Parameters
-      LAI
-      stability
-      EddyCovariance
-      WindProfile
-      Storage
-      ModelEvaluation
-      URAO
-      References
+  Glossary
+  SEB
+  Penman
+  Parameters
+  LAI
+  stability
+  EddyCovariance
+  WindProfile
+  Storage
+  ModelEvaluation
+  URAO
+  References
 
 .. toctree::
   :caption: Preparing a Scientific Paper

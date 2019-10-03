@@ -6,14 +6,20 @@ Assignment 1 Activities
 These are the various topics to be addressed in Assignment 1.
 They are designed to be in a logical calculation order to help you understand different physical properties and processes.
 
+.. only:: latex
 
-.. toctree::
-  :caption: Activities
-  :numbered:
-  :maxdepth: 1
-  :glob:
+  The tasks are prepared in Jupyter notebooks and can be `viewed and executed online <https://blm.readthedocs.io/en/latest/Tasks.html>`_
 
-  tasks/*
+
+.. only:: html
+
+    .. toctree::
+      :caption: Activities
+      :numbered:
+      :maxdepth: 1
+      :glob:
+
+      tasks/*
 
 
 .. note::
