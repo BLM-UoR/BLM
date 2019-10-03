@@ -9,7 +9,7 @@ Objective
 
 .. tip::
    #. Read :ref:`safety` information about visiting the URAO
-   #. Read the Risk Assessment for visiting the Observatory (on `BB<https://www.bb.reading.ac.uk/bbcswebdav/pid-4623796-dt-content-rid-14266489_2/xid-14266489_2>`_).
+   #. Read the Risk Assessment for visiting the Observatory (on `BB <https://www.bb.reading.ac.uk/bbcswebdav/pid-4623796-dt-content-rid-14266489_2/xid-14266489_2>`_).
    #. Sign the Risk Assessment for visiting the Observatory.
 
 Activity in URAO
