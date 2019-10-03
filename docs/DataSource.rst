@@ -4,8 +4,7 @@ Data Sources
 ============
 
 In this course, we focus on the :term:`AmeriFlux` datasets for analysis.
-The :term:`URAO` dataset might also be used,
-so some knowledge of both will be helpful.
+The :term:`URAO` dataset might also be used, so some knowledge of both will be helpful.
 
 
 
@@ -45,6 +44,7 @@ Sites for analysis
 .. csv-table::
     :file: AMF-Site-Sel.csv
     :widths: auto
+    :class: longtable
     :header-rows: 1
 
 .. _amf_site:
@@ -68,6 +68,7 @@ Key variables for analysis
 .. csv-table::
     :file: var-SRB.csv
     :widths: 1,3,1
+    :class: longtable
     :header-rows: 1
 
 
@@ -76,6 +77,7 @@ Key variables for analysis
 .. csv-table::
     :file: var-SEB.csv
     :widths: 1,3,1
+    :class: longtable
     :header-rows: 1
 
 - Standard Meteorological Conditions
@@ -83,6 +85,7 @@ Key variables for analysis
 .. csv-table::
     :file: var-MET.csv
     :widths: 1,3,1
+    :class: longtable
     :header-rows: 1
 
 - Others
@@ -90,6 +93,7 @@ Key variables for analysis
 .. csv-table::
     :file: var-Other.csv
     :widths: 1,3,1
+    :class: longtable
     :header-rows: 1
 
 
