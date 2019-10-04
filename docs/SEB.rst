@@ -4,7 +4,7 @@ Surface energy balance
 ======================
 
 The surface energy balance (SEB) can be defined for an extensive simple
-surface as (units: :math:`\mathrm{W \ m^{-2}}` ):
+surface as (units: :math:`\mathrm{W \ m^{-2}}`):
 
 .. math::
     :label: seb
@@ -13,7 +13,7 @@ surface as (units: :math:`\mathrm{W \ m^{-2}}` ):
 
 where :math:`Q^*` is the net all wave radiation, the turbulent sensible
 heat flux (`Q_H`) and the turbulent latent heat flux (`Q_E`) and
-the soil heat flux (`Q_G`)(units: :math:`\mathrm{W \ m^{-2}}`).
+the soil heat flux (`Q_G`) (units: :math:`\mathrm{W \ m^{-2}}`).
 
 Note other notation that is used for the SEB are (in the same order as above):
 
@@ -59,15 +59,15 @@ Examples of instruments in the :ref:`URAO` are listed.  From papers you will be 
 
 Radiation fluxes
 ----------------------
-Various types of radiometers are used. For shortwave radiation pyranometers are used and for longwave radiation pyrgeometers. The source area or field of view of a radiation sensor is fixed by geomtery.
+Various types of radiometers are used. For shortwave radiation, pyranometers are used, and for longwave radiation, pyrgeometers are used. The source area or field of view of a radiation sensor is fixed by geomtery.
 
 Turbulent heat Fluxes
 ----------------------
 
 The turbulent heat fluxes and momentum can be measured using Eddy
-Covariance techniques (see :ref:`EC`). These require a sonic anemometer and a gas analyser.
+Covariance techniques (see :ref:`EC`). These require a sonic anemometer and an infrared gas analyser.
 
-As the source area of EC sensors varies with wind direction, fetch, stability etc, the surface characteristics may change with timeif the fetch is not homogeneous.
+As the source area of EC sensors varies with wind direction, fetch, stability etc, the surface characteristics may change with time if the fetch is not homogeneous.
 
 SEB and Radiation Balance Modelling
 ===================================================

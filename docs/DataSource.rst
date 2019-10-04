@@ -105,4 +105,4 @@ URAO
 
 Please visit `URAO documentation site
 <http://www.met.reading.ac.uk/~sws09a/MODE3_help.html>`_
-for information of observations at URAO.
+for information about observations at URAO.
