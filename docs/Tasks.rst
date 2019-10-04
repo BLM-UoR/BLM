@@ -18,13 +18,12 @@ They are designed to be in a logical calculation order to help you understand di
       The tasks designed here are based GitHub using Python 3.
       We recommend these softwares/bundles (with download links) as tools for finishing tasks:
 
-      #. Anaconda 3: an easy-to-use Python 3 bundle with many preinstalled data analysis packages. `download link <https://www.anaconda.com/distribution/>`_
+      #. Anaconda 3: an easy-to-use Python 3 bundle with many preinstalled data analysis packages. `download  Anaconda 3 <https://www.anaconda.com/distribution/>`_
 
-      #. GitHub Desktop: the official git client by GitHub with essential git functionalities. `download link <https://desktop.github.com>`_
+      #. GitHub Desktop: the official git client by GitHub with essential git functionalities. `download GitHub Desktop <https://desktop.github.com>`_
 
   .. toctree::
     :caption: Activities
-    :numbered:
     :maxdepth: 1
     :glob:
 
