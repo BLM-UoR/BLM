@@ -1,22 +1,12 @@
 .. _BringToClass:
 
-For Next Class Material 
-==========================================
+For Next Class Material
+=======================
 
  - Each week you will present completed `formative work <Tasks.rst>`_ related to  the Assignments. The feedback you will receive each  week is to help with all aspects or preparing the papers.
 
-.. _Week1:
-
-Week 1
-------
-
-#. Revise your :ref:`python` programming and other previous course work (e.g. related to the :ref:`SEB` etc).  
-#. If you don’t have a GitHub username (please sign up at https://github.com/ ).
-#. Please send your GitHub username  to the :ref:`Team` team so we can get you ready for :ref:`asmnt1`. 
-#. Please read the `Risk Assessment for visting the Observatory <https://www.bb.reading.ac.uk/bbcswebdav/pid-4623796-dt-content-rid-14266489_2/xid-14266489_2>`_.
 
 .. _Week2:
-
 
 Week 2
 ------
@@ -53,7 +43,7 @@ Week 5
 Week 6 of classes (7 of term)
 --------------------------------
 
-#. Each land cover group - short presentation on `Q_E` and `Q_H` 
+#. Each land cover group - short presentation on `Q_E` and `Q_H`
 #. *Assignment 1 handed in via BB on* **19 November 2019 12 noon**
 
 .. _Week7:
@@ -81,3 +71,13 @@ Week 9
 Week 10
 ------
 #. **Submit presentation via BB BY 5 PM day before**
+
+.. _Week1:
+
+Week 1
+------
+
+#. Revise your :ref:`python` programming and other previous course work (e.g. related to the :ref:`SEB` etc).
+#. If you don’t have a GitHub username (please sign up at https://github.com/ ).
+#. Please send your GitHub username  to the :ref:`Team` team so we can get you ready for :ref:`asmnt1`.
+#. Please read the `Risk Assessment for visting the Observatory <https://www.bb.reading.ac.uk/bbcswebdav/pid-4623796-dt-content-rid-14266489_2/xid-14266489_2>`_.
