@@ -1,9 +1,11 @@
 .. _BringToClass:
 
 For Next Class Material
-=======================
+
 
  - Each week you will present completed `formative work <Tasks.rst>`_ related to  the Assignments. The feedback you will receive each  week is to help with all aspects or preparing the papers.
+
+
 
 
 .. _Week2:
@@ -11,7 +13,7 @@ For Next Class Material
 Week 2
 ------
 
-#. Print out with figure captions with a plot of the radiation balance (1 site) for one sunny and one cloudy day (see `FirstPlot <FirstPlot.rst>`__) etc.
+#. Print out with figure captions with a plot of the radiation balance (1 site) for one sunny and one cloudy day (see `Task 1 <tasks/task1.ipynb>`__) etc.
 #. Plot of albedo variation on both days
 #. Literature (a journal article) with some albedo values for your land cover type
 #. Note features of the paper structure: figure/table captions, multiple figures, text structure, referencing etc.
