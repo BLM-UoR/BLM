@@ -16,9 +16,9 @@ Paper  structure
 
 Projects Topics
 ---------------------------
-The projects should draw on the URAO data and/or AmeriFlux (and/or other sites if appropriate). The goal is to undertake a more in depth analysis of some aspect of Boundary Layer Meteorology. It is most likely to be a more in depth analysis of data analysed in Assignment 1  (e.g. longer time period, different analyses discussed in class, lecture notes) or using the models discussed in class, etc.
+The projects should draw on the URAO data and/or AmeriFlux (and/or other sites if appropriate). The goal is to undertake a more in depth analysis of some aspect of Boundary Layer Meteorology. It is most likely to be a more in-depth analysis of data analysed in Assignment 1 (e.g. longer time period, different analyses discussed in class, lecture notes) or using the models discussed in class, etc.
 
-Potential projects (these are just some ideas, other will be mentioned in class, or discuss other ideas with me/us)
+Potential projects (these are just some ideas, others will be mentioned in class, or discuss other ideas with me/us)
 
 #. Evaluation of SUEWS/SuPy model or other models
 
