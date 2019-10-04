@@ -3,7 +3,8 @@
 Assignment 1 Activities
 =========================
 
-These are the various topics to be addressed in Assignment 1. A series of tasks in a logical calculation order are provided to help you understand the different physical properties and processes.
+These are the various topics to be addressed in Assignment 1.
+They are designed to be in a logical calculation order to help you understand different physical properties and processes.
 
 .. only:: latex
 
@@ -25,8 +26,20 @@ These are the various topics to be addressed in Assignment 1. A series of tasks 
 
     #. When you write your paper, the presentation will be as a coherent scientific paper, not a set of individual tasks, not necessarily in this order and not including each of the individual components (e.g. `Week 1 plots <tasks/task1.ipynb>`_ are intended to get you going).
 
-    #. These tasks are to be undertaken *in assigned groups* according to
-       land cover types, but *independent papers* will be written (without plagarism).
+    #. These tasks are to be undertaken *in assigned groups* according to land cover types, but *independent papers* will be written (without plagarism).
+
+
+.. tip::
+
+    The tasks designed here are based GitHub using Python 3.
+    We recommend these softwares/bundles (with download links) as tools for finishing tasks:
+
+    #. Anaconda 3: an easy-to-use Python 3 bundle with many preinstalled data analysis packages. `download link <https://www.anaconda.com/distribution/>`_
+
+    #. GitHub Desktop: the official git client by GitHub with essential git functionalities. `download link <https://desktop.github.com>`_
+
+
+
 
 
 
