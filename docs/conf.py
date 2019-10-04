@@ -161,6 +161,15 @@ rst_prolog = """
 .. |NotRecmd| replace:: **Not recommended in this version.**
 .. |NotAvail| replace:: **Not available in this version.**
 .. |NotUsed| replace:: **Not used in this version.**
+
+.. _GitHub page: https://github.com/Urban-Meteorology-Reading/BLM/issues/new
+
+.. only:: html
+
+    .. note::
+
+      Please report issues or ask questions about this site on the `GitHub page`_.
+
 """
 # -- Options for HTML output -------------------------------------------------
 # The theme to use for HTML and HTML Help pages.  See the documentation for
