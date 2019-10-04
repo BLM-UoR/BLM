@@ -68,7 +68,7 @@ Week 3: 18/10/19
 
   **Lecture:** :ref:`seb` fluxes
     Storage heat flux; Surface resistances; Energy balance closure
-  **Activity:** Aerodynamic related parameters
+  **Activity:** :ref:`Aerodynamic related parameters <roughness>`
     Calculation of roughness length `z_0` and zero plane displacement `d`, and aerodynamic resistance `r_a`
 
 

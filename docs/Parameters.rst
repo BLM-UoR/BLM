@@ -52,7 +52,7 @@ able to get a lot of samples rapidly.
 How does it vary with wind direction?
 '''''''''''''''''''''''''''''''''''''''
 
-A rule of thumb for calculating d is to assume it is ~0.75h where h is
+A rule of thumb for calculating d is to assume it is ~0.75 `h` where `h` is
 the height of the canopy. As the heights may vary with direction you can
 determine how much this may vary. What are expected to be consistent
 sectors?
@@ -60,7 +60,7 @@ sectors?
 The wind profile can also be used to determine :math:`z_0` and :math:`d`
 if there are more than 2 levels in the profile. This requires fitting a
 straight line (linear regression) through the data to determine the
-intercept, which provides the z0+d value.
-See :cite:`grimmond1998aerodynamic` equations 1-2.
+intercept, which provides the `z_0+d` value.
+See equations 1-2 in :cite:`grimmond1998aerodynamic`.
 
 For `References <References.rst>`__ see list
