@@ -4,6 +4,10 @@
 Python
 ======
 
+
+Useful Links
+------------
+
 There are a lot of excellent tutorials and web pages for helping with Python coding:
 
 
@@ -37,10 +41,17 @@ There are a lot of excellent tutorials and web pages for helping with Python cod
     * `Data Wrangling with pandas <https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_3-Data-Wrangling-with-Pandas.ipynb>`_
 
 
-  .. toctree::
-    :caption: Tutorials
-    :numbered:
-    :maxdepth: 1
-    :glob:
+Tutorials
+----------
 
-    tutorials/*
+The following tutorials are provided to demonstrate basic skills in data analysis and visualisation using Python.
+
+.. note:: These tutorials are in Jupyter notebooks and can be executed and viewed online.
+
+
+.. toctree::
+  :numbered:
+  :maxdepth: 1
+  :glob:
+
+  tutorials/*
