@@ -1,6 +1,6 @@
 .. _BringToClass:
 
-For Next Class Material 
+For Next Class Material
 ==========================================
 
  - Each week you will present completed `formative work <Tasks.rst>`_ related to  the Assignments. The feedback you will receive each  week is to help with all aspects or preparing the papers.
@@ -10,9 +10,9 @@ For Next Class Material
 Week 1
 ------
 
-#. Revise your :ref:`python` programming and other previous course work (e.g. related to the :ref:`SEB` etc).  
+#. Revise your :ref:`python` programming and other previous course work (e.g. related to the :ref:`SEB` etc).
 #. If you don’t have a GitHub username (please sign up at https://github.com/ ).
-#. Please send your GitHub username  to the :ref:`Team` team so we can get you ready for :ref:`asmnt1`. 
+#. Please send your GitHub username  to the :ref:`Team` team so we can get you ready for :ref:`asmnt1`.
 #. Please read the `Risk Assessment for visting the Observatory <https://www.bb.reading.ac.uk/bbcswebdav/pid-4623796-dt-content-rid-14266489_2/xid-14266489_2>`_.
 
 .. _Week2:
@@ -21,7 +21,7 @@ Week 1
 Week 2
 ------
 
-#. Print out with figure captions with a plot of the radiation balance (1 site) for one sunny and one cloudy day (see `FirstPlot <FirstPlot.rst>`__) etc.
+#. Print out with figure captions with a plot of the radiation balance (1 site) for one sunny and one cloudy day (see `Task 1 <tasks/task1.ipynb>`__) etc.
 #. Plot of albedo variation on both days
 #. Literature (a journal article) with some albedo values for your land cover type
 #. Note features of the paper structure: figure/table captions, multiple figures, text structure, referencing etc.
@@ -53,7 +53,7 @@ Week 5
 Week 6 of classes (7 of term)
 --------------------------------
 
-#. Each land cover group - short presentation on `Q_E` and `Q_H` 
+#. Each land cover group - short presentation on `Q_E` and `Q_H`
 #. *Assignment 1 handed in via BB on* **19 November 2019 12 noon**
 
 .. _Week7:
