@@ -13,13 +13,22 @@ They are designed to be in a logical calculation order to help you understand di
 
 .. only:: html
 
-    .. toctree::
-      :caption: Activities
-      :numbered:
-      :maxdepth: 1
-      :glob:
+  .. tip::
 
-      tasks/*
+      The tasks designed here are based GitHub using Python 3.
+      We recommend these softwares/bundles (with download links) as tools for finishing tasks:
+
+      #. Anaconda 3: an easy-to-use Python 3 bundle with many preinstalled data analysis packages. `download link <https://www.anaconda.com/distribution/>`_
+
+      #. GitHub Desktop: the official git client by GitHub with essential git functionalities. `download link <https://desktop.github.com>`_
+
+  .. toctree::
+    :caption: Activities
+    :numbered:
+    :maxdepth: 1
+    :glob:
+
+    tasks/*
 
 
 .. note::
@@ -29,14 +38,6 @@ They are designed to be in a logical calculation order to help you understand di
     #. These tasks are to be undertaken *in assigned groups* according to land cover types, but *independent papers* will be written (without plagarism).
 
 
-.. tip::
-
-    The tasks designed here are based GitHub using Python 3.
-    We recommend these softwares/bundles (with download links) as tools for finishing tasks:
-
-    #. Anaconda 3: an easy-to-use Python 3 bundle with many preinstalled data analysis packages. `download link <https://www.anaconda.com/distribution/>`_
-
-    #. GitHub Desktop: the official git client by GitHub with essential git functionalities. `download link <https://desktop.github.com>`_
 
 
 
