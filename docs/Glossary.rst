@@ -30,3 +30,9 @@ Glossary
     URAO
         `University of Reading Atmospheric Observatory <http://www.met.reading.ac.uk/observatorymain/>`_
 
+    FAO
+        Food and Agriculture Organisation, a specialised agency of the United Nations that leads international efforts to defeat hunger.
+
+    OHM
+        Objective Hysteresis Model
+
