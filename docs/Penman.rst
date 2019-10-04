@@ -27,13 +27,13 @@ fluxes should be written in resistance notation
     Q_{H} = - \rho c_{p}\frac{T - T_{0}}{r_{h}}
 
 .. math::
-   :label: qh_pm
+   :label: qe_pm
 
     L_{v}E = - \frac{L_{v}}{R_{v}T}\frac{e - e_{0}}{r_{v}}
 
 
 We can rewrite :eq:`qe_pm` in terms of `r_h` and the effective psychrometer
-const­ant `\gamma^*`:
+constant `\gamma^*`:
 
 .. math::
     :label: qe_1
@@ -206,7 +206,7 @@ the evaporative flux from a surface using the Monteith (1965) adaptation
 for vegetated surface of Penman (1948):
 
 .. math::
-    :label: qe_pm
+    :label: qe_pm_x
 
     Q_{E} =
     \frac{s\left( Q^{*} - Q_{G} \right) + \rho c_{p}(e_{s} - e)/r_{H}}
