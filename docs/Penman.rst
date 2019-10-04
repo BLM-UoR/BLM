@@ -59,10 +59,10 @@ assumed that the surface vapour pressure is at saturation, i.e.
     e_{0}=e_{s}\left(T_{0}\right)=e_{s}(T)-s\left(T-T_{0}\right)
 
 
-By substitution of :eq:`e0` into :eq:`qe`
+By substitution of :eq:`e0` into :eq:`qe_pm`
 we get `Q_E` in terms of `T-T_0` which is not known.
 But by combining the new equation for `Q_E`, `T-T_0` may
-be eliminated from :eq:`qh` for `Q_H`.
+be eliminated from :eq:`qh_pm` for `Q_H`.
 
 The final assumption is that of energy balance closure (EBC), i.e. that
 `Q^*-Q_G=Q_H+Q_E`. By substitution of the new equation for `Q_H`,
@@ -73,7 +73,7 @@ we obtain the *Penman equation*
 
     L_{v}E =
     \frac
-    {s\left( Q* - Q_{G} \right) + \rho c_{p}\left( e_{s}(T) - e \right)/r_{H}}
+    {s\left( Q^* - Q_{G} \right) + \rho c_{p}\left( e_{s}(T) - e \right)/r_{H}}
     {s + \gamma_{*}}
 
 giving latent heat flux as a function of variables measured at one
@@ -136,12 +136,9 @@ For non-neutral conditions:
 Under *stable conditions*, the aerodynamic resistance for sensible heat
 transfer (`r_h`) is usually taken as equal to `r_a`.
 Under *unstable conditions*, the assumption
-:math:`\frac{\phi_{h} =}{{\phi_{m}^{2}}_{m}}`
-means than we need to
-multiply `r_a` by :math:`\phi_{m}` to get `r_h`. In both cases, the
-aerodynamic resistance for water vapour and other scalar fluxes is
-generally assumed to be the same as that for sensible heat. Note that,
-in general, `z` should be replaced by `z-d` if the sampling height is
+:math:`\phi_{h}=\phi_{m}^{2}` means that we need to multiply `r_a` by :math:`\phi_{m}` to get `r_h`.
+In both cases, the aerodynamic resistance for water vapour and other scalar fluxes is generally assumed to be the same as that for sensible heat.
+Note that, in general, `z` should be replaced by `z-d` if the sampling height is
 not much greater than the zero-plane displacement height `d`.
 
 The Penman-Monteith equation
