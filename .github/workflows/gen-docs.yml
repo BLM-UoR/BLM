@@ -5,7 +5,6 @@ on:
   push:
     branches:    # Array of patterns that match refs/heads
       - master     # Push events on master branch
-      - Ting     # Push events on master branch
       # - test-dev
   #     - 'releases/*' # Push events to branches matching refs/heads/releases/*
   #     - '!refs/pull/*'
