@@ -57,7 +57,7 @@ Term 1 Course Outline
   **For class:** :ref:`Week2`
 
    **Lecture:** Wind related parameters
-    Stability; Log law and roughness length; Aerodynamic resistances; Fetch|
+    EC; Fetch;  Log law and roughness length; Stability; Aerodynamic resistance
   **Activity:**
     Visit `Observatory <Observatory.rst>`__ (unless raining); What sensors measure the variables used to calculate model parameters? Variability of :ref:`Albedo` with time (e.g. :ref:`LAI` variations)
 
