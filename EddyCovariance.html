@@ -1,0 +1,519 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>10. Eddy Covariance &mdash; BLM 2019-10-07 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processClass": "math|output_area", "processEscapes": true, "ignoreClass": "document"}})</script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/fix-eq.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="11. Wind Profile" href="WindProfile.html" />
+    <link rel="prev" title="9. Stability" href="stability.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> BLM
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2019 Autumn
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Overview of Term 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="outline.html">1. Autumn 2019 Course Outline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="BringToClass.html">2. For Next Class Material</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ReadingList.html">3. Recommended Readings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Assignment1.html">4. Assignment 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Assignment2.html">5. Assignment 2</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Assignment 1 components</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Tasks.html">1. Assignment 1 Activities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DataSource.html">2. Data Sources</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Scientific Background</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Glossary.html">1. Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html">2. Surface energy balance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#radiation-balance">3. Radiation balance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#seb-and-radiation-balance-measurements">4. SEB and Radiation Balance Measurements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#seb-and-radiation-balance-modelling">5. SEB and Radiation Balance Modelling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Penman.html">6. Penman</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Parameters.html">7. Model Parameters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LAI.html">8. LAI (Leaf Area Index)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stability.html">9. Stability</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">10. Eddy Covariance</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#sonic-anemometer">10.1. Sonic Anemometer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#infra-red-gas-analyser-irga">10.2. Infra-red Gas Analyser (IRGA)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#instruments-at-different-sites">10.2.1. Instruments at Different Sites</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#eddy-covariance-ec-method-to-measure-fluxes">10.3. Eddy covariance (EC) method to measure fluxes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#rotation-of-ec-data">10.4. Rotation of EC data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#co-ordinate-transformation-of-wind-components">10.5. Co-ordinate transformation of wind components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#errors-in-statistics">10.6. Errors in statistics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#the-autocorrelation-function-and-integral-timescale">10.7. The autocorrelation function and integral timescale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#calculation-of-errors-on-covariances">10.8. Calculation of errors on covariances</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="WindProfile.html">11. Wind Profile</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Storage.html">12. Storage Heat Flux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ModelEvaluation.html">13. Metrics for Model evaluation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="URAO.html">14. URAO</a></li>
+<li class="toctree-l1"><a class="reference internal" href="References.html">15. References</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Preparing a Scientific Paper</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ScientificPaper.html">1. Scientific paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CommonMistakes.html">2. Common Mistakes: things to check</a></li>
+<li class="toctree-l1"><a class="reference internal" href="OtherResources.html">3. Other Resources</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Technical Tips</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="python.html">1. Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="JupyterNotebook.html">2. Jupyter Notebook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="GitHub.html">3. GitHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials.html">4. Python Tutorials</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">BLM</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>10. Eddy Covariance</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/EddyCovariance.rst" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast,
+.nboutput.nblast {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast + .nbinput {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please report issues or ask questions about this site on the <a class="reference external" href="https://github.com/Urban-Meteorology-Reading/BLM/issues/new">GitHub page</a>.</p>
+</div>
+<div class="section" id="eddy-covariance">
+<span id="ec"></span><h1>10. Eddy Covariance<a class="headerlink" href="#eddy-covariance" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="sonic-anemometer">
+<h2>10.1. Sonic Anemometer<a class="headerlink" href="#sonic-anemometer" title="Permalink to this headline">¶</a></h2>
+<p>A <strong>sonic anemometer</strong> derives the wind-speed from transit times of
+acoustic pulses travelling in both directions along a fixed path. The
+wind-speed component along the path is proportional to the difference
+between the transit times. Three sets of transducer pairs are used to
+derive the three components of the wind vector u, v, w. In addition, the
+speed of sound can be deduced:</p>
+<div class="math notranslate nohighlight" id="equation-v-sound">
+<span class="eqno">(10.1)<a class="headerlink" href="#equation-v-sound" title="Permalink to this equation">¶</a></span>\[c^2=403T_s,\]</div>
+<p>where <span class="math notranslate nohighlight">\(T_s\)</span> is the sonic temperature:</p>
+<div class="math notranslate nohighlight" id="equation-t-sonic">
+<span class="eqno">(10.2)<a class="headerlink" href="#equation-t-sonic" title="Permalink to this equation">¶</a></span>\[T_s=T(1+0.32 e/p)\]</div>
+<p>where <span class="math notranslate nohighlight">\(T\)</span> is the dry bulb temperature, <span class="math notranslate nohighlight">\(e\)</span> is the water vapour pressure, and
+<span class="math notranslate nohighlight">\(p\)</span> is the air pressure. The sonic temperature is approximately equal to
+the virtual temperature <span class="math notranslate nohighlight">\(T_v\)</span>.</p>
+<p>In practical use, the covariance:
+<span class="math notranslate nohighlight">\(\overline{w^{\prime} T_{s}^{\prime}} \approx \overline{w^{\prime} T^{\prime}}\)</span>
+and therefore the sonic anemometer can be used to estimate turbulent
+sensible heat flux (<span class="math notranslate nohighlight">\(Q_H\)</span>). Sonic anemometers are the standard
+instrument used to observe turbulence in the atmospheric boundary layer.</p>
+<div class="figure align-center" id="id1">
+<img alt="_images/EC-principle.png" src="_images/EC-principle.png" />
+<p class="caption"><span class="caption-number">Fig. 10.1 </span><span class="caption-text">Principle behind sonic measurement of velocity and speed of sound</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="infra-red-gas-analyser-irga">
+<h2>10.2. Infra-red Gas Analyser (IRGA)<a class="headerlink" href="#infra-red-gas-analyser-irga" title="Permalink to this headline">¶</a></h2>
+<p>IRGA allows measurement of variations in water vapour and carbon dioxide
+allowing the latent heat flux and carbon dioxide to be measured.
+The specific humidity of water vapour <span class="math notranslate nohighlight">\(q\)</span> is expressed in units of kg kg<sup>-1</sup>.
+The absolute humidity (kg m<sup>-3</sup>) is derived by taking the molecular weight of water into account (1 mol = 18 g = 0.018 kg)
+and similarly for carbon dioxide concentrations (molar mass 44 g mol<sup>-1</sup>).</p>
+<ol class="arabic simple">
+<li><p>Open-path IRGA: Measurements are made at station pressure.</p></li>
+<li><p>Closed-path IRGA: Air is sucked down a tube into the instrument
+itself</p></li>
+</ol>
+<div class="figure align-center" id="id2">
+<span id="li7500"></span><a class="reference internal image-reference" href="_images/li7500-schematic.png"><img alt="_images/li7500-schematic.png" src="_images/li7500-schematic.png" style="width: 480.0px; height: 397.5px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 10.2 </span><span class="caption-text">Schematic of the LI-COR Li 7500 open path infra-red gas analyser (IRGA) (source: <a class="reference external" href="https://www.licor.com/env/products/eddy_covariance/LI-7500DS.html">LI-COR</a>)</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<div class="section" id="instruments-at-different-sites">
+<h3>10.2.1. Instruments at Different Sites<a class="headerlink" href="#instruments-at-different-sites" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-center" id="id3">
+<span id="gill"></span><a class="reference internal image-reference" href="_images/sonic-anemometer.jpg"><img alt="_images/sonic-anemometer.jpg" src="_images/sonic-anemometer.jpg" style="width: 400.0px; height: 300.0px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 10.3 </span><span class="caption-text">Gill R3 sonic anemometer (source: <a class="reference external" href="http://www.gillinstruments.com/new-images/applications/sonic-anemometer/sonic-anemometer-1.jpg">Gill Instruments</a>).</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic">
+<li><p>Site: URAO</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>see <a class="reference external" href="Observatory.rst">Observatory</a>.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Site: AmeriFlux</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Each site has a key reference that gives the details of the
+instruments used.</p></li>
+<li><p>Please see <a class="reference internal" href="DataSource.html#amf-site"><span class="std std-ref">AmeriFlux Site page</span></a> for details (login required with free registration).</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+</div>
+</div>
+<div class="section" id="eddy-covariance-ec-method-to-measure-fluxes">
+<h2>10.3. Eddy covariance (EC) method to measure fluxes<a class="headerlink" href="#eddy-covariance-ec-method-to-measure-fluxes" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><span class="math notranslate nohighlight">\(\tau\)</span> unfortunately (by convention) is used for both momentum and time lag</p>
+</div>
+<p>EC is regarded as the standard method to measure fluxes as it quantifies
+directly the contribution by each eddy. EC fluxes of momentum, heat and
+moisture require fast response (10-20 Hz) measurements to capture the
+scales of turbulence contributing to fluxes. The momentum flux (or
+Reynolds stress) is calculated from:</p>
+<div class="math notranslate nohighlight" id="equation-tau">
+<span class="eqno">(10.3)<a class="headerlink" href="#equation-tau" title="Permalink to this equation">¶</a></span>\[\tau=\rho \sqrt{\left(\overline{u^{\prime} w^{\prime}}^2
++\overline{v^{\prime} w^{\prime}}^2\right)}\]</div>
+<p>This considers any vertical transfer of lateral momentum
+<span class="math notranslate nohighlight">\(\overline{u^{\prime} w^{\prime}}\)</span>.
+The sensible heat flux is given by:</p>
+<div class="math notranslate nohighlight" id="equation-qh">
+<span class="eqno">(10.4)<a class="headerlink" href="#equation-qh" title="Permalink to this equation">¶</a></span>\[Q_{H}=\rho c_{p} \overline{w^{\prime} T^{\prime}}\]</div>
+<p>assuming that <span class="math notranslate nohighlight">\(T\approx \theta\)</span> , and the latent heat flux
+(<span class="math notranslate nohighlight">\(Q_E\)</span> ) is given by:</p>
+<div class="math notranslate nohighlight" id="equation-qe">
+<span class="eqno">(10.5)<a class="headerlink" href="#equation-qe" title="Permalink to this equation">¶</a></span>\[Q_{E}=L_{V} \overline{w^{\prime}} q^{\prime}\]</div>
+<p>where <span class="math notranslate nohighlight">\(L_{V}\)</span> is the latent heat of vaporisation
+(<span class="math notranslate nohighlight">\(\approx 2.45 \times 10^6 \text{kg}^{-1}\)</span>)
+and q is the specific humidity.
+These equations assume the vertical component of the flux dominates,
+i.e. flow is homogeneous and steady.</p>
+</div>
+<div class="section" id="rotation-of-ec-data">
+<h2>10.4. Rotation of EC data<a class="headerlink" href="#rotation-of-ec-data" title="Permalink to this headline">¶</a></h2>
+<p>In theory, the wind component u is defined as being aligned with the
+mean wind direction, and thus the mean vertical component. The
+instrument itself has a fixed frame of reference, so how is this
+achieved? The frame of reference is rotated to align the new u axis with
+the measured mean wind vector.</p>
+<p>This is called double rotation as it is
+usually done in two steps:</p>
+<ol class="arabic simple">
+<li><p>rotate through angle <span class="math notranslate nohighlight">\(\alpha\)</span> around the vertical axis so that;</p></li>
+<li><p>rotate through angle <span class="math notranslate nohighlight">\(\beta\)</span> around the lateral axis so that.</p></li>
+</ol>
+<p>Mathematically this is given by:</p>
+<div class="math notranslate nohighlight" id="equation-rot-mat">
+<span class="eqno">(10.6)<a class="headerlink" href="#equation-rot-mat" title="Permalink to this equation">¶</a></span>\[\begin{split}\begin{aligned}
+\left[
+\begin{array}{c}{u_{2}} \\ {v_{2}} \\ {w_{2}}\end{array}
+\right]=
+\left[
+\begin{array}{ccc}{\cos \alpha \cos \beta} &amp; {\sin \alpha \cos \beta} &amp; {\sin \beta}
+\\ {-\sin \alpha} &amp; {\cos \alpha} &amp; {0}
+\\ {-\cos \alpha \sin \beta} &amp; {-\sin \alpha \sin \beta} &amp; {\cos \beta}\end{array}\right]
+\times
+\left[\begin{array}{c}
+    {\overline{u}}
+\\ {\overline{v}}
+\\ {\overline{w}}
+\end{array}
+\right]
+\end{aligned}\end{split}\]</div>
+<p>where <span class="math notranslate nohighlight">\(\alpha=\tan ^{-1}(\overline{v} / \overline{u})\)</span> and
+<span class="math notranslate nohighlight">\(\beta=\tan ^{-1}(\overline{w} / \sqrt{\overline{u}^{2}+\overline{v}^{2}})\)</span>.</p>
+</div>
+<div class="section" id="co-ordinate-transformation-of-wind-components">
+<h2>10.5. Co-ordinate transformation of wind components<a class="headerlink" href="#co-ordinate-transformation-of-wind-components" title="Permalink to this headline">¶</a></h2>
+<p>It is not generally possible to mount a 3-directional anemometer so that
+its axes coincide with the directions
+<span class="math notranslate nohighlight">\(\overline{u}&gt;0, \overline{v}=0, \overline{w}=0\)</span>
+(where the over-bar denotes time-averaging over many data values).
+However, a co-ordinate transformation applied to the sensed components
+<span class="math notranslate nohighlight">\(U, V, W\)</span> means that the transformed component series <span class="math notranslate nohighlight">\(u, v, w\)</span>
+satisfies the above properties.
+The transformed components can be calculated using</p>
+<div class="math notranslate nohighlight" id="equation-rot-wind">
+<span class="eqno">(10.7)<a class="headerlink" href="#equation-rot-wind" title="Permalink to this equation">¶</a></span>\[\begin{split}\begin{aligned}
+\begin{array}{l}
+{u=U \cos A \cos B+V \cos A \sin B+w \sin A} \\
+{v=V \cos B-U \sin B} \\
+{w=W \cos A-U \sin A \cos B-V \sin A \sin B}
+\end{array}
+\end{aligned}\end{split}\]</div>
+<p>where angle <span class="math notranslate nohighlight">\(A=\arctan{(\overline{W}/S)}\)</span>,
+<span class="math notranslate nohighlight">\(\sin B=\overline{V}/S\)</span>, <span class="math notranslate nohighlight">\(\sin B=\overline{U}/S\)</span> ,
+<span class="math notranslate nohighlight">\(S=\overline{U}^2+\overline{V}^2\)</span>.</p>
+</div>
+<div class="section" id="errors-in-statistics">
+<h2>10.6. Errors in statistics<a class="headerlink" href="#errors-in-statistics" title="Permalink to this headline">¶</a></h2>
+<p>Reynolds averaging requires separation into a <em>mean</em> part (low frequency
+variation) and <em>fluctuations</em> (high frequency) from which we calculate
+covariances, variances, etc which are all in some sense a mean value
+taken over many samples.
+Usually we calculate the <em>standard error of a mean</em>.</p>
+<div class="math notranslate nohighlight" id="equation-delta-a">
+<span class="eqno">(10.8)<a class="headerlink" href="#equation-delta-a" title="Permalink to this equation">¶</a></span>\[\Delta_{\alpha} = \sigma_{\alpha}/\sqrt{N}\]</div>
+<p>where <span class="math notranslate nohighlight">\(N\)</span> is the number of samples taken. In turbulence, we know that each
+discrete measurement – or sample – is not fully independent of the last
+one, and the number of samples which are correlated is determined by the
+<strong>integral time-scale</strong> <em>LT</em>. So N should be replaced by the
+<em>number of independent samples</em>:</p>
+<div class="math notranslate nohighlight" id="equation-n-ind">
+<span class="eqno">(10.9)<a class="headerlink" href="#equation-n-ind" title="Permalink to this equation">¶</a></span>\[N_{i} = T/L_{T}\]</div>
+<p>where <span class="math notranslate nohighlight">\(T\)</span> is the period over which data is being averaged.</p>
+<p>Statistical <em>stationarity</em> of a time series means that variances and
+covariances approach a stable value as the averaging time is extended,
+and the errors associated get smaller. So <em>how long is long enough</em>?
+The aim is to have a large number of samples.</p>
+<p>So given that the averaging period <span class="math notranslate nohighlight">\(T = N\Delta t\)</span>,
+there is a trade-off between the sampling period and the interval
+between samples, <span class="math notranslate nohighlight">\(\Delta t\)</span>. If <span class="math notranslate nohighlight">\(\Delta t\)</span> is too long, then <span class="math notranslate nohighlight">\(T\)</span> must be
+increased to keep <span class="math notranslate nohighlight">\(N\)</span> large. The danger is that <em>T</em> is too long, and the
+statistics are no longer stationary, i.e. the turbulent flow has changed
+in response to external factors like a gust front passing through.
+Typically, sampling rate is 10-20 Hz, and the averaging period is 30-60
+minutes depending on conditions.</p>
+</div>
+<div class="section" id="the-autocorrelation-function-and-integral-timescale">
+<h2>10.7. The autocorrelation function and integral timescale<a class="headerlink" href="#the-autocorrelation-function-and-integral-timescale" title="Permalink to this headline">¶</a></h2>
+<p>As well as calculating the covariance between two variables, it is
+instructive to look at the <em>auto-correlation function</em>, or the
+correlation of a variable with itself at later time-steps. For instance,
+consider the <em>u</em> component of the wind</p>
+<div class="math notranslate nohighlight" id="equation-auto-u">
+<span class="eqno">(10.10)<a class="headerlink" href="#equation-auto-u" title="Permalink to this equation">¶</a></span>\[R_{u}(\tau) = \frac{\overline{u^{'}(t)u^{'}(t + \tau)}}{{\sigma_{u}}^{2}}\]</div>
+<p>Hence <span class="math notranslate nohighlight">\(R(\tau)=1\)</span> at <span class="math notranslate nohighlight">\(\tau = 0\)</span>. The rate at which <span class="math notranslate nohighlight">\(R(\tau)\)</span> decreases with lag
+is related to the <em>size distribution</em> of eddies. Large eddies cause
+slower variations in the time series, and thus the auto-correlation will
+decrease more slowly with lag than for a time series dominated by
+smaller eddies. Hence, a simple measure of ‘typical eddy size’ is given
+by the integral timescale <span class="math notranslate nohighlight">\(L_T\)</span> , defined as</p>
+<div class="math notranslate nohighlight" id="equation-lt">
+<span class="eqno">(10.11)<a class="headerlink" href="#equation-lt" title="Permalink to this equation">¶</a></span>\[L_{T} = \int_{0}^{\infty}{R(\tau)\text{dτ}}\]</div>
+<p>From Taylor’s frozen turbulence hypothesis, the integral length-scale
+<span class="math notranslate nohighlight">\(L_X =\overline{u}L_T\)</span>. The integral length-scale for a variable can be thought
+of as the <em>decorrelation length-scale</em>,
+i.e. for <em>two sensors separated</em> beyond this distance,
+the turbulence measured at each will
+not be correlated.</p>
+</div>
+<div class="section" id="calculation-of-errors-on-covariances">
+<h2>10.8. Calculation of errors on covariances<a class="headerlink" href="#calculation-of-errors-on-covariances" title="Permalink to this headline">¶</a></h2>
+<p>For a covariance (e.g. <span class="math notranslate nohighlight">\(\overline{w'T'})\ \)</span> the error can be
+calculated: As <span class="math notranslate nohighlight">\(\overline{w'T'}\)</span> is a mean of a large number of
+quantities, we might expect its standard error to be given by:</p>
+<div class="math notranslate nohighlight" id="equation-cov-t">
+<span class="eqno">(10.12)<a class="headerlink" href="#equation-cov-t" title="Permalink to this equation">¶</a></span>\[\Delta\overline{T^{'}w^{'}} = \sigma(T^{'}w^{'})/\sqrt{N_{i}}\]</div>
+<p>where <span class="math notranslate nohighlight">\(\sigma(T^{'}w^{'})\)</span> is the standard deviation of
+<span class="math notranslate nohighlight">\(\sigma(T^{'}w^{'})\)</span> and <em>Ni</em> is the number of independent
+samples. Assuming all samples are independent of each other, estimate
+the standard error <span class="math notranslate nohighlight">\(\Delta\overline{T^{'}w^{'}}\)</span>.
+<em>Is this likely to be an accurate estimate?</em>
+The number of independent samples is more accurately given by:</p>
+<div class="math notranslate nohighlight" id="equation-n-ind-t">
+<span class="eqno">(10.13)<a class="headerlink" href="#equation-n-ind-t" title="Permalink to this equation">¶</a></span>\[N_{i} = N\frac{\Delta t}{L_{t}},\]</div>
+<p>where <span class="math notranslate nohighlight">\(N\)</span> is the total number of samples, <span class="math notranslate nohighlight">\(\Delta t\)</span> is the time between
+samples and <span class="math notranslate nohighlight">\(L_t\)</span>, is the integral timescale for the time series of
+<span class="math notranslate nohighlight">\(T^{'}w^{'}\)</span>. To estimate the integral timescale, we need to
+calculate and plot the autocorrelation function for <span class="math notranslate nohighlight">\(T^{'}w^{'}\)</span>,
+and read off the time at which it falls to <span class="math notranslate nohighlight">\(1/e = 0.368\)</span>.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="WindProfile.html" class="btn btn-neutral float-right" title="11. Wind Profile" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="stability.html" class="btn btn-neutral float-left" title="9. Stability" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Prof Sue Grimmond &amp; Dr Ting Sun
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

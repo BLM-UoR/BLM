@@ -1,0 +1,320 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>1. Python &mdash; BLM 2019-10-07 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processClass": "math|output_area", "processEscapes": true, "ignoreClass": "document"}})</script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/fix-eq.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="2. Jupyter Notebook" href="JupyterNotebook.html" />
+    <link rel="prev" title="3. Other Resources" href="OtherResources.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> BLM
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2019 Autumn
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Overview of Term 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="outline.html">1. Autumn 2019 Course Outline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="BringToClass.html">2. For Next Class Material</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ReadingList.html">3. Recommended Readings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Assignment1.html">4. Assignment 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Assignment2.html">5. Assignment 2</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Assignment 1 components</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Tasks.html">1. Assignment 1 Activities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DataSource.html">2. Data Sources</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Scientific Background</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Glossary.html">1. Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html">2. Surface energy balance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#radiation-balance">3. Radiation balance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#seb-and-radiation-balance-measurements">4. SEB and Radiation Balance Measurements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#seb-and-radiation-balance-modelling">5. SEB and Radiation Balance Modelling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Penman.html">6. Penman</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Parameters.html">7. Model Parameters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LAI.html">8. LAI (Leaf Area Index)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stability.html">9. Stability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="EddyCovariance.html">10. Eddy Covariance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="WindProfile.html">11. Wind Profile</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Storage.html">12. Storage Heat Flux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ModelEvaluation.html">13. Metrics for Model evaluation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="URAO.html">14. URAO</a></li>
+<li class="toctree-l1"><a class="reference internal" href="References.html">15. References</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Preparing a Scientific Paper</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ScientificPaper.html">1. Scientific paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CommonMistakes.html">2. Common Mistakes: things to check</a></li>
+<li class="toctree-l1"><a class="reference internal" href="OtherResources.html">3. Other Resources</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Technical Tips</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">1. Python</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#useful-links">1.1. Useful Links</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="JupyterNotebook.html">2. Jupyter Notebook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="GitHub.html">3. GitHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials.html">4. Python Tutorials</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">BLM</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>1. Python</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/python.rst" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast,
+.nboutput.nblast {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast + .nbinput {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please report issues or ask questions about this site on the <a class="reference external" href="https://github.com/Urban-Meteorology-Reading/BLM/issues/new">GitHub page</a>.</p>
+</div>
+<div class="section" id="python">
+<span id="id1"></span><h1>1. Python<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="useful-links">
+<h2>1.1. Useful Links<a class="headerlink" href="#useful-links" title="Permalink to this headline">¶</a></h2>
+<p>There are a lot of excellent tutorials and web pages for helping with Python coding:</p>
+<ul>
+<li><p><a class="reference external" href="https://medium.com/&#64;louwjlabuschagne/the-gist-of-python-ff5cc05c3318">The gist of Python</a>: a quick introductory blog that covers Python basics for data analysis.</p></li>
+<li><p>Jupyter Notebook: Jupyter Notebook provides a powerful notebook-based data analysis environment that SuPy users are strongly encouraged to use. Jupyter notebooks can run in browsers (desktop, mobile) either by easy local configuration or on remote servers with pre-set environments (e.g., <a class="reference external" href="https://colab.research.google.com">Google Colaboratory</a>, <a class="reference external" href="https://notebooks.azure.com">Microsoft Azure Notebooks</a>). In addition, Jupyter notebooks allow great shareability by incorporating source code and detailed notes in one place, which helps users to organise their computation work.</p>
+<ul>
+<li><p>Installation</p>
+<p>Jupyter notebooks can be installed with pip on any desktop/server system and open .ipynb notebook files locally:</p>
+<blockquote>
+<div><div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>python3 -m pip install jupyter -U
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p>Extensions: To empower your Jupyter Notebook environment with better productivity, please check out the <a class="reference external" href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/">Unofficial Jupyter Notebook Extensions</a>. Quick introductory blogs can be found <a class="reference external" href="https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231">here</a> and <a class="reference external" href="https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29">here</a>.</p></li>
+</ul>
+</li>
+<li><p>pandas: pandas is an essential tool for data analysis in Python.</p>
+<ul class="simple">
+<li><p>Introductory blogs:</p>
+<ul>
+<li><p><a class="reference external" href="https://towardsdatascience.com/quick-dive-into-pandas-for-data-science-cc1c1a80d9c4">Quick dive into Pandas for Data Science</a>: introduction to pandas.</p></li>
+<li><p><a class="reference external" href="https://towardsdatascience.com/basic-time-series-manipulation-with-pandas-4432afee64ea">Basic Time Series Manipulation with Pandas</a>: pandas-based time series manipulation.</p></li>
+<li><p><a class="reference external" href="https://towardsdatascience.com/introduction-to-data-visualization-in-python-89a54c97fbed">Introduction to Data Visualization in Python</a>: plotting using pandas and related libraries.</p></li>
+</ul>
+</li>
+<li><p>A detailed tutorial in Jupyter Notebooks:</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_1-Introduction-to-Pandas.ipynb">Introduction to pandas</a></p></li>
+<li><p><a class="reference external" href="https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_2-Pandas-Fundamentals.ipynb">pandas fundamentals</a></p></li>
+<li><p><a class="reference external" href="https://github.com/fonnesbeck/Bios8366/blob/master/notebooks/Section2_3-Data-Wrangling-with-Pandas.ipynb">Data Wrangling with pandas</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="JupyterNotebook.html" class="btn btn-neutral float-right" title="2. Jupyter Notebook" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="OtherResources.html" class="btn btn-neutral float-left" title="3. Other Resources" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Prof Sue Grimmond &amp; Dr Ting Sun
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

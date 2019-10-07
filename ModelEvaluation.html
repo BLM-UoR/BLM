@@ -1,0 +1,317 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>13. Metrics for Model evaluation &mdash; BLM 2019-10-07 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processClass": "math|output_area", "processEscapes": true, "ignoreClass": "document"}})</script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/fix-eq.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="14. URAO" href="URAO.html" />
+    <link rel="prev" title="12. Storage Heat Flux" href="Storage.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> BLM
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2019 Autumn
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Overview of Term 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="outline.html">1. Autumn 2019 Course Outline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="BringToClass.html">2. For Next Class Material</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ReadingList.html">3. Recommended Readings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Assignment1.html">4. Assignment 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Assignment2.html">5. Assignment 2</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Assignment 1 components</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Tasks.html">1. Assignment 1 Activities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DataSource.html">2. Data Sources</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Scientific Background</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Glossary.html">1. Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html">2. Surface energy balance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#radiation-balance">3. Radiation balance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#seb-and-radiation-balance-measurements">4. SEB and Radiation Balance Measurements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#seb-and-radiation-balance-modelling">5. SEB and Radiation Balance Modelling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Penman.html">6. Penman</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Parameters.html">7. Model Parameters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LAI.html">8. LAI (Leaf Area Index)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stability.html">9. Stability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="EddyCovariance.html">10. Eddy Covariance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="WindProfile.html">11. Wind Profile</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Storage.html">12. Storage Heat Flux</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">13. Metrics for Model evaluation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="URAO.html">14. URAO</a></li>
+<li class="toctree-l1"><a class="reference internal" href="References.html">15. References</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Preparing a Scientific Paper</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ScientificPaper.html">1. Scientific paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CommonMistakes.html">2. Common Mistakes: things to check</a></li>
+<li class="toctree-l1"><a class="reference internal" href="OtherResources.html">3. Other Resources</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Technical Tips</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="python.html">1. Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="JupyterNotebook.html">2. Jupyter Notebook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="GitHub.html">3. GitHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials.html">4. Python Tutorials</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">BLM</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>13. Metrics for Model evaluation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/ModelEvaluation.rst" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast,
+.nboutput.nblast {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast + .nbinput {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please report issues or ask questions about this site on the <a class="reference external" href="https://github.com/Urban-Meteorology-Reading/BLM/issues/new">GitHub page</a>.</p>
+</div>
+<div class="section" id="metrics-for-model-evaluation">
+<h1>13. Metrics for Model evaluation<a class="headerlink" href="#metrics-for-model-evaluation" title="Permalink to this headline">¶</a></h1>
+<p>Methods commonly used to evaluate model performance, include:</p>
+<ul class="simple">
+<li><p>Mean absolute error (MAE)</p></li>
+</ul>
+<div class="math notranslate nohighlight">
+\[\mathrm{MAE}=\frac{1}{N} \sum_{i=1}^{N}\left|y_{i}-\hat{y}_{i}\right|\]</div>
+<p>where <span class="math notranslate nohighlight">\(N\)</span> is number of observations, <span class="math notranslate nohighlight">\(y_i\)</span> the actual expected output
+and <span class="math notranslate nohighlight">\(\hat{y}_{i}\)</span> the model’s prediction
+(same notations below if not indicated otherwise).</p>
+<ul class="simple">
+<li><p>Mean bias error (MBE)</p></li>
+</ul>
+<div class="math notranslate nohighlight">
+\[\mathrm{MBE}=\frac{1}{N} \sum_{i=1}^{N}\left(y_{i}-\hat{y}_{i}\right)\]</div>
+<ul class="simple">
+<li><p>Mean square error (MSE)</p></li>
+</ul>
+<div class="math notranslate nohighlight">
+\[\mathrm{MSE}=\frac{1}{N} \sum_{i=1}^{N}\left(y_{i}-\hat{y}_{i}\right)^{2}\]</div>
+<ul class="simple">
+<li><p>Root mean square error (RMSE)</p></li>
+</ul>
+<div class="math notranslate nohighlight">
+\[\mathrm{RMSE}=\sqrt{\frac{1}{N} \sum_{i=1}^{N}\left(y_{i}-\hat{y}_{i}\right)^{2}}\]</div>
+<ul class="simple">
+<li><p>Coefficient of determination (<span class="math notranslate nohighlight">\(R^2\)</span>)</p></li>
+</ul>
+<div class="math notranslate nohighlight">
+\[ \begin{align}\begin{aligned}R^{2}=
+1-\frac{\mathrm{MSE}(\text { model })}
+{\mathrm{MSE}(\text { baseline })}\\\mathrm{MSE}(\text { baseline })=
+\frac{1}{N} \sum_{i=1}^{N}\left(y_{i}-\overline{y}\right)^{2}\end{aligned}\end{align} \]</div>
+<p>where <span class="math notranslate nohighlight">\(\overline{y}\)</span> is mean of observed <span class="math notranslate nohighlight">\(y_i\)</span>.</p>
+<p>These presented with plots (e.g. scatter, time series)
+allow identification of periods
+where model perform well/poorly relative to observations.
+It should be remembered that both the model (e.g. parameters, forcing data)
+and the evaluation observations have errors.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="URAO.html" class="btn btn-neutral float-right" title="14. URAO" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="Storage.html" class="btn btn-neutral float-left" title="12. Storage Heat Flux" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Prof Sue Grimmond &amp; Dr Ting Sun
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

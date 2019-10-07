@@ -1,0 +1,358 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>11. Wind Profile &mdash; BLM 2019-10-07 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processClass": "math|output_area", "processEscapes": true, "ignoreClass": "document"}})</script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/fix-eq.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="12. Storage Heat Flux" href="Storage.html" />
+    <link rel="prev" title="10. Eddy Covariance" href="EddyCovariance.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> BLM
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2019 Autumn
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Overview of Term 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="outline.html">1. Autumn 2019 Course Outline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="BringToClass.html">2. For Next Class Material</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ReadingList.html">3. Recommended Readings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Assignment1.html">4. Assignment 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Assignment2.html">5. Assignment 2</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Assignment 1 components</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Tasks.html">1. Assignment 1 Activities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DataSource.html">2. Data Sources</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Scientific Background</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Glossary.html">1. Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html">2. Surface energy balance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#radiation-balance">3. Radiation balance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#seb-and-radiation-balance-measurements">4. SEB and Radiation Balance Measurements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#seb-and-radiation-balance-modelling">5. SEB and Radiation Balance Modelling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Penman.html">6. Penman</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Parameters.html">7. Model Parameters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LAI.html">8. LAI (Leaf Area Index)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stability.html">9. Stability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="EddyCovariance.html">10. Eddy Covariance</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">11. Wind Profile</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#wind-profile-in-neutral-conditions">11.1. Wind profile in neutral conditions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#wind-and-temperature-profile-in-non-neutral-conditions">11.2. Wind and temperature profile in non-neutral conditions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#profiles-and-fluxes-of-moisture">11.3. Profiles and fluxes of moisture</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Storage.html">12. Storage Heat Flux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ModelEvaluation.html">13. Metrics for Model evaluation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="URAO.html">14. URAO</a></li>
+<li class="toctree-l1"><a class="reference internal" href="References.html">15. References</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Preparing a Scientific Paper</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ScientificPaper.html">1. Scientific paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CommonMistakes.html">2. Common Mistakes: things to check</a></li>
+<li class="toctree-l1"><a class="reference internal" href="OtherResources.html">3. Other Resources</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Technical Tips</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="python.html">1. Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="JupyterNotebook.html">2. Jupyter Notebook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="GitHub.html">3. GitHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials.html">4. Python Tutorials</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">BLM</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>11. Wind Profile</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/WindProfile.rst" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast,
+.nboutput.nblast {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast + .nbinput {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please report issues or ask questions about this site on the <a class="reference external" href="https://github.com/Urban-Meteorology-Reading/BLM/issues/new">GitHub page</a>.</p>
+</div>
+<div class="section" id="wind-profile">
+<h1>11. Wind Profile<a class="headerlink" href="#wind-profile" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="wind-profile-in-neutral-conditions">
+<h2>11.1. Wind profile in neutral conditions<a class="headerlink" href="#wind-profile-in-neutral-conditions" title="Permalink to this headline">¶</a></h2>
+<p>The variation of mean wind speed <span class="math notranslate nohighlight">\(\bar{u}\)</span> with height z (in
+surface layer, above the RSL) above an aerodynamically rough surface can
+be represented by a logarithmic relation:</p>
+<div class="math notranslate nohighlight" id="equation-uz-ntrl">
+<span class="eqno">(11.1)<a class="headerlink" href="#equation-uz-ntrl" title="Permalink to this equation">¶</a></span>\[\bar{u}(z) = \frac{u_{*}}{k}\ln\left\lbrack \frac{(z - d)}{z_{0}} \right\rbrack\]</div>
+<p>where <span class="math notranslate nohighlight">\(u_{*}\)</span> is the <strong>friction velocity</strong>
+(<span class="math notranslate nohighlight">\(u_{*}^{2} = - \overline{u'w'}\)</span>) rate of vertical transfer by
+turbulence of horizontal momentum per unit mass of air), <span class="math notranslate nohighlight">\(z_{0}\)</span> is
+the roughness length of the surface for momentum, <em>d</em> is the zero-plane
+displacement and <em>k</em> is von Karman’s constant (0.4). The logarithmic law
+is strictly valid only in <strong>neutral conditions</strong>, i.e. when the effect
+of buoyancy on turbulence is small compared to the effect of wind shear.
+In such conditions, the temperature profile in the surface layer will be
+close to adiabatic (i.e. <span class="math notranslate nohighlight">\(dT/dz=–9.8 \textrm{ K km}^{-1}\)</span>
+or potential temperature is constant with height).
+When the sensible heat flux is significantly
+different from zero, Monin-Obukhov theory (or other) must be used.</p>
+</div>
+<div class="section" id="wind-and-temperature-profile-in-non-neutral-conditions">
+<h2>11.2. Wind and temperature profile in non-neutral conditions<a class="headerlink" href="#wind-and-temperature-profile-in-non-neutral-conditions" title="Permalink to this headline">¶</a></h2>
+<p>Modifications to the logarithmic profile are required in conditions of
+non-neutral stability. Here we use <strong>Monin-Obukhov theory</strong> of the surface layer that derives relations between the vertical
+variation of wind speed u(z) and potential temperature <span class="math notranslate nohighlight">\(\theta(z)\)</span> (which
+approximates the measured temperature T close to the surface), the
+scaling factors for momentum and temperature, <span class="math notranslate nohighlight">\(u^*\)</span> and <span class="math notranslate nohighlight">\(T^*\)</span>,
+and the <strong>Monin‑Obukhov stability parameter</strong></p>
+<div class="math notranslate nohighlight" id="equation-zol">
+<span class="eqno">(11.2)<a class="headerlink" href="#equation-zol" title="Permalink to this equation">¶</a></span>\[\frac{z'}{L} = - \frac{k\left( z - d \right)\frac{g}{\theta_{0}}\frac{H}{\rho c_{p}}}{u_{*}^{3}}\]</div>
+<p>where L is the <strong>Obukhov length</strong> and <em>z’= z - d</em>. NB: the surface
+temperature <span class="math notranslate nohighlight">\(\theta_0\)</span> is an absolute temperature (units: K). The
+logarithmic profile relation can be rewritten for wind speed to include
+the stability corrections</p>
+<div class="math notranslate nohighlight" id="equation-uz-crt">
+<span class="eqno">(11.3)<a class="headerlink" href="#equation-uz-crt" title="Permalink to this equation">¶</a></span>\[\bar{u}(z) = \frac{u_{*}}{k}\left\lbrack \ln\left( \frac{z - d}{z_{0}} \right) - \Psi_{m}\left( \frac{z - d}{L} \right) + \Psi_{m}\left( \frac{z_{0}}{L} \right) \right\rbrack\]</div>
+<p>and similarly, for potential temperature:</p>
+<div class="math notranslate nohighlight" id="equation-tz-crt">
+<span class="eqno">(11.4)<a class="headerlink" href="#equation-tz-crt" title="Permalink to this equation">¶</a></span>\[\bar{\theta}(z) = \theta_{0} + \frac{T_{*}}{k}\left\lbrack \ln\left( \frac{z - d}{z_{h}} \right) - \Psi_{h}\left( \frac{z - d}{L} \right) + \Psi_{h}\left( \frac{z_{h}}{L} \right) \right\rbrack\]</div>
+<p>where the <strong>turbulent temperature scale</strong> is given by
+<span class="math notranslate nohighlight">\(T_{*} = - \overline{w^{'}T^{'}}/u_{*} = - Q_{H}/(\rho c_{p}u_{*})\)</span>,
+<span class="math notranslate nohighlight">\(\Psi_{m}\)</span> is the <strong>integral</strong> <strong>stability correction function</strong> for momentum
+and <span class="math notranslate nohighlight">\(\Psi_{h}\)</span> is the integral stability correction function for heat. Note that
+both <span class="math notranslate nohighlight">\(T_*\)</span> and <span class="math notranslate nohighlight">\(z’/L\)</span> have the opposite sign to <span class="math notranslate nohighlight">\(Q_H\)</span> (which is positive in unstable conditions and negative in stable conditions).
+If <span class="math notranslate nohighlight">\(z'/z \gg 1\)</span> then the third term can assumed to be negligible
+(Garratt 1992)</p>
+</div>
+<div class="section" id="profiles-and-fluxes-of-moisture">
+<h2>11.3. Profiles and fluxes of moisture<a class="headerlink" href="#profiles-and-fluxes-of-moisture" title="Permalink to this headline">¶</a></h2>
+<p>Just as surface layer profiles of momentum and temperature follow a
+logarithmic form in neutral conditions, humidity in the surface layer
+has the same form, being transported by the same eddies. Thus, the
+profile is given by</p>
+<div class="math notranslate nohighlight" id="equation-qz-ntrl">
+<span class="eqno">(11.5)<a class="headerlink" href="#equation-qz-ntrl" title="Permalink to this equation">¶</a></span>\[\overline{q}\left( z \right) - {\overline{q}}_{0} = \frac{q_{*}}{k}\ln\left( \frac{z - d}{z_{q}} \right)\]</div>
+<p>where <em>q</em> is specific humidity, subscript <em>0</em> denotes a surface
+measurement, <em>zq</em> is the equivalent “roughness length” for humidity,
+and <em>d</em> is the zero-plane displacement height of a plant canopy over
+which measurements are being made). <em>q*</em> is a scaling variable,
+defined as</p>
+<div class="math notranslate nohighlight" id="equation-qstar">
+<span class="eqno">(11.6)<a class="headerlink" href="#equation-qstar" title="Permalink to this equation">¶</a></span>\[q_{*} = \frac{- \overline{w'q'}}{u_{*}}\]</div>
+<p>and thus the dimensionless moisture profile is defined as</p>
+<div class="math notranslate nohighlight" id="equation-phi-q">
+<span class="eqno">(11.7)<a class="headerlink" href="#equation-phi-q" title="Permalink to this equation">¶</a></span>\[\phi_{q} = \frac{k\left( z - d \right)}{q_{*}}\frac{\partial\overline{q}}{\partial z}.\]</div>
+<p>The moisture flux can be written in various equivalent forms</p>
+<div class="math notranslate nohighlight" id="equation-flux-q">
+<span class="eqno">(11.8)<a class="headerlink" href="#equation-flux-q" title="Permalink to this equation">¶</a></span>\[E = \rho\overline{w'q'} = u_{*}q_{*} = - \rho K_{q}\frac{\partial\overline{q}}{\partial z}\]</div>
+<p>where <span class="math notranslate nohighlight">\(K_{q}\)</span> is the eddy diffusivity for moisture.
+In neutral conditions it is assumed <span class="math notranslate nohighlight">\(K_m =K_h =K_q=k(z-d)u_*\)</span>.
+Moisture follows Monin-Obukhov similarity just as other scalar variables do.
+This was not established at the Kansas experiments due to limitations in the accuracy
+of the measurements.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="Storage.html" class="btn btn-neutral float-right" title="12. Storage Heat Flux" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="EddyCovariance.html" class="btn btn-neutral float-left" title="10. Eddy Covariance" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Prof Sue Grimmond &amp; Dr Ting Sun
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

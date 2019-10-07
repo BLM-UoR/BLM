@@ -1,0 +1,331 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>7. Model Parameters &mdash; BLM 2019-10-07 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processClass": "math|output_area", "processEscapes": true, "ignoreClass": "document"}})</script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/fix-eq.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="8. LAI (Leaf Area Index)" href="LAI.html" />
+    <link rel="prev" title="6. Penman" href="Penman.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> BLM
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2019 Autumn
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Overview of Term 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="outline.html">1. Autumn 2019 Course Outline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="BringToClass.html">2. For Next Class Material</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ReadingList.html">3. Recommended Readings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Assignment1.html">4. Assignment 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Assignment2.html">5. Assignment 2</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Assignment 1 components</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Tasks.html">1. Assignment 1 Activities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DataSource.html">2. Data Sources</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Scientific Background</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Glossary.html">1. Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html">2. Surface energy balance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#radiation-balance">3. Radiation balance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#seb-and-radiation-balance-measurements">4. SEB and Radiation Balance Measurements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#seb-and-radiation-balance-modelling">5. SEB and Radiation Balance Modelling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Penman.html">6. Penman</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">7. Model Parameters</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#albedo">7.1. Albedo</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#typical-values">7.1.1. Typical Values</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#roughness-length-z-0-and-displacement-height-d">7.2. Roughness length (<span class="math notranslate nohighlight">\(z_0\)</span>) and displacement height (<span class="math notranslate nohighlight">\(d\)</span>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#how-does-it-vary-with-wind-direction">7.2.1. How does it vary with wind direction?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="LAI.html">8. LAI (Leaf Area Index)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stability.html">9. Stability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="EddyCovariance.html">10. Eddy Covariance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="WindProfile.html">11. Wind Profile</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Storage.html">12. Storage Heat Flux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ModelEvaluation.html">13. Metrics for Model evaluation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="URAO.html">14. URAO</a></li>
+<li class="toctree-l1"><a class="reference internal" href="References.html">15. References</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Preparing a Scientific Paper</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ScientificPaper.html">1. Scientific paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CommonMistakes.html">2. Common Mistakes: things to check</a></li>
+<li class="toctree-l1"><a class="reference internal" href="OtherResources.html">3. Other Resources</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Technical Tips</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="python.html">1. Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="JupyterNotebook.html">2. Jupyter Notebook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="GitHub.html">3. GitHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials.html">4. Python Tutorials</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">BLM</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>7. Model Parameters</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/Parameters.rst" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast,
+.nboutput.nblast {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast + .nbinput {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please report issues or ask questions about this site on the <a class="reference external" href="https://github.com/Urban-Meteorology-Reading/BLM/issues/new">GitHub page</a>.</p>
+</div>
+<div class="section" id="model-parameters">
+<h1>7. Model Parameters<a class="headerlink" href="#model-parameters" title="Permalink to this headline">¶</a></h1>
+<p>Land surface models use parameters to describe the surface. For example
+to model the latent heat flux using the <a class="reference internal" href="Penman.html"><span class="doc">Penman Monteith equation</span></a> the following parameters are needed.</p>
+<div class="section" id="albedo">
+<span id="id1"></span><h2>7.1. Albedo<a class="headerlink" href="#albedo" title="Permalink to this headline">¶</a></h2>
+<p>From the short-wave radiation (K), within the <a class="reference internal" href="WindProfile.html#equation-qstar">Eq.11.6</a> <a class="reference internal" href="SEB.html#radb"><span class="std std-ref">Radiation balance</span></a> the albedo (<span class="math notranslate nohighlight">\(\alpha\)</span>) is calculated:</p>
+<div class="math notranslate nohighlight" id="equation-alb">
+<span class="eqno">(7.1)<a class="headerlink" href="#equation-alb" title="Permalink to this equation">¶</a></span>\[\alpha= K_{\uparrow} / K_\downarrow\]</div>
+<p>using the incoming (<span class="math notranslate nohighlight">\(\downarrow\)</span>) and outgoing (<span class="math notranslate nohighlight">\(\uparrow\)</span>) shortwave radiation
+(K) fluxes.</p>
+<div class="section" id="typical-values">
+<h3>7.1.1. Typical Values<a class="headerlink" href="#typical-values" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Land cover type</p></li>
+<li><p>Time of year</p></li>
+<li><p>Time of day</p></li>
+<li><p>Location</p></li>
+<li><p>Reference</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="roughness-length-z-0-and-displacement-height-d">
+<span id="roughness"></span><h2>7.2. Roughness length (<span class="math notranslate nohighlight">\(z_0\)</span>) and displacement height (<span class="math notranslate nohighlight">\(d\)</span>)<a class="headerlink" href="#roughness-length-z-0-and-displacement-height-d" title="Permalink to this headline">¶</a></h2>
+<p>If the displacement height is known, or is negligible, the logarithmic
+law equation can be rearranged with observed <span class="math notranslate nohighlight">\(z_0\)</span> and mean wind
+speed to allow <span class="math notranslate nohighlight">\(z_0\)</span> to be determined. As this may vary we
+normally take median of a minimum of 20 results for a wind direction
+sector. If you have a period with a lot of neutral conditions you may be
+able to get a lot of samples rapidly.</p>
+<div class="section" id="how-does-it-vary-with-wind-direction">
+<h3>7.2.1. How does it vary with wind direction?<a class="headerlink" href="#how-does-it-vary-with-wind-direction" title="Permalink to this headline">¶</a></h3>
+<p>A rule of thumb for calculating d is to assume it is ~0.75 <span class="math notranslate nohighlight">\(h\)</span> where <span class="math notranslate nohighlight">\(h\)</span> is
+the height of the canopy. As the heights may vary with direction you can
+determine how much this may vary. What are expected to be consistent
+sectors?</p>
+<p>The wind profile can also be used to determine <span class="math notranslate nohighlight">\(z_0\)</span> and <span class="math notranslate nohighlight">\(d\)</span>
+if there are more than 2 levels in the profile. This requires fitting a
+straight line (linear regression) through the data to determine the
+intercept, which provides the <span class="math notranslate nohighlight">\(z_0+d\)</span> value.
+See equations 1-2 in <a class="bibtex reference internal" href="References.html#grimmond1998aerodynamic" id="id2">[8]</a>.</p>
+<p>For <a class="reference internal" href="References.html"><span class="doc">References</span></a> see list</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="LAI.html" class="btn btn-neutral float-right" title="8. LAI (Leaf Area Index)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="Penman.html" class="btn btn-neutral float-left" title="6. Penman" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Prof Sue Grimmond &amp; Dr Ting Sun
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

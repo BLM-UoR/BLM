@@ -1,0 +1,314 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>9. Stability &mdash; BLM 2019-10-07 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processClass": "math|output_area", "processEscapes": true, "ignoreClass": "document"}})</script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/fix-eq.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="10. Eddy Covariance" href="EddyCovariance.html" />
+    <link rel="prev" title="8. LAI (Leaf Area Index)" href="LAI.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> BLM
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2019 Autumn
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Overview of Term 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="outline.html">1. Autumn 2019 Course Outline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="BringToClass.html">2. For Next Class Material</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ReadingList.html">3. Recommended Readings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Assignment1.html">4. Assignment 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Assignment2.html">5. Assignment 2</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Assignment 1 components</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Tasks.html">1. Assignment 1 Activities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DataSource.html">2. Data Sources</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Scientific Background</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Glossary.html">1. Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html">2. Surface energy balance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#radiation-balance">3. Radiation balance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#seb-and-radiation-balance-measurements">4. SEB and Radiation Balance Measurements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#seb-and-radiation-balance-modelling">5. SEB and Radiation Balance Modelling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Penman.html">6. Penman</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Parameters.html">7. Model Parameters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LAI.html">8. LAI (Leaf Area Index)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">9. Stability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="EddyCovariance.html">10. Eddy Covariance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="WindProfile.html">11. Wind Profile</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Storage.html">12. Storage Heat Flux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ModelEvaluation.html">13. Metrics for Model evaluation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="URAO.html">14. URAO</a></li>
+<li class="toctree-l1"><a class="reference internal" href="References.html">15. References</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Preparing a Scientific Paper</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ScientificPaper.html">1. Scientific paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CommonMistakes.html">2. Common Mistakes: things to check</a></li>
+<li class="toctree-l1"><a class="reference internal" href="OtherResources.html">3. Other Resources</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Technical Tips</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="python.html">1. Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="JupyterNotebook.html">2. Jupyter Notebook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="GitHub.html">3. GitHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials.html">4. Python Tutorials</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">BLM</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>9. Stability</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/stability.rst" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast,
+.nboutput.nblast {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast + .nbinput {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please report issues or ask questions about this site on the <a class="reference external" href="https://github.com/Urban-Meteorology-Reading/BLM/issues/new">GitHub page</a>.</p>
+</div>
+<div class="section" id="stability">
+<h1>9. Stability<a class="headerlink" href="#stability" title="Permalink to this headline">¶</a></h1>
+<p>Modifications to the logarithmic profile are required in conditions of
+non-neutral stability, using the results of <strong>Monin-Obukhov theory</strong>.
+This theory of the surface layer derives relations between the vertical
+variation of wind speed u(z) and potential temperature <span class="math notranslate nohighlight">\(\theta(z)\)</span> (which
+approximates the measured temperature T close to the surface), the
+scaling factors for momentum and temperature, <span class="math notranslate nohighlight">\(u^*\)</span> and <span class="math notranslate nohighlight">\(T^*\)</span>,
+and the <strong>Monin‑Obukhov stability parameter</strong></p>
+<div class="math notranslate nohighlight" id="equation-zl">
+<span class="eqno">(9.1)<a class="headerlink" href="#equation-zl" title="Permalink to this equation">¶</a></span>\[\frac{z'}{L} = - \frac{k\left( z - d \right)\frac{g}{\theta_{0}}\frac{H}{\rho c_{p}}}{u_{*}^{3}}\]</div>
+<p>where L is the <strong>Obukhov length</strong> and <em>z’= z - d</em>. NB: the surface
+temperature <span class="math notranslate nohighlight">\(\theta_0\)</span> is an absolute temperature (units: K). The
+logarithmic profile relation can be rewritten for wind speed to include
+the stability corrections</p>
+<div class="math notranslate nohighlight" id="equation-u-z">
+<span class="eqno">(9.2)<a class="headerlink" href="#equation-u-z" title="Permalink to this equation">¶</a></span>\[\bar{u}(z) = \frac{u_{*}}{k}\left\lbrack \ln\left( \frac{z - d}{z_{0}} \right) - \Psi_{m}\left( \frac{z - d}{L} \right) + \Psi_{m}\left( \frac{z_{0}}{L} \right) \right\rbrack\]</div>
+<p>and similarly, for potential temperature:</p>
+<div class="math notranslate nohighlight" id="equation-theta-z">
+<span class="eqno">(9.3)<a class="headerlink" href="#equation-theta-z" title="Permalink to this equation">¶</a></span>\[\bar{\theta}(z) = \theta_{0} + \frac{T_{*}}{k}\left\lbrack \ln\left( \frac{z - d}{z_{h}} \right) - \Psi_{h}\left( \frac{z - d}{L} \right) + \Psi_{h}\left( \frac{z_{h}}{L} \right) \right\rbrack\]</div>
+<p>where the <strong>turbulent temperature scale</strong> <span class="math notranslate nohighlight">\(T_*\)</span> is given by
+<span class="math notranslate nohighlight">\(T_{*} = - \overline{w^{'}T^{'}}/u_{*} = - Q_{H}/(\rho C_{p}u_{*})\)</span>,
+<span class="math notranslate nohighlight">\(\Psi_{m}\)</span> is the <strong>integral stability correction function</strong> for momentum
+and <span class="math notranslate nohighlight">\(\Psi_{h}\)</span> is the integral stability correction function for heat.</p>
+<p>Note that both <span class="math notranslate nohighlight">\(T_*\)</span> and <span class="math notranslate nohighlight">\(z’ / L\)</span> have the opposite sign to <span class="math notranslate nohighlight">\(Q_H\)</span> (which is positive in unstable conditions and negative in stable conditions).
+If <span class="math notranslate nohighlight">\(z’/z_0 \gg 1\)</span> then the third term can assumed to be negligible (Garratt 1992).</p>
+<p>Other stability metrics include the Richardson number:</p>
+<ul class="simple">
+<li><p>Gradient</p></li>
+<li><p>Bulk</p></li>
+<li><p>Flux</p></li>
+</ul>
+<p><strong>Bulk Richardson number</strong> is the ratio of thermally produced turbulence and turbulence generated by vertical shear or the ratio of free or forced convection (thermal: mechanical)</p>
+<div class="math notranslate nohighlight" id="equation-rb">
+<span class="eqno">(9.4)<a class="headerlink" href="#equation-rb" title="Permalink to this equation">¶</a></span>\[R_{B}=\frac{\left(g / T_{v}\right) \Delta \theta_{v} \Delta z}{(\Delta U)^{2}+(\Delta V)^{2}}\]</div>
+<p>where <span class="math notranslate nohighlight">\(g\)</span> acceleration due to gravity, <span class="math notranslate nohighlight">\(T_V\)</span> virtual temperature, <span class="math notranslate nohighlight">\(\Delta \theta_{v}\)</span> change (difference) in potential temperature, <span class="math notranslate nohighlight">\(\Delta z\)</span> change in height
+<span class="math notranslate nohighlight">\(\Delta U\)</span> change in <span class="math notranslate nohighlight">\(U\)</span> wind-speed, and <span class="math notranslate nohighlight">\(\Delta V\)</span> change in <span class="math notranslate nohighlight">\(V\)</span> wind-speed.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="EddyCovariance.html" class="btn btn-neutral float-right" title="10. Eddy Covariance" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="LAI.html" class="btn btn-neutral float-left" title="8. LAI (Leaf Area Index)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Prof Sue Grimmond &amp; Dr Ting Sun
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

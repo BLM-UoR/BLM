@@ -1,0 +1,574 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>14. URAO &mdash; BLM 2019-10-07 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processClass": "math|output_area", "processEscapes": true, "ignoreClass": "document"}})</script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/fix-eq.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="15. References" href="References.html" />
+    <link rel="prev" title="13. Metrics for Model evaluation" href="ModelEvaluation.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> BLM
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2019 Autumn
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Overview of Term 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="outline.html">1. Autumn 2019 Course Outline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="BringToClass.html">2. For Next Class Material</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ReadingList.html">3. Recommended Readings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Assignment1.html">4. Assignment 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Assignment2.html">5. Assignment 2</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Assignment 1 components</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Tasks.html">1. Assignment 1 Activities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DataSource.html">2. Data Sources</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Scientific Background</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Glossary.html">1. Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html">2. Surface energy balance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#radiation-balance">3. Radiation balance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#seb-and-radiation-balance-measurements">4. SEB and Radiation Balance Measurements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#seb-and-radiation-balance-modelling">5. SEB and Radiation Balance Modelling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Penman.html">6. Penman</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Parameters.html">7. Model Parameters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LAI.html">8. LAI (Leaf Area Index)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stability.html">9. Stability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="EddyCovariance.html">10. Eddy Covariance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="WindProfile.html">11. Wind Profile</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Storage.html">12. Storage Heat Flux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ModelEvaluation.html">13. Metrics for Model evaluation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">14. URAO</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#safety">14.1. Safety</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#instruments">14.2. Instruments</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#overview">14.2.1. Overview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#eddy-covariance-ec-mast">14.2.2. Eddy Covariance (EC) mast</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#wind-and-temperature-profile-mast-6-4-m">14.2.3. Wind and temperature profile mast (6.4 m)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#logging-of-sensors">14.2.4. Logging of sensors</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#data-from-the-observatory">14.3. Data from the Observatory</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#types-of-data">14.3.1. Types of data</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="References.html">15. References</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Preparing a Scientific Paper</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ScientificPaper.html">1. Scientific paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CommonMistakes.html">2. Common Mistakes: things to check</a></li>
+<li class="toctree-l1"><a class="reference internal" href="OtherResources.html">3. Other Resources</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Technical Tips</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="python.html">1. Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="JupyterNotebook.html">2. Jupyter Notebook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="GitHub.html">3. GitHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials.html">4. Python Tutorials</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">BLM</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>14. URAO</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/URAO.rst" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast,
+.nboutput.nblast {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast + .nbinput {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please report issues or ask questions about this site on the <a class="reference external" href="https://github.com/Urban-Meteorology-Reading/BLM/issues/new">GitHub page</a>.</p>
+</div>
+<div class="section" id="urao">
+<span id="id1"></span><h1>14. URAO<a class="headerlink" href="#urao" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="safety">
+<span id="id2"></span><h2>14.1. Safety<a class="headerlink" href="#safety" title="Permalink to this headline">¶</a></h2>
+<p>The Observatory should be regarded as a laboratory environment. The same guidelines apply as for other laboratory courses in the Department
+(see <a class="reference external" href="https://www.bb.reading.ac.uk/webapps/portal/execute/tabs/tabAction?tabId=_110_1&amp;tab_tab_group_id=_154_1">Departmental Handbook</a>).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ol class="arabic simple">
+<li><p>Do not make adjustments to mains-supplied instruments or attempt to modify any apparatus without consulting either a demonstrator or a technician.</p></li>
+<li><p>You should not work in the Observatory outside the class contact   period, except by special arrangement with a supervising member of staff or a laboratory technician.</p></li>
+<li><p>On the Observatory, beware of guy ropes attached to masts and overhead instruments. Be especially careful if the ground is muddy. Work in the area you have been shown to work in, as some cables and   soil heat flux plates may be near the surface.</p></li>
+<li><p>Wear suitable, protective footwear (i.e. NOT flip-flops) and beware of low-lying objects which you could trip over. Wear appropriately    warm clothes.</p></li>
+<li><p>Always ask if there are any points which are not clear.</p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="instruments">
+<h2>14.2. Instruments<a class="headerlink" href="#instruments" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="overview">
+<h3>14.2.1. Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Wind</p></li>
+</ul>
+<span id="urao-wind"></span><table class="colwidths-auto longtable docutils align-default" id="id3">
+<caption><span class="caption-number">Table 14.1 </span><span class="caption-text">Wind-related measurements at URAO</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head stub"><p>Instrument</p></th>
+<th class="head"><p>Model</p></th>
+<th class="head"><p>Manufacture</p></th>
+<th class="head"><p>Sampling rate</p></th>
+<th class="head"><p>comment</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><th class="stub"><p>Ultrasonic anemometer</p></th>
+<td><p>Windmaster pro</p></td>
+<td><p>Gill</p></td>
+<td><p>10 Hz</p></td>
+<td><p>3 m</p></td>
+</tr>
+<tr class="row-odd"><th class="stub"><p>propeller anemometer</p></th>
+<td><p>Gill</p></td>
+<td><p>Gill</p></td>
+<td><p>1 Hz</p></td>
+<td><p>3 m</p></td>
+</tr>
+<tr class="row-even"><th class="stub"><p>Wind profile anemometers</p></th>
+<td><p>A100L2</p></td>
+<td><p>Vector instruments</p></td>
+<td><p>1 Hz</p></td>
+<td><p>2,5, 10 m</p></td>
+</tr>
+<tr class="row-odd"><th class="stub"><p>Wind vane</p></th>
+<td><p>W200P</p></td>
+<td><p>Vector instruments</p></td>
+<td><p>1 Hz</p></td>
+<td><p>10 m</p></td>
+</tr>
+<tr class="row-even"><th class="stub"><p>Vector Anemometer</p></th>
+<td><p>A101M</p></td>
+<td><p>Vector instruments</p></td>
+<td><p>1 Hz</p></td>
+<td><p>0.56, 0.8, 1.12, 1.6, 2.24, 3.2, 4.48, 6.4 m</p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>Heat and humidity</p></li>
+</ul>
+<span id="urao-temp"></span><table class="colwidths-auto longtable docutils align-default" id="id4">
+<caption><span class="caption-number">Table 14.2 </span><span class="caption-text">Temperature&amp;humidity-related measurements at URAO</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head stub"><p>Instrument</p></th>
+<th class="head"><p>Model</p></th>
+<th class="head"><p>Manufacture</p></th>
+<th class="head"><p>Sampling rate</p></th>
+<th class="head"><p>comment</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><th class="stub"><p>temperture probe</p></th>
+<td><p>DTS12A</p></td>
+<td><p>Vaisala</p></td>
+<td><p>1 Hz</p></td>
+<td><p>in Stevenson screen</p></td>
+</tr>
+<tr class="row-odd"><th class="stub"><p>Soil temperature</p></th>
+<td><p>DTS12G</p></td>
+<td><p>Vaisala</p></td>
+<td><p>1 Hz</p></td>
+<td><p>in soil  (5cm-10cm-20cm-30cm-50cm-100cm)</p></td>
+</tr>
+<tr class="row-even"><th class="stub"><p>humidity probe</p></th>
+<td><p>HMP45A humidity probe</p></td>
+<td><p>Vaisala</p></td>
+<td><p>1 Hz</p></td>
+<td><p>in Stevenson screen</p></td>
+</tr>
+<tr class="row-odd"><th class="stub"><p>platinum resistance themometer</p></th>
+<td><p>PT100/3</p></td>
+<td><p>Campbell scientific</p></td>
+<td><p>1 Hz</p></td>
+<td><p>temp profile (0.56m-1.12m-2.24m-4.48m)</p></td>
+</tr>
+<tr class="row-even"><th class="stub"><p>Soil heat flux plate</p></th>
+<td><p>HEP01</p></td>
+<td><p>Hukseflux</p></td>
+<td><p>1 Hz</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>Radiation</p></li>
+</ul>
+<span id="urao-rad"></span><table class="colwidths-auto longtable docutils align-default" id="id5">
+<caption><span class="caption-number">Table 14.3 </span><span class="caption-text">Radiation-related measurements at URAO</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head stub"><p>Instrument</p></th>
+<th class="head"><p>Model</p></th>
+<th class="head"><p>Manufacture</p></th>
+<th class="head"><p>Sampling rate</p></th>
+<th class="head"><p>comment</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><th class="stub"><p>pyranometer</p></th>
+<td><p>CM11</p></td>
+<td><p>Kipp and zonen</p></td>
+<td><p>1 Hz</p></td>
+<td><p>1m</p></td>
+</tr>
+<tr class="row-odd"><th class="stub"><p>net-radiometer</p></th>
+<td><p>CNR4</p></td>
+<td><p>Kipp and zonen</p></td>
+<td><p>1 Hz</p></td>
+<td><p>1.3m</p></td>
+</tr>
+<tr class="row-even"><th class="stub"><p>Sunshine duration</p></th>
+<td><p>CSD1</p></td>
+<td><p>Kipp and zonen</p></td>
+<td><p>1 Hz</p></td>
+<td><p>10m</p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>Other</p></li>
+</ul>
+<span id="urao-other"></span><table class="colwidths-auto longtable docutils align-default" id="id6">
+<caption><span class="caption-number">Table 14.4 </span><span class="caption-text">Other measurements at RUAO</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head stub"><p>Instrument</p></th>
+<th class="head"><p>Model</p></th>
+<th class="head"><p>Manufacture</p></th>
+<th class="head"><p>Sampling rate</p></th>
+<th class="head"><p>comment</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><th class="stub"><p>infra-red gas analyser</p></th>
+<td><p>Li-7500RS</p></td>
+<td><p>Li-Cor</p></td>
+<td><p>10 Hz</p></td>
+<td><p>3m</p></td>
+</tr>
+<tr class="row-odd"><th class="stub"><p>Rain gauge</p></th>
+<td><p>SBS 500</p></td>
+<td><p>Environmental measurements Ltd.</p></td>
+<td><p>1 Hz</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><th class="stub"><p>Pressure</p></th>
+<td><p>DPI1 140</p></td>
+<td><p>Druck</p></td>
+<td><p>1 Hz</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><th class="stub"><p>Ceilometer</p></th>
+<td><p>CL31</p></td>
+<td><p>Vaisala</p></td>
+<td><p>3sec row data</p></td>
+<td><p>processed by R.Brugge 5min data</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="eddy-covariance-ec-mast">
+<h3>14.2.2. Eddy Covariance (EC) mast<a class="headerlink" href="#eddy-covariance-ec-mast" title="Permalink to this headline">¶</a></h3>
+<p>The EC mast at the URAO has a <strong>sonic anemometer</strong> (Gill R3, <a class="reference internal" href="EddyCovariance.html#gill"><span class="std std-numref">Fig. 10.3</span></a>) which derives the wind-speed from transit times of acoustic pulses travelling in both directions along a fixed path.
+The wind-speed component along the path is proportional to the difference between the transit times.
+Three sets of transducer pairs are used to derive the three components of the wind vector u, v, w.
+In addition, the speed of sound can be deduced:</p>
+<p>Also, on the EC mast is an <strong>open path infra-red gas analyser</strong> (Li-Cor, LI-7500, <a class="reference internal" href="EddyCovariance.html#li7500"><span class="std std-numref">Fig. 10.2</span></a>) to measures both CO2 and H2O.
+It uses the principle of radiation absorption by water and carbon dioxide molecules at certain wavelengths.
+A differential measurement is made to compare transmittance at a wavelength with strong absorption adjacent to a wavelength where absorption is negligible.
+For water vapour (carbon dioxide) the wavelength is 2.59 <span class="math notranslate nohighlight">\(\mathrm{\mu m}\)</span> (4.26 <span class="math notranslate nohighlight">\(\mathrm{\mu m}\)</span>) and the reference wavelength is 2.4 <span class="math notranslate nohighlight">\(\mathrm{\mu m}\)</span> (3.95 <span class="math notranslate nohighlight">\(\mathrm{\mu m}\)</span>).
+The ratio of light intensity at the two wavelengths is proportional to the amount of water vapour present.</p>
+<p>The IRGA at URAO is an open-path rather than a closed-path instrument (where air is sucked down a tube into the instrument itself).
+The q specific humidity of water vapour is expressed in units of kg kg<sup>-1</sup>.
+The absolute humidity (<span class="math notranslate nohighlight">\(\text{kg m}^{-3}\)</span>) is derived by taking the molecular weight of water into account (1 mol = 18 g = 0.018 kg) and similarly for carbon dioxide concentrations (molar mass 44 g <span class="math notranslate nohighlight">\(\text{mol}^{-1}\)</span>).
+The instruments are mounted close to each other at a height of 3 m.
+A Campbell CR3000 logger is used to record the data at a sampling rate of 10 Hz.</p>
+</div>
+<div class="section" id="wind-and-temperature-profile-mast-6-4-m">
+<h3>14.2.3. Wind and temperature profile mast (6.4 m)<a class="headerlink" href="#wind-and-temperature-profile-mast-6-4-m" title="Permalink to this headline">¶</a></h3>
+<p>A profile of 8 pulse <strong>cup anemometers</strong> and 4 <strong>platinum resistance thermometers</strong> (PRTs) are mounted at various heights (<a class="reference internal" href="#urao-heights"><span class="std std-numref">Table 14.5</span></a>).
+The coincident temperature and wind profiles allow both stability and surface fluxes to be derived.
+Each anemometer produces electrical pulses at a rate proportional to its rotation speed.
+The PRT output voltage is proportional to the PRT resistance.</p>
+<span id="urao-heights"></span><table class="colwidths-auto docutils align-default" id="id7">
+<caption><span class="caption-number">Table 14.5 </span><span class="caption-text">measurement heights of temperature (T) and wind speed (U) at URAO</span><a class="headerlink" href="#id7" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head stub"><p>Variables measured</p></th>
+<th class="head"><p>U&amp;T</p></th>
+<th class="head"><p>U</p></th>
+<th class="head"><p>U&amp;T</p></th>
+<th class="head"><p>U</p></th>
+<th class="head"><p>U&amp;T</p></th>
+<th class="head"><p>U</p></th>
+<th class="head"><p>U&amp;T</p></th>
+<th class="head"><p>U</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><th class="stub"><p>Height z (m)</p></th>
+<td><p>0.56</p></td>
+<td><p>0.80</p></td>
+<td><p>1.12</p></td>
+<td><p>1.60</p></td>
+<td><p>2.24</p></td>
+<td><p>3.20</p></td>
+<td><p>4.48</p></td>
+<td><p>6.40</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="logging-of-sensors">
+<h3>14.2.4. Logging of sensors<a class="headerlink" href="#logging-of-sensors" title="Permalink to this headline">¶</a></h3>
+<p>Programmed data loggers sample the data at different time intervals.
+Raw samples (e.g. from EC system) or just statistics (e.g. an average from pyranometer) are recorded. During data processing calibration coefficients are applied.</p>
+</div>
+</div>
+<div class="section" id="data-from-the-observatory">
+<h2>14.3. Data from the Observatory<a class="headerlink" href="#data-from-the-observatory" title="Permalink to this headline">¶</a></h2>
+<p>Data can be downloaded from: <a class="reference external" href="https://metdata.reading.ac.uk/ext/">https://metdata.reading.ac.uk/ext/</a></p>
+<p>Ask your instructor for download token in class if you need one.</p>
+<div class="section" id="types-of-data">
+<h3>14.3.1. Types of data<a class="headerlink" href="#types-of-data" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>5 min averaged logger output.</p>
+<ul class="simple">
+<li><p>Includes individual radiation fluxes, soil heat flux,
+temperature (T), wind speed (WS), wind direction (Wdir),
+station pressure, rainfall, and relative humidity (RH).</p></li>
+</ul>
+</li>
+<li><p>Eddy covariances - 30-min averages.</p>
+<ul class="simple">
+<li><p>Fully processed EC fluxes: These have been subjected to the
+numerous corrections (Kotthaus and Grimmond 2012, 2014a) that
+are regularly undertaken for EC fluxes.</p></li>
+</ul>
+</li>
+<li><p>5-min WMO-standard processed output:</p>
+<ul class="simple">
+<li><p>This includes the wind profile data and the temperature profile
+data. Radiation data (make certain you use the corrected
+longwave radiation data)</p></li>
+</ul>
+</li>
+<li><p>0.1s Sonic Licor</p>
+<ul class="simple">
+<li><p>Raw EC data - these files are very large so do <strong>NOT download data</strong>
+until you know what you really want/need.</p></li>
+</ul>
+</li>
+</ol>
+<p>References: See <a class="reference internal" href="References.html#refs"><span class="std std-ref">References</span></a>.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="References.html" class="btn btn-neutral float-right" title="15. References" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="ModelEvaluation.html" class="btn btn-neutral float-left" title="13. Metrics for Model evaluation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Prof Sue Grimmond &amp; Dr Ting Sun
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

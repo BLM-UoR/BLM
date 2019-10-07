@@ -1,0 +1,457 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>6. Penman &mdash; BLM 2019-10-07 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processClass": "math|output_area", "processEscapes": true, "ignoreClass": "document"}})</script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/fix-eq.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="7. Model Parameters" href="Parameters.html" />
+    <link rel="prev" title="2. Surface energy balance" href="SEB.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> BLM
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2019 Autumn
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Overview of Term 1</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="outline.html">1. Autumn 2019 Course Outline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="BringToClass.html">2. For Next Class Material</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ReadingList.html">3. Recommended Readings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Assignment1.html">4. Assignment 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Assignment2.html">5. Assignment 2</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Assignment 1 components</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Tasks.html">1. Assignment 1 Activities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DataSource.html">2. Data Sources</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Scientific Background</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Glossary.html">1. Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html">2. Surface energy balance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#radiation-balance">3. Radiation balance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#seb-and-radiation-balance-measurements">4. SEB and Radiation Balance Measurements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SEB.html#seb-and-radiation-balance-modelling">5. SEB and Radiation Balance Modelling</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">6. Penman</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#the-combination-equation-penman-1948">6.1. The combination equation (Penman, 1948)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#resistance-notation">6.2. Resistance notation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#the-penman-monteith-equation">6.3. The Penman-Monteith equation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#penman-monteith-method-measurements">6.4. Penman Monteith Method Measurements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aerodynamic-resistance">6.5. Aerodynamic Resistance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#canopy-or-surface-resistance">6.6. Canopy or surface resistance</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Parameters.html">7. Model Parameters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LAI.html">8. LAI (Leaf Area Index)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stability.html">9. Stability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="EddyCovariance.html">10. Eddy Covariance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="WindProfile.html">11. Wind Profile</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Storage.html">12. Storage Heat Flux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ModelEvaluation.html">13. Metrics for Model evaluation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="URAO.html">14. URAO</a></li>
+<li class="toctree-l1"><a class="reference internal" href="References.html">15. References</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Preparing a Scientific Paper</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ScientificPaper.html">1. Scientific paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CommonMistakes.html">2. Common Mistakes: things to check</a></li>
+<li class="toctree-l1"><a class="reference internal" href="OtherResources.html">3. Other Resources</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Technical Tips</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="python.html">1. Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="JupyterNotebook.html">2. Jupyter Notebook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="GitHub.html">3. GitHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials.html">4. Python Tutorials</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">BLM</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>6. Penman</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/Penman.rst" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast,
+.nboutput.nblast {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast + .nbinput {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please report issues or ask questions about this site on the <a class="reference external" href="https://github.com/Urban-Meteorology-Reading/BLM/issues/new">GitHub page</a>.</p>
+</div>
+<div class="section" id="penman">
+<h1>6. Penman<a class="headerlink" href="#penman" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="the-combination-equation-penman-1948">
+<h2>6.1. The combination equation (Penman, 1948)<a class="headerlink" href="#the-combination-equation-penman-1948" title="Permalink to this headline">¶</a></h2>
+<p>Given the difficulty in directly observing evaporative fluxes – and the
+need to estimate evaporation to determine irrigation of crops Penman
+(1948) developed the <em>combination equation</em>. Only standard
+meteorological observations at some height above either water or a
+surface covered with well-watered short grass, were required.</p>
+<p>This equation “combines” two physical controls on evaporation: the
+supply of available energy <span class="math notranslate nohighlight">\(Q^*-Q_G\)</span> and the turbulent diffusion of
+water vapour from the surface. Firstly, the sensible and latent heat
+fluxes should be written in resistance notation</p>
+<div class="math notranslate nohighlight" id="equation-qh-pm">
+<span class="eqno">(6.1)<a class="headerlink" href="#equation-qh-pm" title="Permalink to this equation">¶</a></span>\[ Q_{H} = - \rho c_{p}\frac{T - T_{0}}{r_{h}}\]</div>
+<div class="math notranslate nohighlight" id="equation-qe-pm">
+<span class="eqno">(6.2)<a class="headerlink" href="#equation-qe-pm" title="Permalink to this equation">¶</a></span>\[ L_{v}E = - \frac{L_{v}}{R_{v}T}\frac{e - e_{0}}{r_{v}}\]</div>
+<p>We can rewrite <a class="reference internal" href="#equation-qe-pm">Eq.6.2</a> in terms of <span class="math notranslate nohighlight">\(r_h\)</span> and the effective psychrometer
+constant <span class="math notranslate nohighlight">\(\gamma^*\)</span>:</p>
+<div class="math notranslate nohighlight" id="equation-qe-1">
+<span class="eqno">(6.3)<a class="headerlink" href="#equation-qe-1" title="Permalink to this equation">¶</a></span>\[L_{v}E = - \rho c_{p}\frac{e - e_{0}}{{\gamma^*}r_{h}},\]</div>
+<p>where the “thermodynamic” psychrometer constant is given by
+<span class="math notranslate nohighlight">\(\gamma = \rho c_{p}/L_{v}\varepsilon\)</span> and has a value of 0.66 hPa
+K<sup>-1</sup> near sea level, the ratio of gas constants is
+<span class="math notranslate nohighlight">\(\varepsilon=R_a/R_v\)</span>,
+and the effective psychrometric constant is <span class="math notranslate nohighlight">\(\gamma^*=\gamma r_v/r_h\)</span>.</p>
+<p>The key to estimating the exchange of sensible and latent heat with the
+air above a surface is to establish the surface temperature <span class="math notranslate nohighlight">\(T_0\)</span>. If
+this is not known, then it can be eliminated from the equations by
+assuming that the saturation vapour pressure is a linear function of
+temperature for small temperature differences. Additionally, it is
+assumed that the surface vapour pressure is at saturation, i.e.</p>
+<div class="math notranslate nohighlight" id="equation-e0">
+<span class="eqno">(6.4)<a class="headerlink" href="#equation-e0" title="Permalink to this equation">¶</a></span>\[e_{0}=e_{s}\left(T_{0}\right)=e_{s}(T)-s\left(T-T_{0}\right)\]</div>
+<p>By substitution of <a class="reference internal" href="#equation-e0">Eq.6.4</a> into <a class="reference internal" href="#equation-qe-pm">Eq.6.2</a>
+we get <span class="math notranslate nohighlight">\(Q_E\)</span> in terms of <span class="math notranslate nohighlight">\(T-T_0\)</span> which is not known.
+But by combining the new equation for <span class="math notranslate nohighlight">\(Q_E\)</span>, <span class="math notranslate nohighlight">\(T-T_0\)</span> may
+be eliminated from <a class="reference internal" href="#equation-qh-pm">Eq.6.1</a> for <span class="math notranslate nohighlight">\(Q_H\)</span>.</p>
+<p>The final assumption is that of energy balance closure (EBC), i.e. that
+<span class="math notranslate nohighlight">\(Q^*-Q_G=Q_H+Q_E\)</span>. By substitution of the new equation for <span class="math notranslate nohighlight">\(Q_H\)</span>,
+we obtain the <em>Penman equation</em></p>
+<div class="math notranslate nohighlight" id="equation-penman">
+<span class="eqno">(6.5)<a class="headerlink" href="#equation-penman" title="Permalink to this equation">¶</a></span>\[L_{v}E =
+\frac
+{s\left( Q^* - Q_{G} \right) + \rho c_{p}\left( e_{s}(T) - e \right)/r_{H}}
+{s + \gamma_{*}}\]</div>
+<p>giving latent heat flux as a function of variables measured at one
+height only.</p>
+</div>
+<div class="section" id="resistance-notation">
+<h2>6.2. Resistance notation<a class="headerlink" href="#resistance-notation" title="Permalink to this headline">¶</a></h2>
+<p>In the combination equation, fluxes are recast in terms of aerodynamic
+resistances. Thus, the momentum flux across a finite layer
+<span class="math notranslate nohighlight">\(\Delta z = \left( z_{2} - z_{1} \right)\)</span> can be expressed as</p>
+<div class="math notranslate nohighlight" id="equation-tau">
+<span class="eqno">(6.6)<a class="headerlink" href="#equation-tau" title="Permalink to this equation">¶</a></span>\[\tau = \frac{\rho\left( u_{2} - u_{1} \right)}{r_{a}}\]</div>
+<p>where <span class="math notranslate nohighlight">\(r_a\)</span> is the <em>aerodynamic resistance</em>. If <span class="math notranslate nohighlight">\(u_1\)</span> is taken to be
+the <span class="math notranslate nohighlight">\(u(z_0)=0\)</span>, then the resistance can be related to the log law</p>
+<div class="math notranslate nohighlight" id="equation-ra">
+<span class="eqno">(6.7)<a class="headerlink" href="#equation-ra" title="Permalink to this equation">¶</a></span>\[r_{a} = \frac{u(z)}{u_{*}^{2}}
+= \frac{ln\lbrack\frac{z - d}{z_{0}}\rbrack}{ku_{*}}
+= \frac{\left\lbrack ln\lbrack\frac{z - d}{z_{0}}\rbrack
+\right\rbrack^{2}}{k^{2}u(z)}\]</div>
+<p>Notice that the quantity in square brackets depends only on the nature
+of the surface: if that is known, then <span class="math notranslate nohighlight">\(r_{a}\)</span> is determined only
+by the single measurement of mean wind speed. For fluxes this leads to
+an expression predicting a flux of some variable <span class="math notranslate nohighlight">\(\alpha\)</span>, <span class="math notranslate nohighlight">\(F_{\alpha}\)</span> in
+the form</p>
+<div class="math notranslate nohighlight" id="equation-fa">
+<span class="eqno">(6.8)<a class="headerlink" href="#equation-fa" title="Permalink to this equation">¶</a></span>\[F_{\alpha} = u_{*}^{2}
+\left( \frac{\phi_{m}}{\phi_{\alpha}} \right)
+\frac{\Delta\alpha}{\Delta u} \equiv \frac{\Delta\alpha}{r_{\alpha}},\]</div>
+<p>in which
+<span class="math notranslate nohighlight">\(r_{\alpha} =
+\left( \frac{\Delta u}{u_{*}^{2}} \right) \times
+\left( \frac{\phi_{\alpha}}{\phi_{m}} \right)\)</span>
+is the <em>aerodynamic resistance</em> of the layer (some authors use
+<em>conductance,</em> which is the reciprocal of <span class="math notranslate nohighlight">\(r_{\alpha}\)</span>).
+In the case of momentum, <span class="math notranslate nohighlight">\(\phi_{\alpha}=\phi_m\)</span>.
+For non-neutral conditions:</p>
+<div class="math notranslate nohighlight" id="equation-ra1">
+<span class="eqno">(6.9)<a class="headerlink" href="#equation-ra1" title="Permalink to this equation">¶</a></span>\[r_{a} =
+\frac{\left\lbrack \ln\left( \frac{z - d}{z_{0}} \right)
+- \ \psi_{m}\ \left( z^{'}/L \right) \right\rbrack^{2}}
+{k^{2}u}.\]</div>
+<p>Under <em>stable conditions</em>, the aerodynamic resistance for sensible heat
+transfer (<span class="math notranslate nohighlight">\(r_h\)</span>) is usually taken as equal to <span class="math notranslate nohighlight">\(r_a\)</span>.
+Under <em>unstable conditions</em>, the assumption
+<span class="math notranslate nohighlight">\(\phi_{h}=\phi_{m}^{2}\)</span> means that we need to multiply <span class="math notranslate nohighlight">\(r_a\)</span> by <span class="math notranslate nohighlight">\(\phi_{m}\)</span> to get <span class="math notranslate nohighlight">\(r_h\)</span>.
+In both cases, the aerodynamic resistance for water vapour and other scalar fluxes is generally assumed to be the same as that for sensible heat.
+Note that, in general, <span class="math notranslate nohighlight">\(z\)</span> should be replaced by <span class="math notranslate nohighlight">\(z-d\)</span> if the sampling height is
+not much greater than the zero-plane displacement height <span class="math notranslate nohighlight">\(d\)</span>.</p>
+</div>
+<div class="section" id="the-penman-monteith-equation">
+<h2>6.3. The Penman-Monteith equation<a class="headerlink" href="#the-penman-monteith-equation" title="Permalink to this headline">¶</a></h2>
+<p>Evaporation from a vegetated surface is also impacted by plant
+physiology. Stomata in the leaves open to allow transfer of CO<sub>2</sub>
+during photosynthesis, but can close when the plant is water stressed to
+avoid undue loss of water vapour. Monteith (1965) adapted Penman’s
+equation to allow for this effect, giving what we now know as the
+<em>Penman-Monteith equation</em> where the symbols have the same meaning,
+except that <span class="math notranslate nohighlight">\(\gamma^*\)</span> is an <em>apparent</em> psychrometer ‘constant’. Over crops
+the resistance to evaporation is larger than the resistance to heat
+transfer, due to <em>canopy resistance</em>. To allow for this, the effective
+psychrometer constant is usually assumed to be of the form</p>
+<div class="math notranslate nohighlight" id="equation-gamma">
+<span class="eqno">(6.10)<a class="headerlink" href="#equation-gamma" title="Permalink to this equation">¶</a></span>\[\gamma_{*}
+= \gamma\left( \frac{r_{h} + r_{s}}{r_{h}} \right)
+= \gamma\left( 1 + \frac{r_{s}}{r_{h}} \right),\]</div>
+<p>where <span class="math notranslate nohighlight">\(r_s\)</span> is an effective surface resistance. The latter depends in a
+complicated way on soil moisture, type of vegetation, fractional cover,
+and time of year. It is usual to consider it as the result of a
+c<em>anopy</em> (or <em>crop</em>) <em>resistance</em> (<span class="math notranslate nohighlight">\(r_{sc}\)</span>) and a <em>bare soil
+resistance</em> (<span class="math notranslate nohighlight">\(r_{ss}\)</span>) acting in parallel, so that</p>
+<div class="math notranslate nohighlight" id="equation-rs">
+<span class="eqno">(6.11)<a class="headerlink" href="#equation-rs" title="Permalink to this equation">¶</a></span>\[\frac{1}{r_{s}}
+= \frac{\left( 1 - A \right)}{r_{\text{sc}}} + \frac{A}{r_{\text{ss}}}\]</div>
+<p>where <span class="math notranslate nohighlight">\(A\)</span> is an effective fraction of bare soil area. Appropriate values
+of crop resistance are known for various types of vegetation. For
+‘moist’ surface conditions during the day, <span class="math notranslate nohighlight">\(r_{ss}\)</span> is usually taken to
+be 100 s m<sup>-1</sup>.</p>
+<p>Finally, <span class="math notranslate nohighlight">\(r_h\)</span> can be approximated by the aerodynamic resistance <span class="math notranslate nohighlight">\(r_a\)</span>
+as it is more readily measurable. For observations close to the ground
+(e.g. below 3 m) the stability correction can be neglected, and <span class="math notranslate nohighlight">\(r_a\)</span>
+therefore estimated using (4). The Penman approach does not require
+‘special’ equipment but assumptions about the transfer processes at the
+Earth’s surface as well as the nature of the surface itself are needed.</p>
+<p>The P-M equation is used practically by the FAO. Evapotranspiration is
+computed for a grass reference crop (<span class="math notranslate nohighlight">\(ET_0\)</span>), then multiplied by a crop
+coefficient (<span class="math notranslate nohighlight">\(K_c\)</span>) to give an estimate of actual evapotranspiration.
+For instance, <span class="math notranslate nohighlight">\(K_c \sim 1 \textrm{ to } 1.2\)</span> for cabbage,
+but 1.1 to 1.5 for sugar cane.
+To aid calculation of irrigation requirements, <span class="math notranslate nohighlight">\(ET_0\)</span> is
+expressed in <span class="math notranslate nohighlight">\(\textrm{mm day}^{-1}\)</span>
+and can range from <span class="math notranslate nohighlight">\(1–3\textrm{ mm day}^{-1}\)</span> in cool,
+arid regions to <span class="math notranslate nohighlight">\(5–6\textrm{ mm day}^{-1}\)</span> in warm tropical regions.</p>
+</div>
+<div class="section" id="penman-monteith-method-measurements">
+<h2>6.4. Penman Monteith Method Measurements<a class="headerlink" href="#penman-monteith-method-measurements" title="Permalink to this headline">¶</a></h2>
+<p>Meteorological variables measured at one height can be used to estimate
+the evaporative flux from a surface using the Monteith (1965) adaptation
+for vegetated surface of Penman (1948):</p>
+<div class="math notranslate nohighlight" id="equation-qe-pm-x">
+<span class="eqno">(6.12)<a class="headerlink" href="#equation-qe-pm-x" title="Permalink to this equation">¶</a></span>\[Q_{E} =
+\frac{s\left( Q^{*} - Q_{G} \right) + \rho c_{p}(e_{s} - e)/r_{H}}
+{s + \gamma\ (1 + r_{s}/r_{a})}\]</div>
+<p>For the practical, some assumptions are made in addition to those made
+in deriving the equation. The aerodynamic resistance for heat transfer
+is assumed to be equal to that for momentum transfer, i.e. <span class="math notranslate nohighlight">\(r_h \sim r_a\)</span>.</p>
+</div>
+<div class="section" id="aerodynamic-resistance">
+<h2>6.5. Aerodynamic Resistance<a class="headerlink" href="#aerodynamic-resistance" title="Permalink to this headline">¶</a></h2>
+<p>To calculate <span class="math notranslate nohighlight">\(r_a\)</span>, one could assume neutral conditions are applicable
+or apply stability correction. Surface characteristics influence the
+surface (<span class="math notranslate nohighlight">\(r_s\)</span>) or canopy resistance <span class="math notranslate nohighlight">\(r_c\)</span>.
+Around the site the surface characteristics
+vary with grass in the near fetch but arrange of
+other land covers further away from the sensors.</p>
+</div>
+<div class="section" id="canopy-or-surface-resistance">
+<h2>6.6. Canopy or surface resistance<a class="headerlink" href="#canopy-or-surface-resistance" title="Permalink to this headline">¶</a></h2>
+<p>By re-arranging the PM equation, with EC and other observations you can
+determine the surface resistance (<span class="math notranslate nohighlight">\(r_s\)</span>) or its inverse surface
+conductance (<span class="math notranslate nohighlight">\(g_s\)</span>) (Ward et al. 2016):</p>
+<div class="math notranslate nohighlight" id="equation-gs">
+<span class="eqno">(6.13)<a class="headerlink" href="#equation-gs" title="Permalink to this equation">¶</a></span>\[\frac{1}{g_{s}}
+= r_{s}
+= \left( \frac{s}{\gamma}\frac{Q_{H}}{Q_{E}} - 1\  \right)
+r_{\text{av}} + \frac{\rho c_{p}\text{VPD}}{\gamma Q_{E}}\]</div>
+<p>where <span class="math notranslate nohighlight">\(\text{VPD}\)</span> (<span class="math notranslate nohighlight">\(=e_s-e\)</span>) is the vapour pressure deficit.
+For our purposes we will assume <span class="math notranslate nohighlight">\(r_h \sim r_a \sim r_{av}\)</span>.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="Parameters.html" class="btn btn-neutral float-right" title="7. Model Parameters" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="SEB.html" class="btn btn-neutral float-left" title="2. Surface energy balance" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Prof Sue Grimmond &amp; Dr Ting Sun
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
