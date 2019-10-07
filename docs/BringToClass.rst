@@ -17,7 +17,7 @@ Week 2
 #. Plot of albedo variation on both days
 #. Literature (a journal article) with some albedo values for your land cover type
 #. Note features of the paper structure: figure/table captions, multiple figures, text structure, referencing etc.
-#. Prepare table(s) on instrumentation and measurements at your site (see :ref:`after_visit`)
+#. Prepare table(s) on instrumentation and measurements at your site (see :ref:`Activity after URAO visit <after_visit>`)
 
 .. _Week3:
 
@@ -71,7 +71,7 @@ Week 9
 .. _Week10:
 
 Week 10
-------
+-------
 #. **Submit presentation via BB BY 5 PM day before**
 
 .. _Week1:
