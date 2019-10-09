@@ -19,7 +19,7 @@ Activity in URAO
 .. _after_visit:
 
 Activity after URAO visit
-   #. For **your site** in the `AmeriFlux network <DataSource.rst>`_, access key papers about your site to determine how the fluxes and other variables are observed. Create a summary table that includes:
+   #. For **your site** in the `AmeriFlux network <../DataSource.rst>`_, access key papers about your site to determine how the fluxes and other variables are observed. Create a summary table that includes:
 
       * Instrument details, including name, manufacturer, sample rate, averaging time, height, orientation (e.g. wind direction of sonic anemometer)
       * Photograph (*from web*) of the instruments (i.e. model,etc) you can work in teams to find these.
