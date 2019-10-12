@@ -6,25 +6,12 @@ For Next Class Material
  - Each week you will present completed `formative work <Tasks.rst>`_ related to  the Assignments. The feedback you will receive each  week is to help with all aspects or preparing the papers.
 
 
-
-
-.. _Week2:
-
-Week 2
-------
-
-#. Print out with figure captions with a plot of the radiation balance (1 site) for one sunny and one cloudy day (see `Task 1 <tasks/task1.ipynb>`__) etc.
-#. Plot of albedo variation on both days
-#. Literature (a journal article) with some albedo values for your land cover type
-#. Note features of the paper structure: figure/table captions, multiple figures, text structure, referencing etc.
-#. Prepare table(s) on instrumentation and measurements at your site (see :ref:`Activity after URAO visit <after_visit>`)
-
 .. _Week3:
 
 Week 3
 ------
 #. Table(s) summarising the relevant measurements done at **your site**. [:ref:`observatory_visit`]
-#. Each landcover group: short presentation on albedo and LAI variability (1-2 slides) to demonstrate [1] albedo dynamics at different temporal scales (e.g., sub-daily, seasonal) and [2] your typical values compared to the literature
+#. [1] Demonstrate with a plot how albedo and LAI vary through the year, [2] compare your albedo values to the literature , and [3] demonstrate progress on calculating roughness length
 
 
 .. _Week4:
@@ -83,3 +70,14 @@ Week 1
 #. If you don’t have a GitHub username (please sign up at https://github.com/ ).
 #. Please send your GitHub username  to the :ref:`Team` team so we can get you ready for :ref:`asmnt1`.
 #. Please read the `Risk Assessment for visting the Observatory <https://www.bb.reading.ac.uk/bbcswebdav/pid-4623796-dt-content-rid-14266489_2/xid-14266489_2>`_.
+
+.. _Week2:
+
+Week 2
+------
+
+#. Print out with figure captions with a plot of the radiation balance (1 site) for one sunny and one cloudy day (see `Task 1 <tasks/task1.ipynb>`__) etc.
+#. Plot of albedo variation on both days
+#. Literature (a journal article) with some albedo values for your land cover type
+#. Note features of the paper structure: figure/table captions, multiple figures, text structure, referencing etc.
+#. Prepare table(s) on instrumentation and measurements at your site (see :ref:`Activity after URAO visit <after_visit>`)
