@@ -56,7 +56,7 @@ able to get a lot of samples rapidly.
 How does it vary with wind direction?
 '''''''''''''''''''''''''''''''''''''''
 
-A rule of thumb for calculating d is to assume it is ~0.75 `h` where `h` is
+A rule of thumb for calculating d is to assume it is ~0.7 `h` where `h` is
 the height of the canopy. As the heights may vary with direction you can
 determine how much this may vary. What are expected to be consistent
 sectors?
