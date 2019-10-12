@@ -50,7 +50,7 @@ sector. If you have a period with a lot of *neutral* conditions you may be
 able to get a lot of samples rapidly.
 
 .. math::
-𝑧_0 = (𝑧−𝑑) ex ⁡[−(𝑈_𝑧 𝜅)/𝑢_∗ ]
+𝑧_0 = (𝑧−𝑑) exp ⁡[−(𝑈_𝑧 𝜅)/𝑢_∗ ]
 
 How does it vary with wind direction?
 '''''''''''''''''''''''''''''''''''''''
