@@ -16,7 +16,7 @@ to model the latent heat flux using the `Penman Monteith equation
 Albedo
 ------
 
-From the short-wave radiation (K), within the :eq:`qstar` :ref:`radB` the albedo (`\alpha`) is calculated:
+From the short-wave radiation (K), within the :eq:`qnet` :ref:`radB` the albedo (`\alpha`) is calculated:
 
 .. math::
     :label: alb
