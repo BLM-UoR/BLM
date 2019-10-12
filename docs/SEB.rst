@@ -40,7 +40,7 @@ Radiation balance
 The `Q^*` (or `R_n`) within the SEB :ref:`SEB` consists of:
 
 .. math::
-    :label: qstar
+    :label: qnet
 
     Q^*= K_\downarrow- K_{\uparrow} + L_\downarrow- L_{\uparrow}
 
