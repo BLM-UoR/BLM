@@ -27,7 +27,7 @@ They are designed to be in a logical calculation order to help you understand di
     :maxdepth: 1
     :glob:
 
-    tasks/*
+    tasks/task*
 
 
 .. note::
