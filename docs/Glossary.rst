@@ -2,9 +2,11 @@
 Glossary
 ========
 
- .. #TODO:  add links to any relevant pages (e.g. LAI etc)
+.. note: the following terms are automatically sorted alphabetically.
+
 
 .. glossary::
+    :sorted:
 
 
     AmeriFlux
@@ -15,6 +17,9 @@ Glossary
         and committed to producing
         and sharing high quality eddy covariance data.
 
+    LAI
+        Leaf Area Index
+
     FAO
         Food and Agriculture Organisation, a specialised agency of the United Nations that leads international efforts to defeat hunger.
 
@@ -24,15 +29,14 @@ Glossary
     Fetch
         Area influencing a sensor. Typically the area upwind of the sensor.
 
-    LAI
-        Leaf Area Index
 
     OHM
         Objective Hysteresis Model
 
+    URAO
+        `University of Reading Atmospheric Observatory <http://www.met.reading.ac.uk/observatorymain/>`_
+
     SEB
         Surface Energy Balance
 
-    URAO
-        `University of Reading Atmospheric Observatory <http://www.met.reading.ac.uk/observatorymain/>`_
 
