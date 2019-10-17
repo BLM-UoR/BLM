@@ -29,7 +29,6 @@ Glossary
     Fetch
         Area influencing a sensor. Typically the area upwind of the sensor.
 
-
     OHM
         Objective Hysteresis Model
 
@@ -38,5 +37,9 @@ Glossary
 
     SEB
         Surface Energy Balance
+
+    Obukhov Length (`L`)
+        A parameter with dimension of length that gives a relation between parameters characterizing dynamic, thermal, and buoyant processes. More detailed explanation refers to `AMS wiki <http://glossary.ametsoc.org/wiki/Obukhov_length>`_.
+
 
 
