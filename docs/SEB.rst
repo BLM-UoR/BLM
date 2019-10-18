@@ -61,6 +61,11 @@ Radiation fluxes
 ----------------------
 Various types of radiometers are used. For shortwave radiation, pyranometers are used, and for longwave radiation, pyrgeometers are used. The source area or field of view of a radiation sensor is fixed by geomtery.
 
+Soil Heat Fluxes
+-----------------
+Soil heat flux plates are used with temperature sensors above to determine the heat gain/loss between the plate (e.g. at 0.05 m below the surface) and the surface.
+In more complex environments the storage heat flux (heating and cooling) of the whole volume needs to be accounted for. For example in a forest, the trees (trunk, branches, leaves, air) as well as the soil itself. So in most environment the soil heat flux is one part of the storage heat flux.
+
 Turbulent heat Fluxes
 ----------------------
 
