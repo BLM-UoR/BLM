@@ -15,7 +15,7 @@ and the **Monin‑Obukhov stability parameter**
 
     \frac{z'}{L} = - \frac{k\left( z - d \right)\frac{g}{\theta_{0}}\frac{H}{\rho c_{p}}}{u_{*}^{3}}
 
-where `L` is the **Obukhov length** and `z^’= z - d`. NB: the surface
+where `L` is the **Obukhov length** and `z^{’}= z - d`. NB: the surface
 temperature :math:`\theta_0` is an absolute temperature (units: K). The
 logarithmic profile relation can be rewritten for wind speed to include
 the stability corrections
@@ -38,6 +38,31 @@ where the **turbulent temperature scale** `T_*` is given by
 and :math:`\Psi_{h}` is the integral stability correction function for heat.
 
 .. #TODO: add/reference equations for Psi_m and Psi_h.
+
+There are a number of forms of `\Psi_{m}` and `\Psi_{h}`; one set of forms from Foken (2008) are as follows:
+
+*under unstable conditions*:
+
+.. math::
+    :label: psi_unstab
+
+    \begin{array}{c}
+    {\psi_{m}(\zeta)=\ln \left[\left(\frac{1+x^{2}}{2}\right)\left(\frac{1+x}{2}\right)^{2}\right]-2 \tan ^{-1} x+\frac{\pi}{2} \text { for } \frac{z}{L}<0}
+    \\
+    {\psi_{h}(\zeta)=2 \ln \left(\frac{1+y}{2}\right) \text { for } \frac{z}{L}<0}
+    \end{array}
+
+with `x=(1-19.3 \zeta)^{1 / 4} \quad y=0.95(1-11.6 \zeta)^{1 / 2}`.
+
+*under stable conditions*:
+
+.. math::
+    :label: psi_stab
+
+    \begin{array}{l}
+    {\psi_{m}(\zeta)=-6 \frac{z}{L} \quad \text { for } \quad \frac{z}{L} \geq 0}
+    \\
+    {\psi_{h}(\zeta)=-7.8 \frac{z}{L} \quad \text { for } \quad \frac{z}{L} \geq 0}\end{array}
 
 Note that both `T_*` and `z’ / L` have the opposite sign to `Q_H` (which is positive in unstable conditions and negative in stable conditions).
 If `z’/z_0 \gg 1` then the third term can assumed to be negligible (Garratt 1992).
