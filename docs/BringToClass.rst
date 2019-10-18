@@ -10,15 +10,15 @@ For Next Class Material
 
 Week 4
 ------
-#. [1] Table or plot(s) to show  `z_0`, `z_d`, `r_a` values and variability for your site and how they compare to the literature
-#. [2] Demonstrate progress on calculating  `\Delta Q_S` and `r_s`
+#. Table or plot(s) to show  `z_0`, `z_d`, `r_a` values and variability for your site and how they compare to the literature
+#. Demonstrate progress on calculating  `\Delta Q_S` and `r_s`
 
 .. _Week5:
 
 Week 5
 ------
-#. [1]  Table or plots to show  `\Delta Q_S` and `r_s` (or `r_c`) values and variability for your site and how they compare to the literature
-#. [2] Demonstrate progress for calculating `Q_E` and `Q_H`
+#. Table or plots to show  `\Delta Q_S` and `r_s` (or `r_c`) values and variability for your site and how they compare to the literature
+#. Demonstrate progress for calculating `Q_E` and `Q_H`
 
 
 
