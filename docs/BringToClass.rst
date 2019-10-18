@@ -6,25 +6,20 @@ For Next Class Material
  - Each week you will present completed `formative work <Tasks.rst>`_ related to  the Assignments. The feedback you will receive each  week is to help with all aspects or preparing the papers.
 
 
-.. _Week3:
-
-Week 3
-------
-#. Table(s) summarising the relevant measurements done at **your site**. [:ref:`observatory_visit`]
-#. [1] Demonstrate with a plot how albedo and LAI vary through the year, [2] compare your albedo values to the literature , and [3] demonstrate progress on calculating roughness length
-
-
 .. _Week4:
 
 Week 4
 ------
-#.   Each landcover group: short presentation on  `z_0`, `z_d`, `r_a` variability - your results and the literature
+#. Table or plot(s) to show  `z_0`, `z_d`, `r_a` values and variability for your site and how they compare to the literature
+#. Demonstrate progress on calculating  `\Delta Q_S` and `r_s`
 
 .. _Week5:
 
 Week 5
 ------
-#.   Each land cover group: short presentation on  `\Delta Q_S` and `r_s` (or `r_c`)
+#. Table or plots to show  `\Delta Q_S` and `r_s` (or `r_c`) values and variability for your site and how they compare to the literature
+#. Demonstrate progress for calculating `Q_E` and `Q_H`
+
 
 
 .. _Week6:
@@ -32,7 +27,7 @@ Week 5
 Week 6 of classes (7 of term)
 --------------------------------
 
-#. Each land cover group - short presentation on `Q_E` and `Q_H`
+#.  Table or plots to show  `Q_E` and `Q_H`values and variability for your site and how they compare to the literature
 #. *Assignment 1 handed in via BB on* **19 November 2019 12 noon**
 
 .. _Week7:
@@ -81,3 +76,12 @@ Week 2
 #. Literature (a journal article) with some albedo values for your land cover type
 #. Note features of the paper structure: figure/table captions, multiple figures, text structure, referencing etc.
 #. Prepare table(s) on instrumentation and measurements at your site (see :ref:`Activity after URAO visit <after_visit>`)
+
+.. _Week3:
+
+Week 3
+------
+#. [1] Table(s) summarising the relevant measurements done at **your site**. [:ref:`observatory_visit`]
+#. [2] Demonstrate with a plot how albedo and LAI vary through the year
+#. [3] compare your albedo values to the literature
+#. [4] demonstrate progress on calculating roughness length
