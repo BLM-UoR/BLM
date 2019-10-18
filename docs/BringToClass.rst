@@ -6,14 +6,6 @@ For Next Class Material
  - Each week you will present completed `formative work <Tasks.rst>`_ related to  the Assignments. The feedback you will receive each  week is to help with all aspects or preparing the papers.
 
 
-.. _Week3:
-
-Week 3
-------
-#. [1] Table(s) summarising the relevant measurements done at **your site**. [:ref:`observatory_visit`]
-#. [2] Demonstrate with a plot how albedo and LAI vary through the year
-#. [3] compare your albedo values to the literature
-#. [4] demonstrate progress on calculating roughness length
 
 
 .. _Week4:
@@ -86,3 +78,12 @@ Week 2
 #. Literature (a journal article) with some albedo values for your land cover type
 #. Note features of the paper structure: figure/table captions, multiple figures, text structure, referencing etc.
 #. Prepare table(s) on instrumentation and measurements at your site (see :ref:`Activity after URAO visit <after_visit>`)
+
+.. _Week3:
+
+Week 3
+------
+#. [1] Table(s) summarising the relevant measurements done at **your site**. [:ref:`observatory_visit`]
+#. [2] Demonstrate with a plot how albedo and LAI vary through the year
+#. [3] compare your albedo values to the literature
+#. [4] demonstrate progress on calculating roughness length
