@@ -97,7 +97,7 @@ scales of turbulence contributing to fluxes. The momentum flux (or
 Reynolds stress) is calculated from:
 
 .. math::
-    :label: tau
+    :label: tau_ec
 
     \tau=\rho \sqrt{\left(\overline{u^{\prime} w^{\prime}}^2
     +\overline{v^{\prime} w^{\prime}}^2\right)}

@@ -11,3 +11,4 @@ numpy
 pandas
 matplotlib
 xarray
+scipy
