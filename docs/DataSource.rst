@@ -97,8 +97,14 @@ Key variables for analysis
     :header-rows: 1
 
 
+MODIS data associated with AmeriFlux sites
+*********************************************
+
+`MODIS land products`_ provides summaries of selected datasets for validation of models and remote-sensing products and to characterise field sites.
+Specifically, we use the LAI product in the class to help understand the relationships between surface parameters (e.g., albedo, surface resistance, etc.) and vegetation phenology.
 
 
+.. _MODIS land products: https://doi.org/10.5067/MODIS/MCD15A3H.006
 
 URAO
 ---------
