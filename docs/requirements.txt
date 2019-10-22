@@ -4,3 +4,4 @@ pybtex==0.22.2
 sphinxcontrib_programoutput==0.15
 sphinxcontrib.bibtex
 scipy
+atmosp

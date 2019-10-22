@@ -12,3 +12,4 @@ pandas
 matplotlib
 xarray
 scipy
+atmosp
