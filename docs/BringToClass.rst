@@ -81,7 +81,7 @@ Week 2
 
 Week 3
 ------
-#. [1] Table(s) summarising the relevant measurements done at **your site**. [:ref:`observatory_visit`]
-#. [2] Demonstrate with a plot how albedo and LAI vary through the year
-#. [3] compare your albedo values to the literature
-#. [4] demonstrate progress on calculating roughness length
+#. Table(s) summarising the relevant measurements done at **your site**. [:ref:`observatory_visit`]
+#. Demonstrate with a plot how albedo and LAI vary through the year
+#. compare your albedo values to the literature
+#. demonstrate progress on calculating roughness length
