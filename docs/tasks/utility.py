@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from atmosp import calculate as ac
 
 # saturation vapour pressure [hPa]
 def cal_vap_sat(Temp_C,Press_hPa):
@@ -89,3 +90,43 @@ def cal_Lob(QH, UStar, Temp_C, RH_pct, Press_hPa, g=9.8,k=0.4):
     Lob = (uStar**2)/(G_T_K*TStar)
 
     return Lob
+
+
+#Calculate slope of es(Ta), i.e., saturation evaporation pressure `es` as function of air temperature `ta [K]`
+def cal_des_dta(Temp_C, Press_hPa, dta=1.0):
+
+    ta=Temp_C + 273.16
+    pa = Press_hPa*100
+
+    des = ac('es', p=pa, T=ta + dta/2) - ac('es', p=pa, T=ta - dta/2)
+    des_dta = des/dta
+    try:
+        # try to pack as Series
+        des_dta = pd.Series(des_dta, index=ta.index)
+    except AttributeError as ex:
+        print(ex, 'cannot pack into pd.Series')
+        pass
+    return des_dta
+
+
+#Calculating vapour pressure deficit 
+def cal_vpd(Temp_C, RH_pct, Press_hPa):
+
+    ta=Temp_C + 273.16
+    pa = Press_hPa*100
+    rh=RH_pct
+
+    e = ac('e', p=pa, T=ta, RH=rh)
+    es = ac('es', p=pa, T=ta)
+    vpd=es-e
+    des_vpd = pd.Series(vpd, index=ta.index)
+    return des_vpd
+
+#Calculating psychrometric constant
+def cal_gamma(Press_hPa):
+
+    pa = Press_hPa*100
+    gamma=0.665e-3 * pa
+
+    des_gamma= pd.Series(gamma, index=pa.index)
+    return des_gamma
