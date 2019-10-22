@@ -27,7 +27,7 @@ Week 5
 Week 6 of classes (7 of term)
 --------------------------------
 
-#.  Table or plots to show  `Q_E` and `Q_H`values and variability for your site and how they compare to the literature
+#.  Table or plots to show  `Q_E` and `Q_H` values and variability for your site and how they compare to the literature
 #. *Assignment 1 handed in via BB on* **19 November 2019 12 noon**
 
 .. _Week7:
