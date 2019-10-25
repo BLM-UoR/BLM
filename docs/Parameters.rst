@@ -33,7 +33,7 @@ Typical Values
     The table below is based crowd-sourced dataset at `Albedo Collection <https://github.com/BLM-UoR/albedo-collection>`_.
     Please `report issues there <https://github.com/BLM-UoR/albedo-collection/issues>`_ if any found.
 
-.. csv-table::
+.. csv-table:: Calculated values of albedo at selected AMF sites
     :url: https://github.com/BLM-UoR/albedo-collection/raw/master/albedo.csv
     :widths: auto
     :class: longtable
