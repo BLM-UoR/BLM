@@ -55,6 +55,20 @@ able to get a lot of samples rapidly.
 
     𝑧_0 = (𝑧−𝑑) exp ⁡[−(𝑈_𝑧 𝜅)/𝑢_∗ ]
 
+
+.. csv-table::
+    :url: https://github.com/BLM-UoR/sfchar-collection/raw/master/roughness-ref.csv
+    :widths: auto
+    :class: longtable
+    :header-rows: 1
+
+
+.. csv-table::
+    :url: https://github.com/BLM-UoR/sfchar-collection/raw/master/roughness-cal.csv
+    :widths: auto
+    :class: longtable
+    :header-rows: 1
+
 How does it vary with wind direction?
 '''''''''''''''''''''''''''''''''''''''
 
