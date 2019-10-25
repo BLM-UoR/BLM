@@ -56,14 +56,14 @@ able to get a lot of samples rapidly.
     𝑧_0 = (𝑧−𝑑) exp ⁡[−(𝑈_𝑧 𝜅)/𝑢_∗ ]
 
 
-.. csv-table::
+.. csv-table:: Literature values of roughness parameters collected by students of BLM class
     :url: https://github.com/BLM-UoR/sfchar-collection/raw/master/roughness-ref.csv
     :widths: auto
     :class: longtable
     :header-rows: 1
 
 
-.. csv-table::
+.. csv-table:: Calculated values of roughness parameters at selected AMF sites
     :url: https://github.com/BLM-UoR/sfchar-collection/raw/master/roughness-cal.csv
     :widths: auto
     :class: longtable
