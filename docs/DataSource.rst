@@ -115,12 +115,14 @@ Useful papers for understanding AmeriFlux datasets
 .. the `refs` style below is defined in `conf.py`;
     unfortunately, less flexibility in formatting can be achieved. Journal format -AMS
 
+.. usage: https://sphinxcontrib-bibtex.readthedocs.io/en/latest/usage.html
+
 .. to update the list below, please modify the `amf-ref.bib` file with proper bib records.
 
 .. bibliography:: amf-ref.bib
    :style: refs
    :list: enumerated
-   :filter: Keywords % "ameriflux"
+   :all:
 
 URAO
 ---------
