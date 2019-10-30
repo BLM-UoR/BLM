@@ -107,19 +107,18 @@ Specifically, we use the LAI product in the class to help understand the relatio
 
 .. _MODIS land products: https://doi.org/10.5067/MODIS/MCD15A3H.006
 
+.. _amf_paper:
 
 Useful papers for understanding AmeriFlux datasets
 ******************************************************
 
-.. TODO: update reading list by modify entries with keyword `reading`
-    in the ``blm-res.bib`` file; modify the `note` record for remarks.
-
-.. the `rl` style below is defined in `conf.py`;
+.. the `refs` style below is defined in `conf.py`;
     unfortunately, less flexibility in formatting can be achieved. Journal format -AMS
 
+.. to update the list below, please modify the `amf-ref.bib` file with proper bib records.
 
-.. bibliography:: amf-refs.bib
-   :style: rl
+.. bibliography:: amf-ref.bib
+   :style: refs
    :list: enumerated
    :filter: Keywords % "ameriflux"
 

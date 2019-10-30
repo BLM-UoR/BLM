@@ -43,10 +43,11 @@ Your report should be **structured as a scientific paper** with the following el
 
 #. References
 
-    *	These should be included for the papers (**journal articles**), websites (these should have the **date** when they were accessed) and textbooks (etc) your paper cites
+    * These should be included for the papers (**journal articles**), websites (these should have the **date** when they were accessed) and textbooks (etc) your paper cites
     * List at the end (alphabetical order, follow a standard convention/format)
     * `AMS instructions <https://www.ametsoc.org/ams/index.cfm/publications/authors/journal-and-bams-authors/formatting-and-manuscript-components/references/>`_
     * `BLM instructions <http://static.springer.com/sgw/documents/1495084/application/vnd.openxmlformats-officedocument.wordprocessingml.document/Detailed_Instructions_For_Authors.docx>`_
+    * We have :ref:`a list of papers for better understanding the AmeriFlux datasets <amf_paper>`
 
 #. Appendices
 
