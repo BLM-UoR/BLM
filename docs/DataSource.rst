@@ -97,6 +97,7 @@ Key variables for analysis
     :header-rows: 1
 
 
+
 MODIS data associated with AmeriFlux sites
 *********************************************
 
@@ -105,6 +106,22 @@ Specifically, we use the LAI product in the class to help understand the relatio
 
 
 .. _MODIS land products: https://doi.org/10.5067/MODIS/MCD15A3H.006
+
+
+Useful papers for understanding AmeriFlux datasets
+******************************************************
+
+.. TODO: update reading list by modify entries with keyword `reading`
+    in the ``blm-res.bib`` file; modify the `note` record for remarks.
+
+.. the `rl` style below is defined in `conf.py`;
+    unfortunately, less flexibility in formatting can be achieved. Journal format -AMS
+
+
+.. bibliography:: amf-ref.bib
+   :style: rl
+   :list: enumerated
+   :filter: Keywords % "ameriflux"
 
 URAO
 ---------
