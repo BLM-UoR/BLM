@@ -118,7 +118,7 @@ Useful papers for understanding AmeriFlux datasets
     unfortunately, less flexibility in formatting can be achieved. Journal format -AMS
 
 
-.. bibliography:: amf-ref.bib
+.. bibliography:: amf-refs.bib
    :style: rl
    :list: enumerated
    :filter: Keywords % "ameriflux"
