@@ -383,6 +383,7 @@ class MySort(Sorter):
 
 class MyStyle(UnsrtStyle):
     default_sorting_style = 'author_year_title'
+    default_name_style = 'lastfirst'
     # default_label_style = 'number'
 
     def get_book_template(self, e):
@@ -408,6 +409,7 @@ class MyStyle(UnsrtStyle):
 class RLStyle(UnsrtStyle):
     default_sorting_style = 'author_year_title'
     default_label_style = 'number'
+    default_name_style = 'lastfirst'
 
     def format_web_refs(self, e):
         # based on urlbst output.web.refs
