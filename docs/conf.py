@@ -409,6 +409,12 @@ class RLStyle(UnsrtStyle):
     default_sorting_style = 'author_year_title'
     default_label_style = 'number'
 
+    def format_web_refs(self, e):
+        # based on urlbst output.web.refs
+        return sentence[
+            optional[self.format_doi(e)],
+        ]
+
     def get_book_template(self, e):
         template = toplevel[
                 self.format_author_or_editor(e),
@@ -420,12 +426,13 @@ class RLStyle(UnsrtStyle):
                     date
                 ],
                 optional[sentence[self.format_isbn(e)]],
-                self.format_web_refs(e),
+            optional[sentence[self.format_web_refs(e)]],
 
             tag('strong')[optional_field('note')],
             ]
 
         return template
+
 
     # format_online = format_article
     # format_book = format_article
