@@ -106,3 +106,7 @@ warnings.txt
 
 # vscode
 .vscode/
+
+# test files
+nul
+SuPy.log.*
