@@ -98,7 +98,7 @@ exclude_patterns = ['_build', '**.ipynb_checkpoints']
 html_sourcelink_suffix = ''
 
 # Execute notebooks before conversion: 'always', 'never', 'auto' (default)
-nbsphinx_execute = 'always'
+nbsphinx_execute = 'auto'
 
 # Use this kernel instead of the one stored in the notebook metadata:
 nbsphinx_kernel_name = 'python3'
