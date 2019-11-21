@@ -13,4 +13,4 @@ matplotlib
 xarray
 scipy
 atmosp
-supy=2019.11.18.dev0
+supy==2019.11.18.dev0
