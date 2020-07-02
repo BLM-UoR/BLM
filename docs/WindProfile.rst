@@ -52,7 +52,7 @@ and the **Monin‑Obukhov stability parameter**
 
     \frac{z'}{L} = - \frac{k\left( z - d \right)\frac{g}{\theta_{0}}\frac{H}{\rho c_{p}}}{u_{*}^{3}}
 
-where `L` is the **Obukhov length** and `z^’= z - d`. NB: the surface
+where `L` is the **Obukhov length** and :math: `z^’= z - d`. NB: the surface
 temperature :math:`\theta_0` is an absolute temperature (units: K). The
 logarithmic profile relation can be rewritten for wind speed to include
 the stability corrections
@@ -72,9 +72,9 @@ and similarly, for potential temperature:
 where the **turbulent temperature scale** is given by
 :math:`T_{*} = - \overline{w^{'}T^{'}}/u_{*} = - Q_{H}/(\rho c_{p}u_{*})`,
 :math:`\Psi_{m}` is the **integral** **stability correction function** for momentum
-and `\Psi_{h}` is the integral stability correction function for heat. Note that
-both `T_*` and `z’/L` have the opposite sign to `Q_H` (which is positive in unstable conditions and negative in stable conditions).
-If `z'/z \gg 1` then the third term can assumed to be negligible
+and :math:`\Psi_{h}` is the integral stability correction function for heat. Note that
+both :math:`T_*` and `z’/L` have the opposite sign to `Q_H` (which is positive in unstable conditions and negative in stable conditions).
+If :math:`z'/z \gg 1` then the third term can assumed to be negligible
 (Garratt 1992)
 
 
