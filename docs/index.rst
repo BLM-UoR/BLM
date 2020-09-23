@@ -13,26 +13,6 @@ Boundary Layer Meteorology (MT37J/MT49E)
 
 
 .. toctree::
-  :caption: Overview of Term 1
-  :numbered:
-  :maxdepth: 1
-
-  outline
-  BringToClass
-  ReadingList
-  Assignment1
-  Assignment2
-
-
-.. toctree::
-  :caption: Assignment 1 components
-  :numbered:
-  :maxdepth: 1
-
-  Tasks
-  DataSource
-
-.. toctree::
   :caption: Scientific Background
   :numbered:
   :maxdepth: 1
@@ -68,4 +48,12 @@ Boundary Layer Meteorology (MT37J/MT49E)
   JupyterNotebook
   GitHub
   tutorials
+
+.. toctree::
+  :caption: Assignment 1 components
+  :numbered:
+  :maxdepth: 1
+
+  Tasks
+  DataSource
 
