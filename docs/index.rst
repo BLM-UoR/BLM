@@ -31,15 +31,6 @@ Boundary Layer Meteorology
   References
 
 .. toctree::
-  :caption: Preparing a Scientific Paper
-  :numbered:
-  :maxdepth: 1
-
-  ScientificPaper
-  CommonMistakes
-  OtherResources
-
-.. toctree::
   :caption: Technical Tips
   :numbered:
   :maxdepth: 1
@@ -50,7 +41,7 @@ Boundary Layer Meteorology
   tutorials
 
 .. toctree::
-  :caption: Assignment 1 components
+  :caption: Data Analysis
   :numbered:
   :maxdepth: 1
 
