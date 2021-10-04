@@ -21,7 +21,7 @@ Also, we suggest students to go through more tutorials below to get familiar wit
     #. `Git Handbook`_: Learn about version control—in particular, Git, and how it works with GitHub.
     #. `GitHub-based workflow`_: This guide explains how and why GitHub flow works.
 
-.. note::
+.. .. note::
     Please send your GitHub username
     (please sign up at https://github.com/ if you don't have one yet)
     to the instructor team at the beginning of this course to facilitate
