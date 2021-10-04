@@ -12,7 +12,7 @@ These activities are designed to be in a logical calculation order to help you u
 
 .. only:: html
 
-..  .. tip::
+.. tip::
 
       The tasks designed here are based GitHub using Python 3.
       We recommend these softwares/bundles (with download links) as tools for finishing tasks:
