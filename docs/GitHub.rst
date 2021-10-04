@@ -4,10 +4,10 @@ GitHub
 ======
 
 .. This class adopts a git-based workflow to disseminate and collect
-programming tasks using `GitHub`_ as platform.
-By doing so, we expect students to develop their skills in
-version control and collaboration with modern techniques, especially
-for those programming-intensive tasks.
+.. programming tasks using `GitHub`_ as platform.
+.. By doing so, we expect students to develop their skills in
+.. version control and collaboration with modern techniques, especially
+.. for those programming-intensive tasks.
 
 For those who are new to GitHub, here is a quick introduction by GitHub
 themselves:
