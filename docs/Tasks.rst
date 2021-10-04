@@ -18,7 +18,7 @@ These activities are designed to be in a logical calculation order to help you u
 
       #. Anaconda 3: an easy-to-use Python 3 bundle with many preinstalled data analysis packages. `download  Anaconda 3 <https://www.anaconda.com/distribution/>`_
 
-..      #. GitHub Desktop: the official git client by GitHub with essential git functionalities. `download GitHub Desktop <https://desktop.github.com>`_
+     .. #. GitHub Desktop: the official git client by GitHub with essential git functionalities. `download GitHub Desktop <https://desktop.github.com>`_
 
   .. toctree::
     :caption: Activities
