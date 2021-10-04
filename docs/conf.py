@@ -354,7 +354,7 @@ epub_exclude_files = ['search.html']
 
 # Fix equation formatting in the RTD-theme
 def setup(app):
-    app.add_stylesheet('fix-eq.css')
+    app.add_css_file('fix-eq.css')
 
 
 # Custom bibliography stuff for sphinxcontrib.bibtex
