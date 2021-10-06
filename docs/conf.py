@@ -181,7 +181,7 @@ html_theme_path = ["_themes"]
 
 # This is processed by Jinja2 and inserted before each notebook
 nbsphinx_prolog = r"""
-{% set docname = env.doc2path(env.docname, base='docs') %}
+{% set docname = env.doc2path(env.docname, base=True) %}
 
 .. only:: html
 
@@ -214,7 +214,7 @@ nbsphinx_epilog = r"""
 
     \textcolor{gray}{\noindent\rule{\textwidth}{0.4pt}\\
     \hbox{}\hfill End of
-    \texttt{\strut{}{{ env.doc2path(env.docname, base='doc') }}}}
+    \texttt{\strut{}{{ env.doc2path(env.docname, base=True) }}}}
     \vfil\penalty-1\vfilneg
 """
 
